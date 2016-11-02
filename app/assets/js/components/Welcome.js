@@ -7,6 +7,7 @@ export default function () {
       <p className="welcome-part__paragraph">Alphadev är ett konsultbolag med mycket erfarna specialister inom systemutveckling.
         Vi är inriktade på, men inte begränsade till arkitektur och agil utveckling på
         Java- och .NET-plattformen, samt frontendutveckling.</p>
+      <button className="welcome-part__button button">Läs mer</button>
     </div>
   );
 }
