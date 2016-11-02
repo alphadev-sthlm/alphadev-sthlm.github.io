@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./Header";
+import Service from "./Services";
 
 export default function () {
   return (
     <div>
-      <h1>Hello World!!</h1>
+      <Header />
+      <Service />
     </div>
   );
 }

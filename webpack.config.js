@@ -4,6 +4,7 @@ const ExtractText = require("extract-text-webpack-plugin");
 const path = require("path");
 const webpack = require("webpack");
 const autoprefixer = require("autoprefixer-stylus");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const entry = [
   path.join(__dirname, "app/assets/js/bootstrap.js")
@@ -32,7 +33,11 @@ const plugins = [
   new webpack.optimize.OccurenceOrderPlugin(),
   new ExtractText("styles.css", {
     allChunks: true
-  })
+  }),
+  new CopyWebpackPlugin([
+   // {output}/file.txt
+   { from: "app/assets/img", to: "img" }
+  ])
 ];
 
 const devtool = "#inline-source-map";
