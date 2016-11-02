@@ -41,7 +41,6 @@ const stylus = {
   use: [autoprefixer()]
 };
 
-
 module.exports = {
   entry,
   output: {
@@ -49,6 +48,7 @@ module.exports = {
     filename: "main.js",
     publicPath: "/"
   },
+  watch: true,
   module: {
     loaders
   },
