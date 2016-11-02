@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "strict": [2, "function"],
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "require": false,
+    "module": false,
+    "FB": false,
+    "expNative": false
+  }
+}

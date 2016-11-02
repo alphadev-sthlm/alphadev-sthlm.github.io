@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="304px" height="259px" viewBox="0 0 304 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0,0 L202.083333,0 L202.083333,253.535354 L0,253.535354 L0,0 Z M101.041667,194.126079 L202.083333,253.535354 L0,253.535354 L101.041667,194.126079 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(2.000000, 0.000000)">
+            <g id="d2-copy" filter="url(#filter-1)">
+                <path d="M243.333333,155.217188 L300,155.217188 L300,197.473081 L243.333333,197.473081 L243.333333,155.217188 Z M300,155.217188 L300,197.473081 L289.004254,176.345135 L300,155.217188 Z" id="Combined-Shape-Copy-4" fill="#CF5858"></path>
+                <path d="M0.215455083,155.217188 L56.6666667,155.217188 L56.6666667,197.473081 L0.0150731579,197.473081 L10.9957458,176.150582 L0.215455083,155.217188 Z" id="Combined-Shape-Copy" fill="#CF5858"></path>
+                <polygon id="Rectangle-26-Copy-3" fill="#9C3333" points="20.5175854 179.901323 50.4166667 179.901323 50.4166667 197.473081 20.5175854 191.642151"></polygon>
+                <polygon id="Rectangle-26-Copy-2" fill="#9C3333" transform="translate(262.916667, 188.687202) scale(-1, 1) translate(-262.916667, -188.687202) " points="247.916667 179.901323 277.916667 179.901323 277.916667 197.473081 247.916667 191.603838"></polygon>
+                <g id="Rectangle-28-+-Rectangle-28-Copy-+-Rectangle-28-Copy-3-+-Rectangle-28-Copy-2-+-Rectangle-28-Copy-7-+-Rectangle-28-Copy-6-+-Rectangle-28-Copy-5-+-Rectangle-28-Copy-8-+-Rectangle-28-Copy-16-+-Rectangle-28-Copy-15-+-Rectangle-28-Copy-14-+-Rectangle-28-Copy-13-+-Rectangle-28-Copy-19-+-Rectangle-28-Copy-18-+-Rectangle-28-Copy-17-+-Rectangle-28-Copy-12-+-Rectangle-28-Copy-11-+-Rectangle-28-Copy-4-Mask" transform="translate(50.416667, 0.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-2"></use>
+                    <rect id="Rectangle-28" fill="#D8D5B4" mask="url(#mask-3)" x="101.25" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy" fill="#A8313C" mask="url(#mask-3)" x="112.5" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy-3" fill="#D8D5B4" mask="url(#mask-3)" x="123.75" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy-2" fill="#A8313C" mask="url(#mask-3)" x="135" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy-7" fill="#D8D5B4" mask="url(#mask-3)" x="146.25" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy-6" fill="#A8313C" mask="url(#mask-3)" x="157.5" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy-5" fill="#D8D5B4" mask="url(#mask-3)" x="168.75" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy-8" fill="#D8D5B4" mask="url(#mask-3)" x="190.833333" y="120.492049" width="11.25" height="143.084308"></rect>
+                    <rect id="Rectangle-28-Copy-16" fill="#D8D5B4" mask="url(#mask-3)" x="33.75" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-15" fill="#A8313C" mask="url(#mask-3)" x="45" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-14" fill="#D8D5B4" mask="url(#mask-3)" x="56.25" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-13" fill="#A8313C" mask="url(#mask-3)" x="67.5" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-19" fill="#A8313C" mask="url(#mask-3)" x="0" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-18" fill="#D8D5B4" mask="url(#mask-3)" x="11.25" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-17" fill="#A8313C" mask="url(#mask-3)" x="22.5" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-12" fill="#D8D5B4" mask="url(#mask-3)" x="78.75" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-11" fill="#A8313C" mask="url(#mask-3)" x="90" y="0" width="11.25" height="263.576358"></rect>
+                    <rect id="Rectangle-28-Copy-4" fill="#A8313C" mask="url(#mask-3)" x="180" y="120.492049" width="11.25" height="143.084308"></rect>
+                </g>
+                <polygon id="Rectangle-25-Copy-3" fill="#D85F5F" points="20.5123372 149.359936 279.583333 149.359936 279.583333 191.615828 20.5123372 191.615828"></polygon>
+                <polygon id="Star-3" fill="#E1E1E1" points="172.291667 27.5081675 165.311717 31.1927911 166.644769 23.3886331 160.997871 17.8616977 168.801692 16.7230864 172.291667 9.62262893 175.781642 16.7230864 183.585463 17.8616977 177.938565 23.3886331 179.271617 31.1927911"></polygon>
+                <text id="DONALD-TRUMP" font-family="Arial-BoldMT, Arial" font-size="30.525" font-weight="bold" letter-spacing="0.288749987" fill="#D8D5B4">
+                    <tspan x="23.7867644" y="181.543688">DONALD TRUM</tspan>
+                    <tspan x="254.171559" y="181.543688">P</tspan>
+                </text>
+                <text id="DONALD-TRUMP-Copy" font-family="Arial-BoldMT, Arial" font-size="30.525" font-weight="bold" letter-spacing="0.288749987" fill="#D8D5B4">
+                    <tspan x="23.7867644" y="181.543688">DONALD TRUM</tspan>
+                    <tspan x="254.171559" y="181.543688">P</tspan>
+                </text>
+                <rect id="Rectangle-27" fill="#07647B" x="151.666667" y="0" width="100.833333" height="120.492049"></rect>
+                <path d="M160.734147,60.1079255 C161.448477,53.4762848 162.170523,49.5310094 167.837715,44.5981982 C173.504908,39.6653869 182.667379,38.1632626 182.667379,38.1632626 C182.667379,38.1632626 187.773235,36.8426417 197.017081,37.0811339 C206.260928,37.3196261 210.230456,38.09658 215.477458,39.2071833 C220.72446,40.3177867 223.88928,41.6868487 225.960984,43.5130297 C228.032687,45.3392107 230.772453,49.1437147 231.985652,53.0054741 C233.19885,56.8672334 233.436748,67.5013376 233.436748,67.5013376 L233.805054,100.937214 C233.805054,100.937214 233.838601,103.814933 234.886714,103.983068 C235.934828,104.151204 237.358373,104.320397 237.749728,101.589649 C238.141083,98.8589015 237.925977,95.9415139 237.925977,95.9415139 L245.376676,95.7470824 C245.376676,95.7470824 245.60672,102.346511 244.963319,104.985358 C244.319918,107.624206 243.509024,108.323092 241.940993,109.838211 C240.372961,111.35333 239.36592,111.724802 237.749728,111.955531 C236.133536,112.18626 233.097543,112.525198 230.772453,111.96426 C228.447364,111.403323 228.084304,110.781005 226.703694,109.290628 C225.323083,107.800251 224.903754,105.367428 223.907742,101.589649 C222.970933,98.0364213 222.379466,93.8827484 221.700124,91.9355729 C221.020782,89.9883975 220.341098,90.0464863 219.752576,90.5220249 C219.164054,90.9975636 219.068051,92.3568312 219.068051,92.3568312 L218.730067,109.52012 L218.705237,110.781005 L217.687456,110.781005 L201.988429,110.781005 L201.988429,95.2867727 L178.76615,95.3407601 L178.76615,111.191904 L160.734147,111.191904 L160.734147,110.28126 C160.734147,110.28126 160.019817,66.7395662 160.734147,60.1079255 Z" id="Path-68" fill="#D8D5B4"></path>
+                <polygon id="Star-3-Copy" fill="#D8D5B4" points="201.458333 27.5081675 194.478383 31.1927911 195.811435 23.3886331 190.164537 17.8616977 197.968358 16.7230864 201.458333 9.62262893 204.948308 16.7230864 212.752129 17.8616977 207.105231 23.3886331 208.438283 31.1927911"></polygon>
+                <polygon id="Star-3-Copy-6" fill="#D8D5B4" points="172.291667 27.5081675 165.311717 31.1927911 166.644769 23.3886331 160.997871 17.8616977 168.801692 16.7230864 172.291667 9.62262893 175.781642 16.7230864 183.585463 17.8616977 177.938565 23.3886331 179.271617 31.1927911"></polygon>
+                <polygon id="Star-3-Copy-2" fill="#D8D5B4" points="230.625 27.5081675 223.64505 31.1927911 224.978102 23.3886331 219.331204 17.8616977 227.135025 16.7230864 230.625 9.62262893 234.114975 16.7230864 241.918796 17.8616977 236.271898 23.3886331 237.60495 31.1927911"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

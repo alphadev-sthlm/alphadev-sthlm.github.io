@@ -1,0 +1,26 @@
+<script>
+  (function(h,o,t,j,a,r){
+
+    var cookies;
+
+    function readCookie(name,c,C,i){
+      if(cookies){ return cookies[name]; }
+      c = document.cookie.split('; ');
+      cookies = {};
+      for(i=c.length-1; i>=0; i--){
+        C = c[i].split('=');
+        cookies[C[0]] = C[1];
+      }
+      return cookies[name];
+    }
+
+    if (readCookie('__extblt') === '1') {
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:81960,hjsv:5};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+    }
+  })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>

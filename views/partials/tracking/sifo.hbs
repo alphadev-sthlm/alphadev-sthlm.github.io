@@ -1,0 +1,29 @@
+<script>
+  if (document.documentElement.clientWidth < 768) {
+    document.write("<script type=\"text/javascript\" src=\"http://mmetrix.mobi/sifo_msr.js\"><\/script>");
+ }
+</script>
+<script>
+  if (document.documentElement.clientWidth >= 768) {
+    /*<!--*/
+    function send_panel() {
+      var OAS_server = 'http://sifomedia.expressen.se';
+      if (!(OAS_rn)) {
+        var OAS_rn = new String (Math.random());
+        var OAS_rns = OAS_rn.substring (2, 11);
+      }
+
+      var OAS_taxonomy='&Sajt=expressen&Sektion=' + "{{category}}" + '&Undersektion1=' + "{{subcategory}}";
+      document.write('<iframe src="http://panel2.research-int.se/0/RI-Panel/pixel/set_panel2.html?'+OAS_rns+'__!__'+OAS_server+'__!__'+OAS_taxonomy+'" style="display:none;"></iframe>');
+      return true;
+    }
+
+    if (document.cookie.indexOf('member_type=') === -1) {
+      send_panel();
+    }
+    /*-->*/
+    else {
+      sifo_Msr("3501","","{{category}}","","{{subcategory}}","", "");
+   }
+  }
+</script>
