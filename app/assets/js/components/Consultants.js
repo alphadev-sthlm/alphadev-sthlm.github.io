@@ -1,5 +1,5 @@
 import React from "react";
-import { CONSULTANTS } from "../constants";
+import {CONSULTANTS} from "../constants";
 
 function shuffleArray(array) {
   let i = array.length - 1;
@@ -12,28 +12,53 @@ function shuffleArray(array) {
   return array;
 }
 
-function Consultants() {
+class Consultants extends React.Component {
 
-  const shuffledConsultants = shuffleArray(CONSULTANTS);
+  constructor() {
+    super();
+    this.state = {
+      limit: 4
+    };
+    this.toggleLimit = this.toggleLimit.bind(this);
+    this.shuffledConsultants = shuffleArray(CONSULTANTS);
+  }
 
-  return (
-    <div className="consultants-part">
-      {shuffledConsultants.map((consultant, index) => {
-        return (
-            <div key={index} className="consultants-part__consultant">
-              <div className="consultants-part__consultant-wrapper">
-                <div className="consultants-part__image-wrapper">
-                  <img src={consultant.image} />
+  toggleLimit() {
+    const limit = this.state.limit;
+    this.setState({
+      limit: limit === 4 ? 100 : 4
+    });
+  }
+
+  render() {
+    return (
+      <div className="consultants-part">
+        <div className="consultants-part__consultants">
+          {this.shuffledConsultants
+            .slice(0, this.state.limit)
+            .map((consultant, index) => {
+              return (
+                <div key={index} className="consultants-part__consultant">
+                  <div className="consultants-part__consultant-wrapper">
+                    <div className="consultants-part__image-wrapper">
+                      <img src={consultant.image}/>
+                    </div>
+                    <p className="consultants-part__name main-color">{consultant.name}</p>
+                    <p className="consultants-part__title bold">{consultant.title}</p>
+                    <a href={consultant.linkedin}> <img width="30" height="30" src={"public/assets/img/linkedin.svg"}/> </a>
+                  </div>
                 </div>
-                <p className="consultants-part__name main-color">{consultant.name}</p>
-                <p className="consultants-part__title bold">{consultant.title}</p>
-                <a href={consultant.linkedin}> <img width="30" height="30" src={"public/assets/img/linkedin.svg"} /> </a>
-              </div>
-            </div>
-        );
-      })}
-    </div>
-  );
+              );
+            })}
+        </div>
+        <div className="consultants-part__toggle-button">
+          <p>
+            <button className="button" onClick={this.toggleLimit}>{this.state.limit === 4 ? 'Visa mer' : 'Dölj'}</button>
+          </p>
+        </div>
+      </div>
+    );
+  }
 }
 
 

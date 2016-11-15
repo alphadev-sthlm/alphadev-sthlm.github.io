@@ -1,11 +1,15 @@
 .consultants-part {
-  padding: 20px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 auto 20px;
   max-width: $desktop-width;
-  margin: 0 auto;
   text-align: center;
+
+  &__consultants {
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
 
   &__name {
     margin-bottom: 15px;
@@ -29,12 +33,14 @@
     //Tablet
     @media (min-width $tablet-width) {
       width: 33%;
-    }
-
-    //Desktop
+    } //Desktop
     @media (min-width $desktop-width) {
       width: 25%;
     }
+  }
+  &__toggle-button {
+    display: block;
+    width: 100%;
   }
   &__consultant-wrapper {
     box-shadow: 0 0 10px #aaa;
