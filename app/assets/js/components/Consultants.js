@@ -14,10 +14,8 @@ function Consultants() {
                   <img src={consultant.image} />
                 </div>
                 <p className="consultants-part__name main-color">{consultant.name}</p>
-                <p>Jobtitle...</p>
-                <p>Skilllzzzzz...</p>
-                <p>Skilllzzzzz...</p>
-                <a href={consultant.linkedin} />
+                <p className="consultants-part__title bold">{consultant.title}</p>
+                <a href={consultant.linkedin}> <img width="30" height="30" src={"public/assets/img/linkedin.svg"} /> </a>
               </div>
             </div>
           );
