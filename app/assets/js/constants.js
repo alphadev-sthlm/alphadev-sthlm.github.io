@@ -14,7 +14,7 @@ export const CONSULTANTS = [
   },
   {
     name: "Olle Kallström",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/in/olle-kallstroem",
     title: "Utvecklare",
     image: "public/assets/img/consultants/olle_sml.jpg"
   },
