@@ -8,7 +8,7 @@ export const CONSULTANTS = [
   },
   {
     name: "Sammi Haj Hassine",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/sammi-haj-hassine-88a60648",
     title: "Utvecklare",
     image: "public/assets/img/consultants/sammi_sml.png"
   },
@@ -20,61 +20,61 @@ export const CONSULTANTS = [
   },
   {
     name: "Jon Neergaard",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/in/jonneergaard",
     title: "Inte utvecklare",
     image: "public/assets/img/consultants/jon_sml.png"
   },
   {
     name: "Jonas Montonen",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/in/montonen",
     title: "Utvecklare",
     image: "public/assets/img/consultants/jonas_sml.jpg"
   },
   {
     name: "Peter Österdahl",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/in/peterosterdahl",
     title: "Utvecklare",
     image: "public/assets/img/consultants/peter_sml.jpg"
   },
   {
     name: "Daniel Lundström",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/in/daniellundstrom",
     title: "Utvecklare",
     image: "public/assets/img/consultants/daniel_sml.jpg"
   },
   {
     name: "Daniel Hamner",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/in/daniel-hamner-6a6a9949",
     title: "Utvecklare",
     image: "public/assets/img/consultants/hamner_sml.png"
   },
   {
     name: "Fredrik Bergström",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/pub/fredrik-bergstr%C3%B6m/0/674/992",
     title: "Utvecklare",
     image: "public/assets/img/consultants/fredrik_sml.jpg"
   },
   {
     name: "Eduardo Castaneda",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/in/eduardo-castaneda-4775aa58",
     title: "Utvecklare",
     image: "public/assets/img/consultants/eddo_sml.png"
   },
   {
     name: "Johan Windahl",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
     title: "Utvecklare",
     image: "public/assets/img/consultants/johan_w_sml.jpg"
   },
   {
     name: "Johan Lindgren",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/pub/johan-lindgren/1/603/9b4",
     title: "Utvecklare",
     image: "public/assets/img/consultants/johan_l_sml.jpg"
   },
   {
     name: "Tommy Lindberg",
-    linkedin: "",
+    linkedin: "https://se.linkedin.com/pub/tommy-lindberg/56/472/985/en",
     title: "Utvecklare",
     image: "public/assets/img/consultants/tommy_sml.jpg"
   }
