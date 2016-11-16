@@ -8,17 +8,15 @@
 
   &__content {
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 20px 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    text-align: center;
-    max-width: $content-width;
+    max-width: $desktop-width;
   }
   &__column {
     padding: 10px;
-    width: 50%;
-    text-align: center;
+    width: 100%;
 
     //Tablet
     @media (min-width $tablet-width) {
@@ -27,5 +25,12 @@
     @media (min-width $desktop-width) {
       width: 25%;
     }
+  }
+  &__headline {
+    color: $white;
+  }
+  &__text {
+    line-height: 22px;
+    font-size: 14px;
   }
 }
