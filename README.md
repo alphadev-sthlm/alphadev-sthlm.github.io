@@ -12,6 +12,7 @@ Aplhadevs awesome website
 * Setup
   * Run nvm use (if the node version isn't installed, run nvm install).
   * Run `npm install`
+  * Run `npm install webpack -g`
 * Workflow
   * Run `webpack`
   * Update files, reload the browser and watch the magic
