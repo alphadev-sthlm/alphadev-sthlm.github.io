@@ -98,7 +98,7 @@
     "uglifyify": "^3.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "webpack": "^1.13.2",
+    "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
   "files": [
