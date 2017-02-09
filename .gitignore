@@ -1,5 +1,6 @@
 # Dependency directory and npm log
 node_modules
+public
 npm-debug.log
 
 # Code coverage results
