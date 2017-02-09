@@ -15,4 +15,5 @@ Aplhadevs awesome website
   * Run `npm install webpack -g`
 * Workflow
   * Run `webpack`
+  * Open `index.html`
   * Update files, reload the browser and watch the magic
