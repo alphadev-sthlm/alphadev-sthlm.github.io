@@ -80,3 +80,31 @@ export const CONSULTANTS = [
   }
 
 ];
+
+export const PROFESSIONS = [
+  {
+    headline: "Frontend",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry’s.",
+    imageSrc: "public/assets/img/icons/cog_wheel_alt.svg"
+  },
+  {
+    headline: "Frontend",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry’s.",
+    imageSrc: "public/assets/img/icons/cog_wheel.svg"
+  },
+  {
+    headline: "Frontend",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry’s.",
+    imageSrc: "public/assets/img/icons/training.svg"
+  },
+  {
+    headline: "Frontend",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry’s.",
+    imageSrc: "public/assets/img/icons/chart.svg"
+  },
+  {
+    headline: "Frontend",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry’s.",
+    imageSrc: "public/assets/img/icons/database.svg"
+  }
+];
