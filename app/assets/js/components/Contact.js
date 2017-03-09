@@ -18,6 +18,18 @@ export default function () {
         </div>
         <div className="contact-part__column">
           <h3 className="contact-part__headline">Social</h3>
+          <div className="social_icon">
+            <a href="https://twitter.com/alphadevsthlm">
+              <i className="fa fa-4x fa-twitter-square" aria-hidden="true"> </i>
+            </a>
+            <a href="https://se.linkedin.com/company/alphadev">
+              <i className="fa fa-4x fa-linkedin-square" aria-hidden="true"> </i>
+            </a>
+            <a href="https://www.instagram.com/alphadevsthlm/">
+              <i className="fa fa-4x fa-instagram" aria-hidden="true"> </i>
+            </a>
+          </div>
+
         </div>
       </div>
     </div>
