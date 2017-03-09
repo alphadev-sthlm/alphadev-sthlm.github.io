@@ -1,14 +1,13 @@
 set-font-size(value) {
-    font-size: value; /* add PX (or original value) as backup */
+    font-size: value;
 
     if (value is inherit) {
-        /* do nothing, "inherit" has no unit */
     } else {
         font-size: remify(value);
     }
 }
 
-remify(value) { /* separate mixin, so it can be used elsewhere */
+remify(value) {
     u = unit(value);
 
     if (u is 'px') {
