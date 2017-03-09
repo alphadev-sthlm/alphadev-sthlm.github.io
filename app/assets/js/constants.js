@@ -77,6 +77,30 @@ export const CONSULTANTS = [
     linkedin: "https://se.linkedin.com/pub/tommy-lindberg/56/472/985/en",
     title: "Utvecklare",
     image: "public/assets/img/consultants/tommy_sml.jpg"
+  },
+  {
+    name: "Erik Scherman",
+    linkedin: "",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/ingen_bild.jpg"
+  },
+  {
+    name: "Helena Tehler",
+    linkedin: "",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/ingen_bild.jpg"
+  },
+  {
+    name: "Anders Ulfheden",
+    linkedin: "",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/ingen_bild.jpg"
+  },
+  {
+    name: "Anders Ulfheden",
+    linkedin: "",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/ingen_bild.jpg"
   }
 
 ];
