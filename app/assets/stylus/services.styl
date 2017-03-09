@@ -6,7 +6,11 @@
     max-width: 620px;
     padding: 40px 0;
     margin: 0 auto;
-    display: flex;
+    display: block;
+
+    @media (min-width $tablet-width) {
+      display: flex;
+    }
   }
 
   &__left, &__right {
@@ -23,6 +27,11 @@
   &__profession {
     overflow: hidden;
     padding: 10px 0;
+    margin-bottom: 10px;
+
+    @media (min-width $tablet-width) {
+      margin-bottom: 0;
+    }
   }
 
   &__profession-text {
