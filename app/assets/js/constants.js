@@ -81,26 +81,22 @@ export const CONSULTANTS = [
   {
     name: "Erik Scherman",
     linkedin: "",
-    title: "Utvecklare",
-    image: "public/assets/img/consultants/ingen_bild.jpg"
+    title: "Utvecklare"
   },
   {
     name: "Helena Tehler",
     linkedin: "",
-    title: "Utvecklare",
-    image: "public/assets/img/consultants/ingen_bild.jpg"
+    title: "Utvecklare"
   },
   {
     name: "Anders Ulfheden",
     linkedin: "",
-    title: "Utvecklare",
-    image: "public/assets/img/consultants/ingen_bild.jpg"
+    title: "Utvecklare"
   },
   {
     name: "Anders Ulfheden",
     linkedin: "",
-    title: "Utvecklare",
-    image: "public/assets/img/consultants/ingen_bild.jpg"
+    title: "Utvecklare"
   }
 
 ];

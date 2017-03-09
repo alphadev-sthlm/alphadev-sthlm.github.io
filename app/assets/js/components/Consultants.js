@@ -42,7 +42,7 @@ class Consultants extends React.Component {
                 <div key={index} className="consultants-part__consultant">
                   <div className="consultants-part__consultant-wrapper">
                     <div className="consultants-part__image-wrapper">
-                      <img src={consultant.image}/>
+                      <img src={consultant.image ? consultant.image : "http://fillmurray.com/g/200/200"}/>
                     </div>
                     <p className="consultants-part__name main-color">{consultant.name}</p>
                     <p className="consultants-part__title bold">{consultant.title}</p>
