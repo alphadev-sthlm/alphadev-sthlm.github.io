@@ -2,6 +2,10 @@
   background-color: #000;
   margin-bottom: 40px;
 
+  @media (min-width $tablet-width) {
+    display: flex;
+  }
+
   &__container {
     max-width: 620px;
     padding: 40px 0;
@@ -10,6 +14,10 @@
 
     @media (min-width $tablet-width) {
       display: flex;
+    }
+
+    @media (min-width $desktop-width) {
+      max-width: 820px;
     }
   }
 
@@ -22,6 +30,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media (min-width $tablet-width) {
+      .services-part__profession-text {
+        float: right;
+        padding-left: 10px;
+        padding-right: 0;
+      }
+      .services-part__profession-image {
+        float: left;
+      }
+    }
   }
 
   &__profession {
@@ -66,8 +85,8 @@
     }
 
     @media (min-width $desktop-width) {
-      width: 80px;
-      height: 80px;
+      width: 100px;
+      height: 100px;
       img {
         width: 50px;
         height: 50px;

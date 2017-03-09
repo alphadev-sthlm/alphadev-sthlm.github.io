@@ -28,7 +28,6 @@ export default function () {
           <ServicesProfession headline={PROFESSIONS[4].headline} text={PROFESSIONS[4].text} src={PROFESSIONS[4].imageSrc} />
         </div>
       </div>
-      <img className="services-part__image" src="public/assets/img/skills.png"/>
     </div>
   );
 }
