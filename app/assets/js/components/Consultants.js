@@ -38,11 +38,18 @@ class Consultants extends React.Component {
           {this.shuffledConsultants
             .slice(0, this.state.limit)
             .map((consultant, index) => {
+              if (!consultant.image) {
+                const dimension = 200 + index;
+                consultant.image = `http://fillmurray.com/g/${dimension}/${dimension}`;
+              }
+              return consultant
+            })
+            .map((consultant, index) => {
               return (
                 <div key={index} className="consultants-part__consultant">
                   <div className="consultants-part__consultant-wrapper">
                     <div className="consultants-part__image-wrapper">
-                      <img src={consultant.image ? consultant.image : "http://fillmurray.com/g/200/200"}/>
+                      <img src={consultant.image}/>
                     </div>
                     <p className="consultants-part__name main-color">{consultant.name}</p>
                     <p className="consultants-part__title bold">{consultant.title}</p>
