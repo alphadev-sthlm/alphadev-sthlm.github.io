@@ -16,7 +16,7 @@ const ServicesProfession = ({ headline, text, src }) => (
 
 export default function () {
   return (
-    <div className="services-part">
+    <div className="services-part" id="services">
       <div className="services-part__container">
         <div className="services-part__left">
           <ServicesProfession headline={PROFESSIONS[0].headline} text={PROFESSIONS[0].text} src={PROFESSIONS[0].imageSrc} />

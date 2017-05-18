@@ -1,7 +1,7 @@
 import React from "react";
 
 export default () => {
-  const subtitle = 'Architecture - Development - Agile methodology';
+  const subtitle = "Architecture - Development - Agile methodology";
 
   return (
     <div className="intro-part">
@@ -9,4 +9,4 @@ export default () => {
       <span className="intro-part__subtitle">{subtitle}</span>
     </div>
   );
-}
+};

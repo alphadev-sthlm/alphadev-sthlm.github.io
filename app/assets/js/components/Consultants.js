@@ -32,7 +32,7 @@ class Consultants extends React.Component {
 
   render() {
     return (
-      <div className="consultants-part">
+      <div className="consultants-part" id="consultants">
         <h1 className="consultants-part__headline">Våra <span className="main-color">Konsulter</span></h1>
         <div className="consultants-part__consultants">
           {this.shuffledConsultants
@@ -42,7 +42,7 @@ class Consultants extends React.Component {
                 const dimension = 200 + index;
                 consultant.image = `http://fillmurray.com/g/${dimension}/${dimension}`;
               }
-              return consultant
+              return consultant;
             })
             .map((consultant, index) => {
               return (

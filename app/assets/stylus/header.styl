@@ -11,21 +11,31 @@
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   transition: all 0.4s ease;
+  transform: translateY(0);
   top: 0;
+  padding: 0 20px;
+
+  &.hide {
+    transform: translateY(-100%);
+  }
 
   &__wrapper {
     vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
+
+    @media (min-width 987px) {
+      margin: 0 auto;
+    }
   }
 
   &__logo {
+    width: 150px;
+    float: left;
+    height: 80px;
+
     @media (min-width 987px) {
       width: 20%;
       margin-right: 20px;
     }
-    float: left;
-    height: 80px;
   }
 
   &__list {
@@ -62,20 +72,23 @@
 
 //navicon
   &__nav-wrapper {
-    width: 10%
-    float: right;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 44px;
+    height: 36px;
+    padding: 3px;
   }
 
   &__nav-icon {
     @media (min-width 987px) {
       display: none;
     }
-    position: absolute;
-    top: 15px;
-    right: 17.5px;
-    display: inline-block;
-    width: 60px;
-    height: 45px;
+
+    position: relative;
+    width: 100%;
+    height: 100%;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -90,7 +103,7 @@
   &__nav-icon span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: 5px;
     width: 50%;
     background: #FFFFFF;
     opacity: 1;
@@ -119,11 +132,11 @@
   }
 
   &__nav-icon span:nth-child(3), &__nav-icon span:nth-child(4) {
-    top: 18px;
+    top: 12px;
   }
 
   &__nav-icon span:nth-child(5), &__nav-icon span:nth-child(6) {
-    top: 36px;
+    top: 24px;
   }
 
   &__nav-icon.open span:nth-child(1), &__nav-icon.open span:nth-child(6) {
@@ -162,12 +175,12 @@
 
   &__nav-icon.open span:nth-child(5) {
     left: 5px;
-    top: 29px;
+    top: 16px;
   }
 
   &__nav-icon.open span:nth-child(6) {
     left: calc(50% - 5px);
-    top: 29px;
+    top: 16px;
   }
 
 }
