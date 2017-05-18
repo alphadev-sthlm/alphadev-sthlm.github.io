@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   position: fixed;
   width: 100%;
-  height: 80px;
-  line-height: 80px;
+  height: 60px;
+  line-height: 60px;
   text-align: center;
   background: #000;
   color: #fff;
@@ -15,13 +15,26 @@
   top: 0;
   padding: 0 20px;
 
+  &--open {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    @media (min-width $desktop-width) {
+      height: 60px;
+      background-color: #000;
+    }
+  }
+
   &.hide {
     transform: translateY(-100%);
   }
 
   &__wrapper {
     vertical-align: middle;
-
+    width: 100%;
     @media (min-width 987px) {
       margin: 0 auto;
     }
@@ -30,50 +43,73 @@
   &__logo {
     width: 150px;
     float: left;
-    height: 80px;
+    height: 60px;
 
     @media (min-width 987px) {
-      width: 20%;
       margin-right: 20px;
     }
   }
 
   &__list {
-    @media (max-width 986px) {
-      display: none;
+    display: none;
+    float: none;
+    width: 100%;
+    padding: 60px;
+    top: calc(50% - 30px);
+    transform: translateY(-50%);
+    position: relative;
+
+    @media (min-width $desktop-width) {
+      display: block;
+      padding-top: 0;
+      transform: none;
+      float: right;
+      width: auto;
+      margin: 0 auto;
+      text-align: right;
+      font-size: 12px;
+      color: white;
     }
-    width: 70%;
-    float: right;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 12px;
-    color: white;
+
+    &--open {
+      display: block;
+    }
   }
 
   &__item {
-    float: left;
-    justify-content: space-between;
+    display: block;
+    text-align: center;
+    @media (min-width: $desktop-width) {
+      display: inline-block;
+      justify-content: space-between;
+    }
   }
 
   &__link {
-    font-size: 15px;
+    font-size: 25px;
     color: #FFFFFF;
     text-decoration: none;
+    display: block;
+
+    @media (min-width: $desktop-width) {
+      float: left;
+      font-size: 15px;
+    }
+
     @media (min-width: 1200px) {
       padding-left: 22px;
       padding-right: 22px;
     }
-    @media (min-width: 986px) and (max-width: 1199px) {
+    @media (min-width: $desktop-width) and (max-width: 1199px) {
       padding-left: 16px;
       padding-right: 16px;
     }
-    float: left
   }
 
 //navicon
   &__nav-wrapper {
     position: absolute;
-    top: 50%;
+    top: 30px;
     transform: translateY(-50%);
     right: 20px;
     width: 44px;

@@ -5,8 +5,10 @@ export default () => {
 
   return (
     <div className="intro-part">
-      <img src="public/assets/img/logos/banner_logo.png" className="intro-part__banner" />
-      <span className="intro-part__subtitle">{subtitle}</span>
+      <div className="intro-part__image">
+        <img src="public/assets/img/image-logo.svg" className="intro-part__banner" />
+        <span className="intro-part__subtitle">{subtitle}</span>
+      </div>
     </div>
   );
 };

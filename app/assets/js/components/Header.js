@@ -40,10 +40,10 @@ class Header extends React.Component {
   render() {
 
     return (
-      <header className="main-header" id="main-header">
+      <header className={`main-header ${this.state.open ? "main-header--open" : ""}`} id="main-header">
         <div className="main-header__wrapper">
           <img className="main-header__logo" src="public/assets/img/header_logo.svg"/>
-          <ul className={`main-header__list ${this.state.open ? "open" : ""}` }>
+          <ul className={`main-header__list ${this.state.open ? "main-header__list--open" : ""}` }>
             <li className="main-header__item">
               <a className="main-header__link" onClick={this.goToAnchor.bind(this, "main")}>Home</a>
             </li>
