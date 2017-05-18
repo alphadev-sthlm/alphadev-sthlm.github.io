@@ -33,8 +33,8 @@ class Header extends React.Component {
 
   goToAnchor(anchor, event) {
     event.preventDefault();
-    this.state.hidden = !this.state.hidden;
     smoothscroll(document.getElementById(anchor));
+    this.setState({open: false});
   }
 
   render() {
