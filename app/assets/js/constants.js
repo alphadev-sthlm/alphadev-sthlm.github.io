@@ -94,7 +94,7 @@ export const CONSULTANTS = [
     title: "Utvecklare"
   },
   {
-    name: "Anders Ulfheden",
+    name: "Johan Forsman",
     linkedin: "",
     title: "Utvecklare"
   }
