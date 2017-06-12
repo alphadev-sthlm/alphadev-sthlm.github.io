@@ -19,6 +19,7 @@
   "globals": {
     "require": false,
     "module": false,
+    "Waypoint": false,
     "FB": false,
     "expNative": false
   }

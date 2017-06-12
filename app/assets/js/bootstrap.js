@@ -1,4 +1,5 @@
 require("../stylus/style.styl");
+require("waypoints/lib/noframework.waypoints");
 
 import React from "react";
 import { render } from "react-dom";

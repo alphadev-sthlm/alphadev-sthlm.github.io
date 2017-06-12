@@ -47,6 +47,14 @@
     overflow: hidden;
     padding: 10px 0;
     margin-bottom: 10px;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all .6s;
+
+    &--show {
+      transform: translateX(0);
+      opacity: 1;
+    }
 
     @media (min-width $tablet-width) {
       margin-bottom: 0;

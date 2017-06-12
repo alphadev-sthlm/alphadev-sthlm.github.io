@@ -1,12 +1,12 @@
 {
-  "name": "qs-map-widget",
+  "name": "alphadev",
   "version": "0.0.2",
-  "description": "An app for presenting a US elections map",
+  "description": "Alphadev homepage",
   "main": "app.js",
-  "homepage": "https://github.com/ExpressenAB/qs-map-widget",
+  "homepage": "https://github.com/alphadev-sthlm/alphadev-sthlm.github.io",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ExpressenAB/qs-map-widget.git"
+    "url": "git@github.com:alphadev-sthlm/alphadev-sthlm.github.io.git"
   },
   "directories": {
     "doc": "docs",
@@ -40,7 +40,7 @@
       "react"
     ]
   },
-  "author": "Expressen AB",
+  "author": "Alphadev AB",
   "license": "proprietary",
   "private": true,
   "dependencies": {
@@ -99,6 +99,7 @@
     "uglifyify": "^3.0.1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
+    "waypoints": "^4.0.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   },
