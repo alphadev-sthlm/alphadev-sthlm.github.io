@@ -46,19 +46,19 @@ class Header extends React.Component {
           <img className="main-header__logo" src="public/assets/img/header_logo.svg"/>
           <ul className={`main-header__list ${this.state.open ? "main-header__list--open" : ""}` }>
             <li className="main-header__item">
-              <a className="main-header__link" onClick={this.goToAnchor.bind(this, "main")}>Home</a>
+              <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, "main")}>Home</a>
             </li>
             <li className="main-header__item">
-              <a className="main-header__link" onClick={this.goToAnchor.bind(this, "about")}>About Us</a>
+              <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, "about")}>About Us</a>
             </li>
             <li className="main-header__item">
-              <a className="main-header__link" onClick={this.goToAnchor.bind(this, "services")}>Our Services</a>
+              <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, "services")}>Our Services</a>
             </li>
             <li className="main-header__item">
-              <a className="main-header__link" onClick={this.goToAnchor.bind(this, "consultants")}>Consultants</a>
+              <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, "consultants")}>Consultants</a>
             </li>
             <li className="main-header__item">
-              <a className="main-header__link" onClick={this.goToAnchor.bind(this, "contact")}>Contact</a>
+              <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, "contact")}>Contact</a>
             </li>
           </ul>
           <div className="main-header__nav-wrapper">
