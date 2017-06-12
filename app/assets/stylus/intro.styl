@@ -2,7 +2,7 @@
   background: url('../img/bg/intro-small.png') center top;
   margin: 0 auto;
   width: 100%;
-  line-height: 30px;
+  line-height: 20px;
   position: relative;
   background-size: cover;
   -moz-background-size: cover;
@@ -20,15 +20,21 @@
     height: 70vh;
   }
 
+
   &__image {
+    opacity: 0;
+    transition: all 1.2s;
     position: absolute;
     padding: 0 15px;
     top: 55%;
     left: 50%;
     width: 100%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
 
+    &--animate {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
     @media (min-width $desktop-width) {
       width: auto;
       top: 60%;

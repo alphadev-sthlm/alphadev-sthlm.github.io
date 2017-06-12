@@ -17,6 +17,7 @@ class Consultants extends React.Component {
   constructor() {
     super();
     this.state = {
+      showAllConsultants: false,
       limit: 4
     };
     this.toggleLimit = this.toggleLimit.bind(this);
@@ -24,16 +25,16 @@ class Consultants extends React.Component {
   }
 
   toggleLimit() {
-    const limit = this.state.limit;
     this.setState({
-      limit: limit === 4 ? 100 : 4
+      showAllConsultants: true,
+      limit: 100
     });
   }
 
   render() {
     return (
       <div className="consultants-part" id="consultants">
-        <h1 className="consultants-part__headline">Våra <span className="main-color">Konsulter</span></h1>
+        <h2 className="consultants-part__headline">Våra <span className="main-color">Konsulter</span></h2>
         <div className="consultants-part__consultants">
           {this.shuffledConsultants
             .slice(0, this.state.limit)
@@ -48,12 +49,16 @@ class Consultants extends React.Component {
               return (
                 <div key={index} className="consultants-part__consultant">
                   <div className="consultants-part__consultant-wrapper">
-                    <div className="consultants-part__image-wrapper">
-                      <img src={consultant.image}/>
+                    <div className="consultants-part__image-container">
+                      <div className="consultants-part__image-wrapper">
+                        <img src={consultant.image}/>
+                      </div>
                     </div>
                     <p className="consultants-part__name main-color">{consultant.name}</p>
-                    <p className="consultants-part__title bold">{consultant.title}</p>
-                    <a href={consultant.linkedin}> <i className="fa fa-3x fa-linkedin-square" aria-hidden="true"> </i> </a>
+                    <div>
+                      <p className="consultants-part__title bold">{consultant.title}</p>
+                      <a href={consultant.linkedin}> <i className="fa fa-3x fa-linkedin-square" aria-hidden="true"> </i> </a>
+                    </div>
                   </div>
                 </div>
               );
@@ -61,7 +66,9 @@ class Consultants extends React.Component {
         </div>
         <div className="consultants-part__toggle-button">
           <p>
-            <button className="button" onClick={this.toggleLimit}>{this.state.limit === 4 ? 'Visa mer' : 'Dölj'}</button>
+            { !this.state.showAllConsultants &&
+              <button className="button" onClick={this.toggleLimit}>Visa alla</button>
+            }
           </p>
         </div>
       </div>
