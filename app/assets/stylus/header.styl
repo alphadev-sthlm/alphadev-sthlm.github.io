@@ -58,13 +58,16 @@
     width: 100%;
     padding: 60px;
     top: 50%;
-    transform: translate(0, -50%);
-    -webkit-transform: translate(0, -50%);
-    position: relative;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    position: absolute;
 
     @media (min-width $desktop-width) {
+      position: static;
       display: block;
       padding-top: 0;
+      padding-right: 0;
       transform: none;
       float: right;
       width: auto;

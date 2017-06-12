@@ -15,9 +15,10 @@ class Header extends React.Component {
     let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
     const mainHeader = document.getElementById("main-header");
 
-    window.addEventListener("scroll", (e) => {
+    window.addEventListener("scroll", () => {
       const st = window.pageYOffset || document.documentElement.scrollTop;
-      if (st > lastScrollTop){
+
+      if (st > lastScrollTop && st > 0){
         mainHeader.classList.add("hide");
       } else {
         mainHeader.classList.remove("hide");
