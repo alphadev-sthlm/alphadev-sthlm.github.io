@@ -32,9 +32,11 @@ class Consultants extends React.Component {
   }
 
   render() {
+    const text = `Vi är ${ CONSULTANTS.length } stycken glada Alphadevare ombord, redo att hoppa på roliga, utmanande och stimulerande uppdrag.`;
     return (
       <div className="consultants-part" id="consultants">
         <h2 className="consultants-part__headline">Våra <span className="main-color">Konsulter</span></h2>
+        <p>{text}</p>
         <div className="consultants-part__consultants">
           {this.shuffledConsultants
             .slice(0, this.state.limit)
