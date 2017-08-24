@@ -17,8 +17,8 @@ class Consultants extends React.Component {
   constructor() {
     super();
     this.state = {
-      showAllConsultants: false,
-      limit: 4
+      showAllConsultants: true, //false
+      limit: 100//4
     };
     this.toggleLimit = this.toggleLimit.bind(this);
     this.shuffledConsultants = shuffleArray(CONSULTANTS);
