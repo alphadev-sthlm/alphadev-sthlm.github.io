@@ -26,19 +26,22 @@
     transition: all 1.2s;
     position: absolute;
     padding: 0 15px;
-    top: 55%;
+    top: 50%;
     left: 50%;
     width: 100%;
-    transform: translate(-50%, -50%);
-    margin-top: -70px;
+    transform: translate(-50%, -130px);
 
     &--animate {
-      margin-top: -0px;
       opacity: 1;
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -90px);
     }
     @media (min-width $desktop-width) {
-      top: 60%;
+      transform: translate(-50%, -90px);
+
+      &--animate {
+        opacity: 1;
+        transform: translate(-50%, -50px);
+      }
     }
   }
 
