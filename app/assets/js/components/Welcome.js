@@ -5,7 +5,7 @@ export default function () {
   const p2 = "Vi jobbar främst på plats hos våra kunder i Stockholmsområdet – stora internationella bolag, såväl som små startup-bolag i alla tänkbara branscher. Bolag som vill digitalisera eller vidareutveckla sina befintliga processer och bolag som skapar helt nya affärer på en digital plattform. Låt oss hjälpa dig på din resa!";
   return (
     <div className="welcome-part" id="about">
-      <h2 className="welcome-part__headline">Välkommen till <span className="main-color">Alphadev</span></h2>
+      <h1 className="welcome-part__headline">Välkommen till <span className="main-color">Alphadev</span></h1>
       <p className="welcome-part__paragraph">{p1}</p>
       <p className="welcome-part__paragraph">{p2}</p>
     </div>
