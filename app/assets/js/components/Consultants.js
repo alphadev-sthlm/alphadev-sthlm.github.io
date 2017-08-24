@@ -56,10 +56,10 @@ class Consultants extends React.Component {
                         <img src={consultant.image}/>
                       </div>
                     </div>
-                    <p className="consultants-part__name main-color">{consultant.name}</p>
-                    <div>
-                      <p className="consultants-part__title bold">{consultant.title}</p>
-                      <a href={consultant.linkedin}> <i className="fa fa-3x fa-linkedin-square" aria-hidden="true"> </i> </a>
+                    <p className="consultants-part__name main-color bold">{consultant.name}</p>
+                    <div className="consultants-part__info">
+                      {/*<p className="consultants-part__title">{consultant.title}</p>*/}
+                      <a href={consultant.linkedin}><i className="fa fa-linkedin-square" aria-hidden="true"/></a>
                     </div>
                   </div>
                 </div>

@@ -6,7 +6,7 @@ export default class Intro extends React.Component {
   }
 
   render() {
-    const subtitle = "Development - Agile methodology - Architecture";
+    const subtitle = "Utveckling - Arkitektur - Agil metodik";
 
     return (
       <div className="intro-part">
