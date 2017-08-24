@@ -80,24 +80,25 @@ export const CONSULTANTS = [
   },
   {
     name: "Erik Scherman",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/erik-scherman-02b23515/",
     title: "Utvecklare",
+    image: "public/assets/img/consultants/scherman_sml.png",
   },
   {
     name: "Helena Tehler",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/helenaoqvist/",
     title: "Utvecklare",
     image: "public/assets/img/consultants/helena_sml.png"
   },
   {
     name: "Anders Ulfheden",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/anders-ulfheden-91791649/",
     title: "Utvecklare",
     image: "public/assets/img/consultants/anders_sml.png "
   },
   {
     name: "Johan Forsman",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/johanforsman/",
     title: "Utvecklare",
     image: "public/assets/img/consultants/Forsman4_sml_bw.png "
   }
