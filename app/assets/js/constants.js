@@ -25,6 +25,12 @@ export const CONSULTANTS = [
     image: "public/assets/img/consultants/jon_sml.png"
   },
   {
+    name: "Jens Ohlsson",
+    linkedin: "https://www.linkedin.com/in/jens-ohlsson-9670073/",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/jens_sml.png"
+  },
+  {
     name: "Jonas Montonen",
     linkedin: "https://se.linkedin.com/in/montonen",
     title: "Utvecklare",
