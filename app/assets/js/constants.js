@@ -1,4 +1,4 @@
-
+﻿
 export const CONSULTANTS = [
   {
     name: "Leon Hennings",
@@ -22,7 +22,7 @@ export const CONSULTANTS = [
     name: "Jon Neergaard",
     linkedin: "https://se.linkedin.com/in/jonneergaard",
     title: "Inte utvecklare",
-    image: "public/assets/img/consultants/jon_sml.png"
+    image: "public/assets/img/consultants/jon_sml.jpg"
   },
   {
     name: "Jens Ohlsson",
