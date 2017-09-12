@@ -114,7 +114,7 @@ export const CONSULTANTS = [
 export const PROFESSIONS = [
   {
     headline: "Frontend",
-    text: "HTML, CSS och Javascript och tillhörande moderna ramverk såsom React/Redux, Angular2 mfl. Devops, e2e-testautomatisering, CI/CD, mm. Web och appar.",
+    text: "HTML, CSS, Javascript och tillhörande moderna ramverk såsom React/Redux, Angular, Vue, Aurelia mfl. Devops, e2e-testautomatisering, CI/CD, mm. Web och appar.",
     imageSrc: "public/assets/img/icons/cog_wheel_alt.svg"
   },
   {
@@ -129,7 +129,7 @@ export const PROFESSIONS = [
   },
   {
     headline: "Agilt metodstöd och ledning",
-    text: "Coachning eller ledning vid införande eller förbättring av agil utveckling agilt arbetssätt. Scrum Masters, Produktägare, mm. Även roller som tekniskt ansvarig eller teknisk projektledning beroende på organisation.",
+    text: "Coachning eller ledning vid införande eller förbättring av agil utveckling / agilt arbetssätt. Scrum Masters, Produktägare, mm. Även roller som tekniskt ansvarig eller teknisk projektledning beroende på organisation.",
     imageSrc: "public/assets/img/icons/chart.svg"
   },
   {
