@@ -10,13 +10,13 @@ export default function () {
           <p className="contact-part__text">Är du själv en socialt och tekniskt kompetent systemutvecklare som funderar på en ny hemvist? Kika in på jobba hos oss, och se om vi kan vara något för dig!</p>
         </div>
 
-        <div className="contact-part__column">
-          <h3 className="contact-part__headline">Kontakta oss</h3>
-          <p className="contact-part__text">
-            Är du i behov av duktiga utvecklare med rätt kompetens och vettiga social skills?
-            Hör av dig till <a href="mailto:jon.neergaard@alphadev.se">Jon</a> eller <a href="mailto:johan.windahl@alphadev.se">Johan</a>
-          </p>
-        </div>
+        {/*<div className="contact-part__column">*/}
+          {/*<h3 className="contact-part__headline">Kontakta oss</h3>*/}
+          {/*<p className="contact-part__text">*/}
+            {/*Är du i behov av duktiga utvecklare med rätt kompetens och vettiga social skills?*/}
+            {/*Hör av dig till <a href="mailto:jon.neergaard@alphadev.se">Jon</a> eller <a href="mailto:johan.windahl@alphadev.se">Johan</a>*/}
+          {/*</p>*/}
+        {/*</div>*/}
 
         <div className="contact-part__column">
           <h3 className="contact-part__headline">Adress</h3>
