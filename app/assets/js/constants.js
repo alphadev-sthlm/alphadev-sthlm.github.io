@@ -25,6 +25,12 @@ export const CONSULTANTS = [
     image: "public/assets/img/consultants/jon_sml.png"
   },
   {
+    name: "Jens Ohlsson",
+    linkedin: "https://www.linkedin.com/in/jens-ohlsson-9670073/",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/jens_sml.png"
+  },
+  {
     name: "Jonas Montonen",
     linkedin: "https://se.linkedin.com/in/montonen",
     title: "Utvecklare",
@@ -80,23 +86,27 @@ export const CONSULTANTS = [
   },
   {
     name: "Erik Scherman",
-    linkedin: "",
-    title: "Utvecklare"
+    linkedin: "https://www.linkedin.com/in/erik-scherman-02b23515/",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/scherman_sml.png",
   },
   {
     name: "Helena Tehler",
-    linkedin: "",
-    title: "Utvecklare"
+    linkedin: "https://www.linkedin.com/in/helenaoqvist/",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/helena_sml.png"
   },
   {
     name: "Anders Ulfheden",
-    linkedin: "",
-    title: "Utvecklare"
+    linkedin: "https://www.linkedin.com/in/anders-ulfheden-91791649/",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/anders_sml.png "
   },
   {
     name: "Johan Forsman",
-    linkedin: "",
-    title: "Utvecklare"
+    linkedin: "https://www.linkedin.com/in/johanforsman/",
+    title: "Utvecklare",
+    image: "public/assets/img/consultants/Forsman4_sml_bw.png "
   }
 
 ];
