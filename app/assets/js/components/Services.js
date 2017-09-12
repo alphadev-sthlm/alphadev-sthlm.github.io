@@ -27,6 +27,11 @@ export default class Services extends React.Component {
         <div className="services-part__middle">
           <div className="services-part__connector-wrapper">
             <div className="services-part__connector" ref="serviceLogo">
+              <span className="services-part__connector-line services-part__connector-line--frontend"></span>
+              <span className="services-part__connector-line services-part__connector-line--backend"></span>
+              <span className="services-part__connector-line services-part__connector-line--agile"></span>
+              <span className="services-part__connector-line services-part__connector-line--education"></span>
+              <span className="services-part__connector-line services-part__connector-line--architecture"></span>
               <img src="public/assets/img/image-logo-white.svg" className="services-part__logo"/>
             </div>
           </div>

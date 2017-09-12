@@ -79,7 +79,6 @@
   }
 
   &__profession {
-    overflow: hidden;
     padding: 10px 0;
     margin-bottom: 10px;
     opacity: 0;
@@ -89,6 +88,11 @@
     &--show {
       transform: translateX(0);
       opacity: 1;
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
     }
 
     @media (min-width $tablet-width) {
@@ -169,5 +173,73 @@
       opacity: 1;
       transform: translate(-50%, -50%);
     }
+  }
+
+  &__connector-line {
+    height: 100px;
+    content: "";
+    width: 1px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    transition: all .6s .8s;
+    z-index: 1;
+
+    &--frontend {
+      top: 0;
+      transform: rotate(-5deg);
+      /.services-part__connector--animate & {
+        left: 44%;
+        top: -43%;
+      }
+    }
+
+    &--backend {
+      transform: rotate(-76deg);
+      left: 40%;
+      top: 20%;
+      /.services-part__connector--animate & {
+        left: -5%;
+        top: 10%;
+      }
+    }
+
+    &--agile {
+      transform: rotate(65deg);
+      right: 33%;
+      top: 13%;
+
+      /.services-part__connector--animate & {
+        right: -9%;
+        top: -6%;
+      }
+    }
+
+    &--education {
+      transform: rotate(-130deg);
+      left: 30%;
+      top: 13%;
+
+      /.services-part__connector--animate & {
+        left: -10%;
+        top: 68%;
+      }
+    }
+
+    &--architecture {
+      transform: rotate(120deg);
+      right: 33%;
+      top: 13%;
+
+      /.services-part__connector--animate & {
+        right: -10%;
+        top: 58%;
+      }
+    }
+  }
+
+  &__logo {
+    position: relative;
+    z-index: 2;
   }
 }
