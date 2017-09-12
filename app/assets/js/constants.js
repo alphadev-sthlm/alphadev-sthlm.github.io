@@ -115,26 +115,26 @@ export const PROFESSIONS = [
   {
     headline: "Frontend",
     text: "HTML, CSS, Javascript och tillhörande moderna ramverk såsom React/Redux, Angular, Vue, Aurelia mfl. Devops, e2e-testautomatisering, CI/CD, mm. Web och appar.",
-    imageSrc: "public/assets/img/icons/cog_wheel_alt.svg"
+    imageSrc: "public/assets/img/icons/frontend_icon.svg"
   },
   {
     headline: "Backend",
     text: "API’er och affärslogik i Java, .NET, Node, Go, mm. Integrationer mellan bla skräddarsydda system, standardsystem, legacy, web och backend. SQL och NoSQL databaser. Devops, containrar, automatisering, CI/CD, mm.",
-    imageSrc: "public/assets/img/icons/cog_wheel.svg"
+    imageSrc: "public/assets/img/icons/backend_icon.svg"
   },
   {
     headline: "Utbildning",
     text: "Vi arrangerar skräddarsydd utbildning inom alla våra kompetensområden på önskad nivå; från flerdagars-workshops till kortare dragningar. Antingen hos oss, eller på plats i era lokaler.",
-    imageSrc: "public/assets/img/icons/training.svg"
+    imageSrc: "public/assets/img/icons/training_icon.svg"
   },
   {
     headline: "Agilt metodstöd och ledning",
     text: "Coachning eller ledning vid införande eller förbättring av agil utveckling / agilt arbetssätt. Scrum Masters, Produktägare, mm. Även roller som tekniskt ansvarig eller teknisk projektledning beroende på organisation.",
-    imageSrc: "public/assets/img/icons/chart.svg"
+    imageSrc: "public/assets/img/icons/agile_icon.svg"
   },
   {
     headline: "Arkitektur",
     text: "Enterprise-, lösnings- och systemarkitektur. Granskningar, åtgärdsförslag, systemkartläggningar, prestandaoptimering",
-    imageSrc: "public/assets/img/icons/database.svg"
+    imageSrc: "public/assets/img/icons/architect_icon.svg"
   }
 ];
