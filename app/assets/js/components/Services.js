@@ -1,39 +1,22 @@
 import React from "react";
 
 import { PROFESSIONS } from "../constants";
+import ServicesProfession from "./ServicesProfession";
 
-class ServicesProfession extends React.Component {
+export default class Services extends React.Component {
   componentDidMount() {
-    const service = this.refs.service;
-
+    const serviceLogo = this.refs.serviceLogo;
     this.waypoint = new Waypoint({
-      element: service,
+      element: serviceLogo,
       handler: () => {
-        service.classList.add("services-part__profession--show");
+        serviceLogo.classList.add("services-part__connector--animate");
       },
-      offset: (window.innerHeight - service.clientHeight)
+      offset: (window.innerHeight / 1.5)
     });
-  }
 
+  }
   render() {
-    const { headline, text, src } = this.props;
-
     return (
-      <div className="services-part__profession" ref="service">
-        <div className="services-part__profession-text">
-          <h3>{headline}</h3>
-          <p>{text}</p>
-        </div>
-        <div className="services-part__profession-image">
-          <img src={src} />
-        </div>
-      </div>
-    );
-  }
-}
-
-export default function () {
-  return (
     <div className="services-part" id="services">
       <div className="services-part__container">
         <div className="services-part__left">
@@ -43,7 +26,9 @@ export default function () {
         </div>
         <div className="services-part__middle">
           <div className="services-part__connector-wrapper">
-            <div className="services-part__connector"></div>
+            <div className="services-part__connector" ref="serviceLogo">
+              <img src="public/assets/img/image-logo-white.svg" className="services-part__logo"/>
+            </div>
           </div>
         </div>
         <div className="services-part__right">
@@ -53,4 +38,5 @@ export default function () {
       </div>
     </div>
   );
+  }
 }
