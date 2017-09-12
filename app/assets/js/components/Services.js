@@ -41,6 +41,11 @@ export default function () {
           <ServicesProfession headline={PROFESSIONS[1].headline} text={PROFESSIONS[1].text} src={PROFESSIONS[1].imageSrc} />
           <ServicesProfession headline={PROFESSIONS[2].headline} text={PROFESSIONS[2].text} src={PROFESSIONS[2].imageSrc} />
         </div>
+        <div className="services-part__middle">
+          <div className="services-part__connector-wrapper">
+            <div className="services-part__connector"></div>
+          </div>
+        </div>
         <div className="services-part__right">
           <ServicesProfession headline={PROFESSIONS[3].headline} text={PROFESSIONS[3].text} src={PROFESSIONS[3].imageSrc} />
           <ServicesProfession headline={PROFESSIONS[4].headline} text={PROFESSIONS[4].text} src={PROFESSIONS[4].imageSrc} />
