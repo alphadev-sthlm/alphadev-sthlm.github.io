@@ -48,7 +48,7 @@
 
   &__middle {
     display: none;
-
+    position: relative;
     @media (min-width $xl-desktop-width) {
       display: block;
     }
@@ -151,7 +151,6 @@
   &__connector-wrapper {
     width: 180px;
     height: 100%;
-    position: relative;
   }
 
   &__connector {
@@ -162,7 +161,6 @@
     width: 140px;
     height: 140px;
     border-radius: 35px;
-    left: 50%;
     opacity: 0;
     transition: all .8s;
     transform: translate(-50%, 0%);
