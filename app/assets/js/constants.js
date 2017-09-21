@@ -129,7 +129,7 @@ export const PROFESSIONS = [
   },
   {
     headline: "Agilt metodstöd och ledning",
-    text: "Coachning eller ledning vid införande eller förbättring av agil utveckling / agilt arbetssätt. Scrum Masters, Produktägare, mm. Även roller som tekniskt ansvarig eller teknisk projektledning beroende på organisation.",
+    text: "Coachning eller ledning vid införande eller förbättring av agil utveckling / agilt arbetssätt. Scrum Masters, Produktägare, mm. Även roller som tekniskt ansvarig eller teknisk projektledning.",
     imageSrc: "public/assets/img/icons/agile_icon.svg"
   },
   {
