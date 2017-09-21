@@ -6,6 +6,7 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 import App from "./components/App";
 import configureStore from "./store";
+import loadData from "./actions/appData";
 
 const store = configureStore();
 
@@ -15,3 +16,5 @@ render(
   </Provider>,
   document.getElementById("main")
 );
+
+store.dispatch(loadData());

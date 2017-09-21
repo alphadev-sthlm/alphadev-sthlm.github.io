@@ -1,5 +1,5 @@
 import React from "react";
-import {CONSULTANTS} from "../constants";
+import {connect} from "react-redux";
 
 function shuffleArray(array) {
   let i = array.length - 1;
@@ -21,7 +21,6 @@ class Consultants extends React.Component {
       limit: 100//4
     };
     this.toggleLimit = this.toggleLimit.bind(this);
-    this.shuffledConsultants = shuffleArray(CONSULTANTS);
   }
 
   toggleLimit() {
@@ -32,6 +31,9 @@ class Consultants extends React.Component {
   }
 
   render() {
+    const CONSULTANTS = this.props.consultants || [];
+    this.shuffledConsultants = shuffleArray(CONSULTANTS);
+
     const text = `Vi är ${ CONSULTANTS.length } stycken glada Alphadevare ombord, redo att hoppa på roliga, utmanande och stimulerande uppdrag.`;
     return (
       <div className="consultants-part" id="consultants">
@@ -68,8 +70,8 @@ class Consultants extends React.Component {
         </div>
         <div className="consultants-part__toggle-button">
           <p>
-            { !this.state.showAllConsultants &&
-              <button className="button" onClick={this.toggleLimit}>Visa alla</button>
+            {!this.state.showAllConsultants &&
+            <button className="button" onClick={this.toggleLimit}>Visa alla</button>
             }
           </p>
         </div>
@@ -78,5 +80,11 @@ class Consultants extends React.Component {
   }
 }
 
+function mapStateToProps(state) {
+  console.dir(state);
+  return {
+    consultants: state.data.consultants
+  };
+}
 
-export default Consultants;
+export default connect(mapStateToProps)(Consultants);

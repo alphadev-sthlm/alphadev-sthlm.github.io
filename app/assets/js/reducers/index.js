@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import electionData from "./electionData";
+import appData from "./appData";
 
 export default combineReducers({
-  electionData
+  data: appData
 });
