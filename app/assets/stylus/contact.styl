@@ -26,23 +26,39 @@
     margin: 0 auto;
     padding: 20px 15px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     max-width: $desktop-width;
+    flex-direction: column;
+
+    @media (min-width $tablet-width) {
+      flex-direction: row;
+    }
   }
   &__column {
-    padding: 10px;
     width: 100%;
 
-    //Tablet
+    &:first-child {
+      margin-bottom: 25px;
+    }
+
+    &:last-child {
+      width: 75%;
+    }
+
     @media (min-width $tablet-width) {
-      width: 33%;
-    } //Desktop
-    //@media (min-width $desktop-width) {
-    //  width: 25%;
-    //}
+      padding: 0 20px;
+      width: 25%;
+      
+      &:first-child {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (min-width $desktop-width) {
+      padding: 0;
+    }
   }
   &__headline {
+    margin-bottom: 10px;
     color: $white;
   }
   &__text {
@@ -55,7 +71,8 @@
   .social_icon{
 
     .fa{
-      padding: 5px;
+      font-size: 30px;
+      margin-right: 10px;
       color: white;
     }
   }
