@@ -36,7 +36,7 @@ class Consultants extends React.Component {
     return (
       <div className="consultants-part" id="consultants">
         <h2 className="consultants-part__headline">Våra <span className="main-color">Konsulter</span></h2>
-        <p>{text}</p>
+        <p className="consultants-part__intro-text">{text}</p>
         <div className="consultants-part__consultants">
           {this.shuffledConsultants
             .slice(0, this.state.limit)
