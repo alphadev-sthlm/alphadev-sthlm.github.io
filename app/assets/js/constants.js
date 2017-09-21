@@ -21,7 +21,7 @@ export const CONSULTANTS = [
   {
     name: "Jon Neergaard",
     linkedin: "https://se.linkedin.com/in/jonneergaard",
-    title: "Inte utvecklare",
+    title: "VD",
     image: "public/assets/img/consultants/jon_sml.jpg"
   },
   {
@@ -69,7 +69,7 @@ export const CONSULTANTS = [
   {
     name: "Johan Windahl",
     linkedin: "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
-    title: "Utvecklare",
+    title: "Business manager",
     image: "public/assets/img/consultants/johan_w_sml.jpg"
   },
   {
@@ -93,7 +93,7 @@ export const CONSULTANTS = [
   {
     name: "Helena Tehler",
     linkedin: "https://www.linkedin.com/in/helenaoqvist/",
-    title: "Utvecklare",
+    title: "Projektledare",
     image: "public/assets/img/consultants/helena_sml.png"
   },
   {
@@ -108,7 +108,6 @@ export const CONSULTANTS = [
     title: "Utvecklare",
     image: "public/assets/img/consultants/Forsman4_sml_bw.png "
   }
-
 ];
 
 export const PROFESSIONS = [

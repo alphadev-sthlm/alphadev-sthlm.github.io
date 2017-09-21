@@ -6,11 +6,6 @@ export default function () {
       <div className="contact-part__content">
 
         <div className="contact-part__column">
-          <h3 className="contact-part__headline">Jobba hos oss</h3>
-          <p className="contact-part__text">Är du själv en socialt och tekniskt kompetent systemutvecklare som funderar på en ny hemvist? Kika in på jobba hos oss, och se om vi kan vara något för dig!</p>
-        </div>
-
-        <div className="contact-part__column">
           <h3 className="contact-part__headline">Adress</h3>
           <p className="contact-part__text">
             Alphadev AB <br/>
