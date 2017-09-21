@@ -1,44 +1,55 @@
 
 .pre-footer {
   display: block;
-  background-color: #555;
+  background-color: #333;
   text-decoration: none;
-  transition: background-color 250ms ease;
-
-  &:hover {
-    background-color: #333;
-  }
 
   &__content {
     max-width: 1024px;
     margin: 0 auto;
-    padding: 20px 15px;
+    padding: 25px 15px;
     text-align: left;
-    display: flex-wrap;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
     @media (min-width $tablet-width) {
       align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    @media (min-width $desktop-width) {
+      justify-content: space-between;
+      flex-wrap: nowrap;
     }
   }
 
   &__content div {
     display: inline-block;
-  }
+    padding: 10px 0;
 
-  &__content div:first-of-type,
-  &__content div:last-of-type {
-    width: 100%;
     @media (min-width $tablet-width) {
-      width: 25%;
+      padding: 0 20px;
+    }
+
+    @media (min-width $desktop-width) {
+      padding: 0;
+      width: auto;
     }
   }
 
-  &__content div:nth-child(2) {
-    width: 100%;
-    margin-bottom: 15px;
+  &__content div:first-of-type {
+    padding-bottom: 0;
+
     @media (min-width $tablet-width) {
-      width: 50%;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width $desktop-width) {
+      margin-bottom: 0;
+      width: auto;
     }
   }
 
@@ -70,7 +81,7 @@
 
   &__paragraph--with-img {
     position: relative;
-    padding-left: 75px;
+    // padding-left: 75px;
   }
 
   &__img {
@@ -89,17 +100,19 @@
 
   &__title {
     display: block;
-    color: $main-color;
+
     font-size: 12px;
 
     @media (min-width: $tablet-width) {
-        font-size: 14px;
+      font-size: 14px;
+      line-height: 18px;
     }
   }
 
   &__mail {
-    display: block;
+    display: inline-block;
     color: $main-color;
     font-size: 14px;
+    line-height: 18px;
   }
 }

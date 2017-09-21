@@ -58,8 +58,8 @@ class Consultants extends React.Component {
                     </div>
                     <p className="consultants-part__name main-color bold">{consultant.name}</p>
                     <div className="consultants-part__info">
-                      {/*<p className="consultants-part__title">{consultant.title}</p>*/}
-                      <a href={consultant.linkedin}><i className="fa fa-linkedin-square" aria-hidden="true"/></a>
+                      <p className="consultants-part__title">{consultant.title}</p>
+                      {/*<a href={consultant.linkedin}><i className="fa fa-linkedin-square" aria-hidden="true"/></a>*/}
                     </div>
                   </div>
                 </div>
