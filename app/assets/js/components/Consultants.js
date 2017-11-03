@@ -1,17 +1,6 @@
 import React from "react";
 import {connect} from "react-redux";
 
-function shuffleArray(array) {
-  let i = array.length - 1;
-  for (; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    const temp = array[i];
-    array[i] = array[j];
-    array[j] = temp;
-  }
-  return array;
-}
-
 class Consultants extends React.Component {
 
   constructor() {
@@ -30,9 +19,44 @@ class Consultants extends React.Component {
     });
   }
 
+  shuffleArray(array) {
+    let i = array.length - 1;
+    for (; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    return array;
+  }
+
+  randomHex(value) {
+    function djb2(str) {
+      let hash = 5381;
+      for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) + hash) + str.charCodeAt(i);
+        /* hash * 33 + c */
+      }
+      return hash;
+    }
+
+    function hashStringToColor(str) {
+      const hash = djb2(str);
+      const r = (hash & 0xFF0000) >> 16;
+      const g = (hash & 0x00FF00) >> 8;
+      const b = hash & 0x0000FF;
+      const rHex = `0${ r.toString(16)}`.substr(-2);
+      const gHex = `0${ g.toString(16)}`.substr(-2);
+      const bHex = `0${ b.toString(16)}`.substr(-2);
+      return `#${ rHex }${gHex }${bHex}`;
+    }
+
+    return hashStringToColor(value);
+  }
+
   render() {
     const CONSULTANTS = this.props.consultants || [];
-    this.shuffledConsultants = shuffleArray(CONSULTANTS);
+    this.shuffledConsultants = this.shuffleArray(CONSULTANTS);
 
     const text = `Vi är ${ CONSULTANTS.length } stycken glada Alphadevare ombord, redo att hoppa på roliga, utmanande och stimulerande uppdrag.`;
     return (
@@ -52,7 +76,7 @@ class Consultants extends React.Component {
             .map((consultant, index) => {
               return (
                 <div key={index} className="consultants-part__consultant">
-                  <div className="consultants-part__consultant-wrapper">
+                  <div className="consultants-part__consultant-wrapper" style={{ backgroundColor: this.randomHex(consultant.name) }}>
                     <div className="consultants-part__image-container">
                       <div className="consultants-part__image-wrapper">
                         <img src={consultant.image}/>
