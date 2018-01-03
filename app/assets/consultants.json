@@ -100,13 +100,19 @@
       "name": "Anders Ulfheden",
       "linkedin": "https://www.linkedin.com/in/anders-ulfheden-91791649/",
       "title": "Utvecklare",
-      "image": "public/assets/img/consultants/anders_sml.png "
+      "image": "public/assets/img/consultants/anders_sml.png"
     },
     {
       "name": "Johan Forsman",
       "linkedin": "https://www.linkedin.com/in/johanforsman/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants/Forsman4_sml_bw.png "
+    },
+    {
+      "name": "Robert Wideberg",
+      "linkedin": "https://www.linkedin.com/in/robert-wideberg-57a55ab8/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants/robert_sml_bw.png"
     }
   ]
 }
