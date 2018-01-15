@@ -1,8 +1,7 @@
 'use strict';
 
-const ExtractText = require('extract-text-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
-const webpack = require('webpack');
 const autoprefixer = require('autoprefixer-stylus');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
@@ -15,23 +14,52 @@ const loaders = [{
   loader: 'json'
 }, {
   test: /\.(png|jpg|svg)$/,
-  loader: 'file-loader?name=img/[name].[ext]'
+  use: [
+    {
+      loader: 'file-loader',
+      options: {
+        name: 'img/[name].[ext]',
+      }
+    }
+  ]
 }, {
   test: /\.styl$/,
   exclude: /node_modules/,
-  loader: ExtractText.extract('css', 'css-loader?sourceMap!stylus-loader?resolve url')
+  use: ExtractTextPlugin.extract({
+    fallback: 'css-loader',
+    use: [
+      {
+        loader: 'css-loader',
+        options: {
+          sourceMap: true,
+        },
+      },
+      {
+        loader: 'stylus-loader',
+        options: {
+          'resolve url': true,
+          use: [autoprefixer()]
+        },
+      }
+    ]
+  }
+  )
 }, {
   test: /\.js?$/,
   exclude: /node_modules/,
-  loader: 'babel',
-  query: {
-    'presets': ['es2015', 'react']
+  use: {
+    loader: 'babel-loader',
+    options: {
+      ignore: '/node_modules/',
+      presets: ['es2015', 'react']
+    }
   }
 }];
 
 const plugins = [
-  new webpack.optimize.OccurenceOrderPlugin(),
-  new ExtractText('styles.css', {
+  //new webpack.optimize.OccurenceOrderPlugin(),
+  new ExtractTextPlugin({
+    filename: 'styles.css',
     allChunks: true
   }),
   new CopyWebpackPlugin([
@@ -42,10 +70,6 @@ const plugins = [
 
 const devtool = '#inline-source-map';
 
-const stylus = {
-  use: [autoprefixer()]
-};
-
 module.exports = {
   entry,
   output: {
@@ -55,9 +79,13 @@ module.exports = {
   },
   watch: true,
   module: {
-    loaders
+    rules: loaders
   },
-  stylus,
   plugins,
-  devtool
+  devtool,
+  devServer: {
+    contentBase: __dirname,
+    compress: true,
+    port: 9000
+  }
 };

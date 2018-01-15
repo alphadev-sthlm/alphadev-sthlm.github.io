@@ -12,8 +12,7 @@ Aplhadevs awesome website
 * Setup
   * Run nvm use (if the node version isn't installed, run nvm install).
   * Run `npm install`
-  * Run `npm install webpack -g`
 * Workflow
-  * Run `webpack`
-  * Open `index.html`
-  * Update files, reload the browser and watch the magic
+  * Run `npm run start:dev`
+  * Open `http://localhost:9000/webpack-dev-server/`
+  * Update files and watch the magic
