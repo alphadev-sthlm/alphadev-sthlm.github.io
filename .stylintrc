@@ -23,7 +23,7 @@
   "parenSpace": "never",
   "placeholders": "always",
   "prefixVarsWithDollar": "always",
-  "quotePref": "double",
+  "quotePref": "single",
   "semicolons": "always",
   "sortOrder": false,
   "stackedProperties": "never",

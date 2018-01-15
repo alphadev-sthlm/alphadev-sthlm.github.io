@@ -1,4 +1,4 @@
-import React, { PropTypes } from "react";
+import React, { PropTypes } from 'react';
 
 
 const Flipping = function ({ front, back }) {
@@ -9,7 +9,7 @@ const Flipping = function ({ front, back }) {
       <div className="flipping__flipper" ref={(flipper) => {
         if (!interval) {
           interval = setInterval(() => {
-            flipper.classList.toggle("spin");
+            flipper.classList.toggle('spin');
           }, 10000);
         }
       }}>

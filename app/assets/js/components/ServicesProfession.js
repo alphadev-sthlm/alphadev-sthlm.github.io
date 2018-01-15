@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default class ServicesProfession extends React.Component {
   componentDidMount() {
@@ -7,7 +7,7 @@ export default class ServicesProfession extends React.Component {
     this.waypoint = new Waypoint({
       element: service,
       handler: () => {
-        service.classList.add("services-part__profession--show");
+        service.classList.add('services-part__profession--show');
       },
       offset: (window.innerHeight - service.clientHeight)
     });

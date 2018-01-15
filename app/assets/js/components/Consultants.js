@@ -1,5 +1,5 @@
-import React from "react";
-import {connect} from "react-redux";
+import React from 'react';
+import {connect} from 'react-redux';
 
 function shuffleArray(array) {
   let i = array.length - 1;
@@ -81,7 +81,7 @@ class Consultants extends React.Component {
 }
 
 function mapStateToProps(state) {
-  console.dir(state);
+  //console.dir(state);
   return {
     consultants: state.data.consultants
   };
