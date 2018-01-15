@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 export default class Intro extends React.Component {
   startAnimation() {
-    this.refs.introImage.classList.add("intro-part__image--animate");
+    this.refs.introImage.classList.add('intro-part__image--animate');
   }
 
   render() {
-    const subtitle = "Utveckling - Arkitektur - Agil metodik";
+    const subtitle = 'Utveckling - Arkitektur - Agil metodik';
 
     return (
       <div className="intro-part">

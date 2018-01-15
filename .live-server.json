@@ -1,0 +1,12 @@
+{
+	"port": 8181,
+	"host": "0.0.0.0",
+	"root": "/",
+	"open": true,
+	"ignore": "node_modules,app",
+	"file": "index.html",
+	"wait": 1000,
+	"mount": [['/components', './node_modules']],
+	"logLevel": 2,
+    "middleware": [function(req, res, next) { next(); }]
+}

@@ -1,7 +1,7 @@
-import React from "react";
-import {connect} from "react-redux";
+import React from 'react';
+import {connect} from 'react-redux';
 
-import ServicesProfession from "./ServicesProfession";
+import ServicesProfession from './ServicesProfession';
 
 class Services extends React.Component {
   componentDidMount() {
@@ -9,7 +9,7 @@ class Services extends React.Component {
     this.waypoint = new Waypoint({
       element: serviceLogo,
       handler: () => {
-        serviceLogo.classList.add("services-part__connector--animate");
+        serviceLogo.classList.add('services-part__connector--animate');
       },
       offset: (window.innerHeight / 1.5)
     });
