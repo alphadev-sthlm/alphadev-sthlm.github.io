@@ -113,6 +113,18 @@
       "linkedin": "https://www.linkedin.com/in/robert-wideberg-57a55ab8/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants/robert_sml_bw.png"
+    },
+    {
+      "name": "Eskil Andréen",
+      "linkedin": "https://www.linkedin.com/in/eskila/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants/eskil_sml_bw.png"
+    },
+    {
+      "name": "Markus Rantanikunen",
+      "linkedin": "https://www.linkedin.com/in/markus-rantanikunen-3727901b/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants/markus_sml_bw.png"
     }
   ],
   "professions": [
