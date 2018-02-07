@@ -1,0 +1,14 @@
+{
+  "news": [
+    {
+      "title": "Alphadev bubblar av nyheter",
+      "image": "https://www.fillmurray.com/g/150/150",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod commodo porttitor. Mauris lobortis ac nisl quis pretium. Suspendisse felis neque, viverra sit amet molestie eget, maximus in purus. Morbi porttitor porta justo, id blandit nulla fermentum eu. Proin auctor elit tincidunt condimentum feugiat. Etiam convallis auctor est, ac lobortis justo ullamcorper nec. Ut finibus convallis ipsum, ut lobortis arcu consequat id. Suspendisse a eros orci."
+    },
+    {
+      "title": "Detta har hänt",
+      "image": "https://www.fillmurray.com/g/200/200",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod commodo porttitor. Mauris lobortis ac nisl quis pretium. Suspendisse felis neque, viverra sit amet molestie eget, maximus in purus. Morbi porttitor porta justo, id blandit nulla fermentum eu. Proin auctor elit tincidunt condimentum feugiat. Etiam convallis auctor est, ac lobortis justo ullamcorper nec. Ut finibus convallis ipsum, ut lobortis arcu consequat id. Suspendisse a eros orci."
+    }
+  ]
+}

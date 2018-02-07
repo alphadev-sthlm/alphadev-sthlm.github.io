@@ -9,6 +9,13 @@ function loadData() {
           data: response.data
         });
       });
+      axios.get(`./news.json?v=${ new Date().getTime()}`)
+        .then((response) => {
+          dispatch({
+            type: 'SET_NEWS',
+            data: response.data
+          });
+        });
   };
 }
 

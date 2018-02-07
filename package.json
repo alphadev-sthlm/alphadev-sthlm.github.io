@@ -13,7 +13,7 @@
     "test": "test"
   },
   "scripts": {
-    "start:dev": "webpack-dev-server",
+    "start:dev": "npm-run-all --parallel webpack:dev webpack:watch",
     "start": "npm run dev",
     "predev": "npm run build",
     "prebuild": "npm-run-all clean-public create-public lint",
@@ -33,7 +33,8 @@
     "eslint:watch": "esw -w",
     "stylint:watch": "npm run stylint -- -w",
     "webpack:build": "webpack",
-    "webpack:watch": "npm run webpack:build -- --progress --watch"
+    "webpack:dev": "webpack-dev-server",
+    "webpack:watch": "webpack --watch"
   },
   "babel": {
     "presets": [
@@ -105,6 +106,7 @@
     "vinyl-source-stream": "^1.1.0",
     "waypoints": "^4.0.1",
     "webpack": "^2.7.0",
+    "webpack-auto-inject-version": "^1.0.0",
     "webpack-dev-server": "^1.16.5"
   },
   "files": [

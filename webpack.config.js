@@ -4,6 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 const autoprefixer = require('autoprefixer-stylus');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const WebpackAutoInject = require('webpack-auto-inject-version');
 
 const entry = [
   path.join(__dirname, 'app/assets/js/bootstrap.js')
@@ -65,7 +66,27 @@ const plugins = [
   new CopyWebpackPlugin([
     // {output}/file.txt
     { from: 'app/assets/img', to: 'img' }
-  ])
+  ]),
+  new WebpackAutoInject({
+    components: {
+      AutoIncreaseVersion: false,
+      InjectAsComment: true,
+      InjectByTag: true
+    },
+    componentsOptions: {
+      AutoIncreaseVersion: {
+        runInWatchMode: false // it will increase version with every single build!
+      },
+      InjectAsComment: {
+        tag: 'Version: {version} - {date}',
+        dateFormat: 'yyyyMMdd dS, hh:MM:ss TT'
+      },
+      InjectByTag: {
+        fileRegex: /\.+/,
+        dateFormat: 'yyyyMMdd dS, hh:MM:ss TT'
+      }
+    }
+  })
 ];
 
 const devtool = '#inline-source-map';
@@ -84,7 +105,8 @@ module.exports = {
   plugins,
   devtool,
   devServer: {
-    contentBase: __dirname,
+    contentBase:path.resolve(__dirname, './'),
+    publicPath: __dirname,
     compress: true,
     port: 9000
   }
