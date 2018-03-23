@@ -24,8 +24,8 @@ export default function () {
           <h3 className="contact-part__headline">Adress</h3>
           <p className="contact-part__text">
             Alphadev AB <br/>
-            Vasagatan 15<br/>
-            111 20 Stockholm<br/>
+            Kungsgatan 6<br/>
+            111 43 Stockholm<br/>
             <i className="fa fa-phone"/> +46 (0) 702 - 96 00 05<br/>
             <i className="fa fa-envelope-o"/> <a href="mailto:kontakt@alphadev.se">kontakt@alphadev.se</a>
           </p>
