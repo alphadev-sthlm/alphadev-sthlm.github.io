@@ -1,0 +1,19 @@
+{
+  "news": [
+    {
+      "date": "2019-01-14",
+      "title": "Ny sida uppe",
+      "body": "Ny sida för lite personligare innehåll finns nu uppe på http://inside.alphadev.se"
+    },
+    {
+      "date": "2018-09-20",
+      "title": "Höstkonferens i Rom",
+      "body": "Nu bär det av med hela bolaget till Rom för konfererens och pizzabak!"
+    },
+    {
+      "date": "2018-03-21",
+      "title": "Nytt kontor",
+      "body": "Efter att ha vuxit ur vårt lilla kontor på Vasagatan 15 flyttar vi till Kungsgatan 6."
+    }
+  ]
+}

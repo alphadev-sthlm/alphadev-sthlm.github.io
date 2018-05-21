@@ -7,6 +7,7 @@ import Consultants from './Consultants';
 import InstaFeed from './InstaFeed';
 import PreFooter from './Pre-footer';
 import Contact from './Contact';
+import News from './News';
 
 export default function () {
   return (
@@ -17,6 +18,7 @@ export default function () {
       <Service />
       <Consultants />
       <InstaFeed />
+      <News />
       <PreFooter />
       <Contact />
     </div>
