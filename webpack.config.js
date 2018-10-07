@@ -14,7 +14,7 @@ const loaders = [{
   test: /\.json$/,
   loader: 'json'
 }, {
-  test: /\.(png|jpg|svg)$/,
+  test: /\.(png|jpg|jpeg|svg)$/,
   loader: 'file-loader?name=img/[name].[ext]'
 }, {
   test: /\.styl$/,
