@@ -60,6 +60,10 @@ class Header extends React.Component {
             <li className="main-header__item">
               <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, 'contact')}>Kontakt</a>
             </li>
+            <li className="main-header__item">
+              <a href="http://inside.alphadev.se" className="main-header__link">
+              <span className="main-header__btn">Jobba hos oss</span></a>
+            </li>
           </ul>
           <div className="main-header__nav-wrapper">
 
