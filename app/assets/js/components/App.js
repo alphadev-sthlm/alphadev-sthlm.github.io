@@ -7,8 +7,11 @@ import Consultants from './Consultants';
 import InstaFeed from './InstaFeed';
 import PreFooter from './Pre-footer';
 import Contact from './Contact';
+import ReactGA from 'react-ga';
 
 export default function () {
+  ReactGA.initialize('UA-133865883-1');
+  ReactGA.pageview('/');
   return (
     <div>
       <Header />
