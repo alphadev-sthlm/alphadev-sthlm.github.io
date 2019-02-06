@@ -15,6 +15,7 @@
   "scripts": {
     "start": "npm run dev",
     "predev": "npm run build",
+    "prod": "npm-run-all webpack:prod build:static",
     "prebuild": "npm-run-all clean-public create-public lint",
     "clean-public": "rimraf ./public",
     "create-public": "mkdir -p public/assets",
@@ -32,6 +33,7 @@
     "eslint:watch": "esw -w",
     "stylint:watch": "npm run stylint -- -w",
     "webpack:build": "webpack --colors",
+    "webpack:prod": "webpack --colors --optimize-minimize",
     "webpack:watch": "npm run webpack:build -- --progress --watch"
   },
   "babel": {

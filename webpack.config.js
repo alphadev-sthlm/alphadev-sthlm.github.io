@@ -40,7 +40,7 @@ const plugins = [
   ])
 ];
 
-const devtool = '#inline-source-map';
+const devtool = '#source-map';
 
 const stylus = {
   use: [autoprefixer()]
