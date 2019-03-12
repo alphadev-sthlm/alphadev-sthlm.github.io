@@ -143,6 +143,12 @@
       "linkedin": "https://www.linkedin.com/in/hojvall/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Höjvall_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Joacim Gunnarsson",
+      "linkedin": "https://www.linkedin.com/in/joacimgunnarsson/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Gunnarsson_prt_pale_sml.jpg"
     }
   ],
   "professions": [
