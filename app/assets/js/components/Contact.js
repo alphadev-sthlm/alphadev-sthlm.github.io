@@ -7,7 +7,7 @@ export default function () {
 
         <div className="contact-part__column">
           <h3 className="contact-part__headline">Social</h3>
-          <div className="social_icon">
+          <div className="social-icon">
             <a href="https://twitter.com/alphadevsthlm">
               <i className="fa fa-3x fa-twitter-square" aria-hidden="true"> </i>
             </a>
