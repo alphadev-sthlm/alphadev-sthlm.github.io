@@ -26,7 +26,7 @@ export default function () {
             Alphadev AB <br/>
             Kungsgatan 6<br/>
             111 43 Stockholm<br/>
-            <i className="fa fa-phone"/> +46 (0) 702 - 96 00 05<br/>
+            <i className="fa fa-phone"/> +46 (0) 8 - 520 277 70<br/>
             <i className="fa fa-envelope-o"/> <a href="mailto:kontakt@alphadev.se">kontakt@alphadev.se</a>
           </p>
         </div>
