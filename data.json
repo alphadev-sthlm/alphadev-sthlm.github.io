@@ -151,6 +151,12 @@
       "image": "public/assets/img/consultants2/Steen_prt_pale_sml.jpg"
     },
     {
+      "name": "Jesper Lehtinen",
+      "linkedin": "https://www.linkedin.com/in/jesperlehtinen/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Lehtinen_prt_pale_sml.jpg"
+    },
+    {
       "name": "Joacim Gunnarsson",
       "linkedin": "https://www.linkedin.com/in/joacimgunnarsson/",
       "title": "Utvecklare",
