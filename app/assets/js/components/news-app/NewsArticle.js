@@ -22,8 +22,8 @@ class NewsArticle extends React.Component {
           <a href={'/'}>Tillbaka</a>
           <small>{article.date}</small>
           <h2 className="news-article__headline">{article.title}</h2>
-          <h4>{article.ingress}</h4>
-          <p dangerouslySetInnerHTML={{__html: article.ingress}}/>
+          <p className="news-article__ingress"
+             dangerouslySetInnerHTML={{__html: article.ingress}}/>
           <div dangerouslySetInnerHTML={{__html: bodyContent}}/>
         </div>
       </div>
