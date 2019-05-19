@@ -8,9 +8,13 @@ import InstaFeed from './InstaFeed';
 import News from './News';
 import PreFooter from './Pre-footer';
 import Contact from './Contact';
+import ReactGA from 'react-ga';
+import News from './News';
 
 console.log('[AIV]V:{version} Date:{date}[/AIV]');
 export default function () {
+  ReactGA.initialize('UA-133865883-1');
+  ReactGA.pageview('/');
   return (
     <div>
       <Header />

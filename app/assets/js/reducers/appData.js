@@ -1,6 +1,7 @@
 const initialState = {
   professions: [],
-  consultants: []
+  consultants: [],
+  news: []
 };
 
 export default function (state = initialState, action) {
@@ -13,6 +14,10 @@ export default function (state = initialState, action) {
       return Object.assign({}, state, {
         consultants: action.data.consultants,
         professions: action.data.professions
+      });
+    case 'SET_NEWS':
+      return Object.assign({}, state, {
+        news: action.data
       });
     default:
       return state;

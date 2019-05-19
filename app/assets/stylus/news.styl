@@ -1,20 +1,34 @@
 .news-part {
-  margin: 0 auto 0;
-  text-align: center;
   position: relative;
   display: block;
-  background-color: $main-color;
-  text-decoration: none;
   width: 100%;
-  color: white;
-  background-position 70% 45%;
+  color: $secondary-color;
+  background-position: 70% 45%;
   background-size: cover;
   padding: 40px 0;
-  justify-content: space-between;
 
-  h1 {
-    color: $dark;
-    z-index: 3;
+  &--fullsize {
+    background-color: $dark-gray;
+    min-height: 100vh;
+  }
+
+  small {
+    color: $main-color;
+  }
+
+  a {
+    color: $main-color;
+  }
+
+  &__headline {
+    max-width: $desktop-width;
+    margin-bottom: 0;
+    padding: 0;
+    color: $secondary-color;
+  }
+
+  &__headline--highlighted {
+    color: $main-color;
   }
 
   &:before {
@@ -24,50 +38,60 @@
     width: 100%;
     height: 100%;
     content: '';
-    background-color: rgba(0,0,0,0.2);
     z-index: 1;
   }
 
-  .news-item {
-    margin: 0 auto 0;
-    max-width: 900px;
+  &__content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 20px 15px;
     display: flex;
-    flex-direction: row;
-    &__title {
-      left: 0;
-      overflow-x: inherit;
-      margin-bottom: 10px;
-      color: $white;
-    }
-    &__image{
-      float: left;
-      width:100px;
-      height:100px;
-    }
-    &__text {
-      float: left;
-      line-height: 22px;
-      font-size: 16px;
-      color: white;
-      position: relative;
-      z-index: 2;
-      margin: 0 auto;
-      padding: 20px 15px;
-      display: flex;
-      max-width: $desktop-width;
-    }
-    
-    @media (min-width $tablet-width) {
-      padding: 0 20px;
-      width: 100%;
+    max-width: $desktop-width;
+    flex-direction: column;
+    justify-content: space-between;
 
-      &:first-child {
-        margin-bottom: 0;
-      }
+    &--headline {
+      justify-content: left;
+    }
+
+    @media (min-width $tablet-width) {
+      flex-direction: row;
+    }
+    &--fullsize {
+      flex-direction: column;
+    }
+  }
+  &__column {
+    padding: 10px;
+    box-shadow: 0 0 1px $dark-gray;
+
+    border-right-color: $dark-gray;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: $dark-gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: $dark-gray;
+    border-left-style: solid;
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: white;
+    width: 100%;
+
+    @media (min-width $tablet-width) {
+      margin: 0 5px;
     }
 
     @media (min-width $desktop-width) {
-      padding: 0;
+      margin: 0 10px;
+      padding: 10px;
+    }
+
+    &--fullsize {
+      margin-bottom: 2rem;
     }
   }
 }

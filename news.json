@@ -1,18 +1,33 @@
 {
   "news": [
     {
-      "title": "Alphadev bubblar av nyheter",
-      "image": "https://www.fillmurray.com/g/150/150",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod commodo porttitor. Mauris lobortis ac nisl quis pretium. Suspendisse felis neque, viverra sit amet molestie eget, maximus in purus. Morbi porttitor porta justo, id blandit nulla fermentum eu. Proin auctor elit tincidunt condimentum feugiat. Etiam convallis auctor est, ac lobortis justo ullamcorper nec. Ut finibus convallis ipsum, ut lobortis arcu consequat id. Suspendisse a eros orci."
+      "id": "3",
+      "date": "2019-05-19",
+      "title": "Säljansvarig",
+      "ingress": "Vi söker en säljansvarig!",
+      "body": [
+        "Sedan starten för drygt 4 år sedan har Alphadev vuxit långsamt men stadigt. Fokus har alltid varit att skapa en fantastisk arbetsplats för våra anställda och kvittot på det syns bland annat i den nästan obefintliga personalomsättningen.",
+        "Nu när vi passerat 25 anställda börjar det bli dags att stärka upp oss på säljsidan; vill du ta kaptenshatten och hitta dom roligaste uppdragen åt våra grymma konsulter? Har du någon i ditt nätverk som du tror är rätt för oss?"
+      ]
     },
     {
-      "title": "Detta har hänt",
-      "image": "https://www.fillmurray.com/g/200/200",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod commodo porttitor. Mauris lobortis ac nisl quis pretium. Suspendisse felis neque, viverra sit amet molestie eget, maximus in purus. Morbi porttitor porta justo, id blandit nulla fermentum eu. Proin auctor elit tincidunt condimentum feugiat. Etiam convallis auctor est, ac lobortis justo ullamcorper nec. Ut finibus convallis ipsum, ut lobortis arcu consequat id. Suspendisse a eros orci."
+      "id": "2",
+      "date": "2019-04-25",
+      "title": "Newcomers",
+      "ingress": "Säg hej till våra nya Alphadevare!",
+      "body": [
+        "Vårsäsongen på Alphadev har redan börjat på bästa sätt, med ett gäng fantastiska nya medarbetare: Joacim Gunnarsson,",
+        "Andrea Filling och Johan Steen som nyss börjat, och Jesper Lehtinen och Jesper Augustsson som kommer till oss i maj.",
+        "Andrea är vår blivande stjärna på HQ och Joacim och Johan är igång på sina nya uppdrag på MRG respektive Novamedia.",
+        "Teknikmässigt fortsätter vi således förstärka oss inom React, Node, Angular, .NET och Java. Den bästa mixen :)",
+        "Varmt välkomna till Alphadev!"
+      ]
     },
     {
-      "title": "Utan bild också",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod commodo porttitor. Mauris lobortis ac nisl quis pretium. Suspendisse felis neque, viverra sit amet molestie eget, maximus in purus. Morbi porttitor porta justo, id blandit nulla fermentum eu. Proin auctor elit tincidunt condimentum feugiat. Etiam convallis auctor est, ac lobortis justo ullamcorper nec. Ut finibus convallis ipsum, ut lobortis arcu consequat id. Suspendisse a eros orci."
+      "id": "1",
+      "date": "2018-03-21",
+      "title": "Inside Alphadev",
+      "ingress": "Ny sida för lite personligare innehåll finns nu uppe på <a href=\"http://inside.alphadev.se\">inside.alphadev.se</a>"
     }
   ]
 }
