@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function () {
+export default function Contact() {
   return (
     <div className="contact-part" id="contact">
       <div className="contact-part__content">

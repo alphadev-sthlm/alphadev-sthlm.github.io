@@ -1,5 +1,3 @@
-'use strict';
-
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
 const autoprefixer = require('autoprefixer-stylus');
@@ -45,7 +43,7 @@ const loaders = [{
   }
   )
 }, {
-  test: /\.js?$/,
+  test: /\.jsx?$/,
   exclude: /node_modules/,
   use: {
     loader: 'babel-loader',
@@ -57,7 +55,6 @@ const loaders = [{
 }];
 
 const plugins = [
-  //new webpack.optimize.OccurenceOrderPlugin(),
   new ExtractTextPlugin({
     filename: 'styles.css',
     allChunks: true

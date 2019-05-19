@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
 class News extends React.Component {
@@ -39,6 +40,18 @@ class News extends React.Component {
     );
   }
 }
+
+News.propTypes = {
+  page: PropTypes.number,
+  pageSize: PropTypes.number,
+  fullsize: PropTypes.bool,
+  news: PropTypes.arrayOf(PropTypes.shape({
+    title: PropTypes.string,
+    date: PropTypes.string,
+    ingress: PropTypes.string,
+    body: PropTypes.arrayOf(PropTypes.string),
+  }))
+};
 
 News.defaultProps = {
   page: 0,

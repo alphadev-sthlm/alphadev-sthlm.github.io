@@ -3,7 +3,7 @@ import ReactGA from 'react-ga';
 import News from '../News';
 import NewsArticle from './NewsArticle';
 
-export default function () {
+export default function NewsApp() {
   ReactGA.initialize('UA-133865883-1');
   ReactGA.pageview(window.location.pathname + window.location.search);
   const urlSearchParams = new URLSearchParams(window.location.search);

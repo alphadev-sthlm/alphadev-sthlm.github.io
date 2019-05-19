@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
 import ServicesProfession from './ServicesProfession';
@@ -23,9 +24,12 @@ class Services extends React.Component {
         <div className="services-part__container">
           {PROFESSIONS.length &&
           <div className="services-part__left">
-            <ServicesProfession headline={PROFESSIONS[0].headline} text={PROFESSIONS[0].text} src={PROFESSIONS[0].imageSrc}/>
-            <ServicesProfession headline={PROFESSIONS[1].headline} text={PROFESSIONS[1].text} src={PROFESSIONS[1].imageSrc}/>
-            <ServicesProfession headline={PROFESSIONS[2].headline} text={PROFESSIONS[2].text} src={PROFESSIONS[2].imageSrc}/>
+            <ServicesProfession headline={PROFESSIONS[0].headline} text={PROFESSIONS[0].text}
+                                src={PROFESSIONS[0].imageSrc}/>
+            <ServicesProfession headline={PROFESSIONS[1].headline} text={PROFESSIONS[1].text}
+                                src={PROFESSIONS[1].imageSrc}/>
+            <ServicesProfession headline={PROFESSIONS[2].headline} text={PROFESSIONS[2].text}
+                                src={PROFESSIONS[2].imageSrc}/>
           </div>
           }
           <div className="services-part__middle">
@@ -42,8 +46,10 @@ class Services extends React.Component {
           </div>
           {PROFESSIONS.length &&
           <div className="services-part__right">
-            <ServicesProfession headline={PROFESSIONS[3].headline} text={PROFESSIONS[3].text} src={PROFESSIONS[3].imageSrc}/>
-            <ServicesProfession headline={PROFESSIONS[4].headline} text={PROFESSIONS[4].text} src={PROFESSIONS[4].imageSrc}/>
+            <ServicesProfession headline={PROFESSIONS[3].headline} text={PROFESSIONS[3].text}
+                                src={PROFESSIONS[3].imageSrc}/>
+            <ServicesProfession headline={PROFESSIONS[4].headline} text={PROFESSIONS[4].text}
+                                src={PROFESSIONS[4].imageSrc}/>
           </div>
           }
         </div>
@@ -51,6 +57,14 @@ class Services extends React.Component {
     );
   }
 }
+
+Services.propTypes = {
+  professions: PropTypes.arrayOf(PropTypes.shape({
+    headline: PropTypes.string,
+    text: PropTypes.string,
+    imageSrc: PropTypes.string,
+  }))
+};
 
 function mapStateToProps(state) {
   return {

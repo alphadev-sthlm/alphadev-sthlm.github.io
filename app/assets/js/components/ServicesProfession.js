@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default class ServicesProfession extends React.Component {
   componentDidMount() {
@@ -14,7 +15,7 @@ export default class ServicesProfession extends React.Component {
   }
 
   render() {
-    const { headline, text, src } = this.props;
+    const {headline, text, src} = this.props;
 
     return (
       <div className="services-part__profession" ref="service">
@@ -23,9 +24,15 @@ export default class ServicesProfession extends React.Component {
           <p>{text}</p>
         </div>
         <div className="services-part__profession-image">
-          <img src={src} />
+          <img src={src}/>
         </div>
       </div>
     );
   }
 }
+
+ServicesProfession.propTypes = {
+  headline: PropTypes.string,
+  text: PropTypes.string,
+  src: PropTypes.string,
+};

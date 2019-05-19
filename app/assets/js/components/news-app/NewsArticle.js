@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
 class NewsArticle extends React.Component {
@@ -31,6 +32,10 @@ class NewsArticle extends React.Component {
   }
 }
 
+NewsArticle.propTypes = {
+  news: PropTypes.arrayOf(PropTypes.shape({})),
+  newsId: PropTypes.string,
+};
 NewsArticle.defaultProps = {
   id: 0,
   news: []

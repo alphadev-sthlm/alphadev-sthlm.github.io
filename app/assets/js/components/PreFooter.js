@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function () {
+export default function PreFooter() {
   const p1 = 'Är du intresserad av våra tjänster och vill veta lite mer?';
   const p2 = 'Eller är du en vass utvecklare som funderar på ny hemvist?';
   const p3 = 'Jon Neergaard';
