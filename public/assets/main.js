@@ -13601,7 +13601,7 @@
 	
 	exports.default = function () {
 	  _reactGa2.default.initialize('UA-133865883-1');
-	  _reactGa2.default.pageview('/news');
+	  _reactGa2.default.pageview(window.location.pathname + window.location.search);
 	  var urlSearchParams = new URLSearchParams(window.location.search);
 	
 	  if (urlSearchParams.get('id')) {

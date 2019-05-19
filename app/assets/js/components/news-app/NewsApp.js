@@ -5,7 +5,7 @@ import NewsArticle from './NewsArticle';
 
 export default function () {
   ReactGA.initialize('UA-133865883-1');
-  ReactGA.pageview('/news');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   const urlSearchParams = new URLSearchParams(window.location.search);
 
   if (urlSearchParams.get('id')) {

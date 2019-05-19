@@ -1153,7 +1153,7 @@ img {
   -ms-flex-pack: justify;
       justify-content: space-between;
 }
-.news-article--loaded {
+.news-article__content--loaded {
   transform: scaleY(1);
 }
 
