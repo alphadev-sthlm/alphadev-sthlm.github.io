@@ -1,5 +1,6 @@
 import React from 'react';
 import smoothscroll from 'smoothscroll';
+import ReactGA from 'react-ga';
 
 class Header extends React.Component {
   constructor() {
@@ -29,13 +30,14 @@ class Header extends React.Component {
   }
 
   handleClick() {
-    this.setState({open: !this.state.open});
+    this.setState({ open: !this.state.open });
   }
 
   goToAnchor(anchor, event) {
     event.preventDefault();
+    ReactGA.pageview(anchor);
     smoothscroll(document.getElementById(anchor));
-    this.setState({open: false});
+    this.setState({ open: false });
   }
 
   render() {
@@ -43,8 +45,8 @@ class Header extends React.Component {
     return (
       <header className={`main-header ${this.state.open ? 'main-header--open' : ''}`} id="main-header">
         <div className="main-header__wrapper">
-          <img className="main-header__logo" src="public/assets/img/header_logo.svg"/>
-          <ul className={`main-header__list ${this.state.open ? 'main-header__list--open' : ''}` }>
+          <img className="main-header__logo" src="public/assets/img/header_logo.svg" />
+          <ul className={`main-header__list ${this.state.open ? 'main-header__list--open' : ''}`}>
             <li className="main-header__item">
               <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, 'main')}>Hem</a>
             </li>
@@ -60,10 +62,17 @@ class Header extends React.Component {
             <li className="main-header__item">
               <a href="#" className="main-header__link" onClick={this.goToAnchor.bind(this, 'contact')}>Kontakt</a>
             </li>
+            <li className="main-header__item">
+              <ReactGA.OutboundLink
+                eventLabel="InsideAlphadev"
+                to="http://inside.alphadev.se" className="main-header__link">
+                <span className="main-header__btn">Jobba hos oss</span>
+              </ReactGA.OutboundLink>
+            </li>
           </ul>
           <div className="main-header__nav-wrapper">
 
-            <div className={`main-header__nav-icon ${this.state.open ? 'open' : ''}` }
+            <div className={`main-header__nav-icon ${this.state.open ? 'open' : ''}`}
               onClick={this.handleClick}>
               <span></span>
               <span></span>

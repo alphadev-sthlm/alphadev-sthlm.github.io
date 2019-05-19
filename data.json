@@ -7,7 +7,7 @@
       "image": "public/assets/img/consultants2/Leon_prt_pale_sml.jpg"
     },
     {
-      "name": "Sammi Haj Hassine",
+      "name": "Sammi Kliv Haj Hassine",
       "linkedin": "https://www.linkedin.com/in/sammi-haj-hassine-88a60648",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Sammi_prt_pale_sml.jpg"
@@ -69,7 +69,7 @@
     {
       "name": "Johan Windahl",
       "linkedin": "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
-      "title": "Business manager",
+      "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Windahl_prt_pale_sml.jpg"
     },
     {
@@ -126,11 +126,41 @@
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Markus_prt_pale_sml.jpg"
     },
+	{
+      "name": "Mikael Porttila",
+      "linkedin": "https://www.linkedin.com/in/mikaelporttila/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Mikael_disguisedv3.jpg"
+    },
+	{
+      "name": "Andrea Filling",
+      "linkedin": "https://www.linkedin.com/in/andrea-filling-8262b583/",
+      "title": "Office Manager",
+      "image": "public/assets/img/consultants2/Andrea_prt_pale_sml.jpg"
+    },
     {
       "name": "Marcus Höjvall",
       "linkedin": "https://www.linkedin.com/in/hojvall/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Höjvall_prt_pale_sml.jpg"
+   },
+    {
+      "name": "Johan Steen",
+      "linkedin": "https://www.linkedin.com/in/johan-steen-9984632a/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Steen_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Jesper Lehtinen",
+      "linkedin": "https://www.linkedin.com/in/jesperlehtinen/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Lehtinen_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Joacim Gunnarsson",
+      "linkedin": "https://www.linkedin.com/in/joacimgunnarsson/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Gunnarsson_prt_pale_sml.jpg"
     }
   ],
   "professions": [

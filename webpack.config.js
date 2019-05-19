@@ -31,6 +31,9 @@ const loaders = [{
 
 const plugins = [
   new webpack.optimize.OccurenceOrderPlugin(),
+  new webpack.DefinePlugin({
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production')
+  }),
   new ExtractText('styles.css', {
     allChunks: true
   }),
@@ -40,7 +43,7 @@ const plugins = [
   ])
 ];
 
-const devtool = '#inline-source-map';
+const devtool = '#source-map';
 
 const stylus = {
   use: [autoprefixer()]
