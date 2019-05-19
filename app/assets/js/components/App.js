@@ -5,12 +5,12 @@ import Service from './Services';
 import Welcome from './Welcome';
 import Consultants from './Consultants';
 import InstaFeed from './InstaFeed';
-import PreFooter from './Pre-footer';
+import News from './News';
+import PreFooter from './PreFooter';
 import Contact from './Contact';
 import ReactGA from 'react-ga';
-import News from './News';
 
-export default function () {
+export default function App() {
   ReactGA.initialize('UA-133865883-1');
   ReactGA.pageview('/');
   return (

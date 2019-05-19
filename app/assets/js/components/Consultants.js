@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {connect} from 'react-redux';
 
 function shuffleArray(array) {
@@ -79,6 +80,14 @@ class Consultants extends React.Component {
     );
   }
 }
+
+Consultants.propTypes = {
+  consultants: PropTypes.arrayOf(PropTypes.shape({
+    title: PropTypes.string,
+    name: PropTypes.string,
+    image: PropTypes.string,
+  }))
+};
 
 function mapStateToProps(state) {
   //console.dir(state);
