@@ -6,9 +6,17 @@
   background-position: 70% 45%;
   background-size: cover;
   padding: 40px 0;
-  background-color: #333;
+
+  &--fullsize {
+    background-color: $dark-gray;
+    min-height: 100vh;
+  }
 
   small {
+    color: $main-color;
+  }
+
+  a {
     color: $main-color;
   }
 
@@ -51,12 +59,26 @@
     @media (min-width $tablet-width) {
       flex-direction: row;
     }
+    &--fullsize {
+      flex-direction: column;
+    }
   }
   &__column {
     padding: 10px;
+    box-shadow: 0 0 1px $dark-gray;
+
+    border-right-color: $dark-gray;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: $dark-gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: $dark-gray;
+    border-left-style: solid;
+
     border-radius: 10px;
     margin-bottom: 10px;
-    background: #fff;
+    background: white;
     width: 100%;
 
     @media (min-width $tablet-width) {
@@ -66,6 +88,10 @@
     @media (min-width $desktop-width) {
       margin: 0 10px;
       padding: 10px;
+    }
+
+    &--fullsize {
+      margin-bottom: 2rem;
     }
   }
 }

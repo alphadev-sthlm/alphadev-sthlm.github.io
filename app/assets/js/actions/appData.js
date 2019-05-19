@@ -13,7 +13,19 @@ function loadData() {
       .then((response) => {
         dispatch({
           type: 'SET_NEWS',
-          data: response.data
+          data: response.data.news
+        });
+      });
+  };
+}
+
+export function loadNews() {
+  return (dispatch) => {
+    axios.get(`../news.json?v=${new Date().getTime()}`)
+      .then((response) => {
+        dispatch({
+          type: 'SET_NEWS',
+          data: response.data.news
         });
       });
   };

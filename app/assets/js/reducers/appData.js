@@ -13,7 +13,7 @@ export default function (state = initialState, action) {
       });
     case 'SET_NEWS':
       return Object.assign({}, state, {
-        news: action.data.news
+        news: action.data
       });
     default:
       return state;
