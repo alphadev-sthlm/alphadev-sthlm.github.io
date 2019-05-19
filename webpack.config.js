@@ -56,7 +56,7 @@ module.exports = {
     filename: 'main.js',
     publicPath: ''
   },
-  watch: true,
+  watch: false,
   module: {
     loaders
   },

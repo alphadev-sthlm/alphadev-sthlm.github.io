@@ -12,8 +12,10 @@ Aplhadevs awesome website
 * Setup
   * Run nvm use (if the node version isn't installed, run nvm install).
   * Run `npm install`
-  * Run `npm install webpack -g`
 * Workflow
-  * Run `webpack`
-  * Open `index.html`
+  * Run `npm start`
+  * Open `localhost:8080`
   * Update files, reload the browser and watch the magic
+* Deploy
+  * Run `npm run prod`
+  * Commit changes to main.js and syle.css
