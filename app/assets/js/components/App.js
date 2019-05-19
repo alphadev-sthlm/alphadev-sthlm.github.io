@@ -8,6 +8,7 @@ import InstaFeed from './InstaFeed';
 import PreFooter from './Pre-footer';
 import Contact from './Contact';
 import ReactGA from 'react-ga';
+import News from './News';
 
 export default function () {
   ReactGA.initialize('UA-133865883-1');
@@ -20,6 +21,7 @@ export default function () {
       <Service />
       <Consultants />
       <InstaFeed />
+      <News />
       <PreFooter />
       <Contact />
     </div>

@@ -2,11 +2,12 @@ require('../stylus/style.styl');
 require('waypoints/lib/noframework.waypoints');
 
 import React from 'react';
-import { render } from 'react-dom';
-import { Provider } from 'react-redux';
+import {render} from 'react-dom';
+import {Provider} from 'react-redux';
 import App from './components/App';
+import NewsApp from './components/news-app/NewsApp';
 import configureStore from './store';
-import loadData from './actions/appData';
+import loadData, { loadNews } from './actions/appData';
 
 if (typeof Object.assign !== 'function') {
   // Must be writable: true, enumerable: false, configurable: true
@@ -43,11 +44,25 @@ if (!!window.MSInputMethodContext && !!document.documentMode) {
 
 const store = configureStore();
 
-render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('main')
-);
+const main = document.getElementById('main');
+if (main) {
+  render(
+    <Provider store={store}>
+      <App/>
+    </Provider>,
+    main
+  );
+  store.dispatch(loadData());
+}
 
-store.dispatch(loadData());
+const news = document.getElementById('news');
+if (news) {
+  render(
+    <Provider store={store}>
+      <NewsApp/>
+    </Provider>,
+    news
+  );
+  store.dispatch(loadNews());
+}
+
