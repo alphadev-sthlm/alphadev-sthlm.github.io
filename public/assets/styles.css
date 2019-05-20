@@ -962,10 +962,12 @@ img {
 .news-part a {
   color: #da9926;
 }
+.news-part__bottom {
+  padding: 10px;
+}
 .news-part__headline {
   max-width: 1024px;
-  margin-bottom: 0;
-  padding: 10px;
+  margin-bottom: 10px;
   color: #747473;
 }
 .news-part__headline--highlighted {
@@ -1130,10 +1132,12 @@ img {
 .news-part a {
   color: #da9926;
 }
+.news-part__bottom {
+  padding: 10px;
+}
 .news-part__headline {
   max-width: 1024px;
-  margin-bottom: 0;
-  padding: 10px;
+  margin-bottom: 10px;
   color: #747473;
 }
 .news-part__headline--highlighted {
