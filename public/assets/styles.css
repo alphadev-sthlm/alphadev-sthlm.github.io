@@ -1253,6 +1253,36 @@ img {
 .news-article__content--loaded {
   transform: scaleY(1);
 }
+.join-us {
+  width: 100%;
+  background: url(img/service_bg.jpg) center bottom fixed;
+  background-size: cover;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 25px;
+}
+.join-us__button {
+  background-color: #da9926;
+  padding: 10px 13px;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+}
+.join-us__text {
+  font-size: 25px;
+  line-height: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.join-us__text-inner {
+  font-weight: bold;
+}
 
 
 /*# sourceMappingURL=styles.css.map*/
