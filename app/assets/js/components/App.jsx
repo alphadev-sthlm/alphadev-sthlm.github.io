@@ -7,6 +7,7 @@ import Consultants from './Consultants';
 import InstaFeed from './InstaFeed';
 import News from './News';
 import PreFooter from './PreFooter';
+import JoinUs from './JoinUs';
 import Contact from './Contact';
 import ReactGA from 'react-ga';
 
@@ -20,6 +21,7 @@ export default function App() {
       <Welcome />
       <Service />
       <Consultants />
+      <JoinUs />
       <InstaFeed />
       <News />
       <PreFooter />
