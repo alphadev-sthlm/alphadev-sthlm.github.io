@@ -11,21 +11,15 @@ class NewsArticle extends React.Component {
 
     const article = this.props.news.find((newsItem) => newsItem.id === this.props.newsId) || {};
 
-    let bodyContent = '';
-    if (Array.isArray(article.body)) {
-      bodyContent = article.body.join();
-    } else if (typeof article.body === 'string') {
-      bodyContent = article.body;
-    }
     return (
       <div className="news-article">
-        <div className={`news-article__content${ article.title ? ' news-article__content--loaded' : ''}`}>
+        <div className={`news-article__content${article.title ? ' news-article__content--loaded' : ''}`}>
           <a href={'/'}>Tillbaka</a>
           <small>{article.date}</small>
           <h2 className="news-article__headline">{article.title}</h2>
           <p className="news-article__ingress"
              dangerouslySetInnerHTML={{__html: article.ingress}}/>
-          <div dangerouslySetInnerHTML={{__html: bodyContent}}/>
+          {article.body && article.body.map((paragraph) => <p dangerouslySetInnerHTML={{__html: paragraph}}/>)}
         </div>
       </div>
     );

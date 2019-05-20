@@ -1220,6 +1220,16 @@ img {
 .news-article small {
   color: #da9926;
 }
+.news-article p {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
+  -webkit-margin-end: 0;
+          margin-inline-end: 0;
+}
 .news-article a {
   color: #da9926;
 }
