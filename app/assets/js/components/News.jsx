@@ -15,12 +15,14 @@ class News extends React.Component {
       .map((newsItem) => {
         return (
           <div key={newsItem.title + newsItem.date}
-               className={`news-part__column${ this.props.fullsize ? ' news-part__column--fullsize' : ''}`}>
+            className={`news-part__column${ this.props.fullsize ? ' news-part__column--fullsize' : ''}`}>
             <a href={`/news/?id=${newsItem.id}`}><img src={newsItem.image}></img></a>
-            <h3 className="news-part__headline">{newsItem.title}</h3>
-            <small>{newsItem.date}</small>
-            <p dangerouslySetInnerHTML={{__html: newsItem.ingress}}/>
-            {newsItem.body && <a href={`/news/?id=${newsItem.id}`}>Läs mer</a>}
+            <div className="news-part__bottom">
+              <h3 className="news-part__headline">{newsItem.title}</h3>
+              <small>{newsItem.date}</small>
+              <p dangerouslySetInnerHTML={{__html: newsItem.ingress}}/>
+              {newsItem.body && <a href={`/news/?id=${newsItem.id}`}>Läs mer</a>}
+            </div>
           </div>
         );
       });
