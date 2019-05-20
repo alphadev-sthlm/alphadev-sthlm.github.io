@@ -15,6 +15,7 @@ class NewsArticle extends React.Component {
       <div className="news-article">
         <div className={`news-article__content${article.title ? ' news-article__content--loaded' : ''}`}>
           <a href={'/'}>Tillbaka</a>
+          <img src={article.image}></img>
           <small>{article.date}</small>
           <h2 className="news-article__headline">{article.title}</h2>
           <p className="news-article__ingress"

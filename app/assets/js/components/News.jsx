@@ -16,6 +16,7 @@ class News extends React.Component {
         return (
           <div key={newsItem.title + newsItem.date}
                className={`news-part__column${ this.props.fullsize ? ' news-part__column--fullsize' : ''}`}>
+            <a href={`/news/?id=${newsItem.id}`}><img src={newsItem.image}></img></a>
             <h3 className="news-part__headline">{newsItem.title}</h3>
             <small>{newsItem.date}</small>
             <p dangerouslySetInnerHTML={{__html: newsItem.ingress}}/>
