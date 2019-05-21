@@ -958,6 +958,9 @@ img {
 }
 .news-part small {
   color: #da9926;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 .news-part a {
   color: #da9926;
@@ -967,8 +970,11 @@ img {
 }
 .news-part__headline {
   max-width: 1024px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #747473;
+}
+.news-part__text {
+  margin-bottom: 10px;
 }
 .news-part__headline--highlighted {
   color: #da9926;
@@ -1011,7 +1017,7 @@ img {
       flex-direction: column;
 }
 .news-part__column {
-  box-shadow: 0 0 1px #da9926;
+  box-shadow: 0 0 2px #da9926;
   border-radius: 3px;
   margin-bottom: 10px;
   background: #fff;
@@ -1033,6 +1039,26 @@ img {
 .news-part__column img {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+}
+@media (min-width: 768px) {
+  .news-part__column:nth-child(1) {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .news-part__column:nth-child(1) {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .news-part__column:nth-child(3) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .news-part__column:nth-child(3) {
+    margin-right: 0;
+  }
 }
 .contact-part {
   position: relative;
@@ -1127,6 +1153,9 @@ img {
 }
 .news-part small {
   color: #da9926;
+  display: block;
+  font-size: 13px;
+  margin-bottom: 20px;
 }
 .news-part a {
   color: #da9926;
@@ -1136,8 +1165,11 @@ img {
 }
 .news-part__headline {
   max-width: 1024px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #747473;
+}
+.news-part__text {
+  margin-bottom: 10px;
 }
 .news-part__headline--highlighted {
   color: #da9926;
@@ -1180,7 +1212,7 @@ img {
       flex-direction: column;
 }
 .news-part__column {
-  box-shadow: 0 0 1px #da9926;
+  box-shadow: 0 0 2px #da9926;
   border-radius: 3px;
   margin-bottom: 10px;
   background: #fff;
@@ -1202,6 +1234,26 @@ img {
 .news-part__column img {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+}
+@media (min-width: 768px) {
+  .news-part__column:nth-child(1) {
+    margin-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .news-part__column:nth-child(1) {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) {
+  .news-part__column:nth-child(3) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .news-part__column:nth-child(3) {
+    margin-right: 0;
+  }
 }
 .news-article {
   position: relative;
