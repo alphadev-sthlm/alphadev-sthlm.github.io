@@ -14,7 +14,7 @@
   },
   "scripts": {
     "// entrypoints": "",
-    "prod": "npm-run-all webpack:prod build:static",
+    "prod": "npm-run-all clean-public webpack:prod build:static",
     "start": "npm run dev",
     "// build-steps": "as run by npm start",
     "predev": "npm run build",
