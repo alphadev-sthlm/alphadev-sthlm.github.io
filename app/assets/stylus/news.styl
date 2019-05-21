@@ -15,6 +15,9 @@ $radius = 3px;
 
   small {
     color: $main-color;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 20px;
   }
 
   a {
@@ -27,8 +30,12 @@ $radius = 3px;
 
   &__headline {
     max-width: $desktop-width;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: $secondary-color;
+  }
+
+  &__text {
+    margin-bottom: 10px;
   }
 
   &__headline--highlighted {
@@ -68,7 +75,8 @@ $radius = 3px;
     }
   }
   &__column {
-    box-shadow: 0 0 1px $main-color;
+    box-shadow: 0 0 2px $main-color;
+    //background-color: #f5f4f4;
     border-radius: $radius;
     margin-bottom: 10px;
     background: white;
@@ -89,6 +97,27 @@ $radius = 3px;
     img {
       border-top-left-radius: $radius;
       border-top-right-radius: $radius;
+    }
+  }
+
+  &__column:nth-child(1) {
+    @media (min-width $tablet-width) {
+      margin-left: 0;
+    }
+
+    @media (min-width $desktop-width) {
+      margin-left: 0;
+    }
+  }
+
+  &__column:nth-child(3) {
+
+    @media (min-width $tablet-width) {
+      margin-right: 0;
+    }
+
+    @media (min-width $desktop-width) {
+      margin-right: 0;
     }
   }
 }
