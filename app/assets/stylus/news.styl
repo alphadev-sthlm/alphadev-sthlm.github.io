@@ -1,3 +1,4 @@
+$radius = 3px;
 .news-part {
   position: relative;
   display: block;
@@ -68,7 +69,7 @@
   }
   &__column {
     box-shadow: 0 0 1px $main-color;
-
+    border-radius: $radius;
     border-right-color: $dark-gray;
     border-right-style: solid;
     border-right-width: 1px;
@@ -89,6 +90,11 @@
 
     &--fullsize {
       margin-bottom: 2rem;
+    }
+
+    img {
+      border-top-left-radius: $radius;
+      border-top-right-radius: $radius;
     }
   }
 }
