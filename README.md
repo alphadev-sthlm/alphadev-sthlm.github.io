@@ -14,7 +14,11 @@ Aplhadevs awesome website
   * Run `npm install`
 * Workflow
   * Run `npm start`
-  * Open `localhost:8080`
+  * Open http://localhost:8080
+  * Update files, reload the browser and watch the magic
+* Alternate workflow
+  * Run `docker-compose up`
+  * Open http://127.0.0.1:8080
   * Update files, reload the browser and watch the magic
 * Deploy
   * Run `npm run prod`
