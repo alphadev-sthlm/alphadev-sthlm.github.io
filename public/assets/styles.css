@@ -1003,8 +1003,8 @@ img {
       justify-content: space-between;
 }
 .news-part__content--headline {
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-pack: left;
+      justify-content: left;
 }
 @media (min-width: 768px) {
   .news-part__content {
@@ -1198,8 +1198,8 @@ img {
       justify-content: space-between;
 }
 .news-part__content--headline {
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-pack: left;
+      justify-content: left;
 }
 @media (min-width: 768px) {
   .news-part__content {
