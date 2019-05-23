@@ -19,8 +19,8 @@ class News extends React.Component {
             <a href={`/news/?id=${newsItem.id}`}><img src={newsItem.image}></img></a>
             <div className="news-part__bottom">
               <h3 className="news-part__headline">{newsItem.title}</h3>
-              <p className="news-part__text" dangerouslySetInnerHTML={{__html: newsItem.ingress}}/>
-              <small>{newsItem.date}</small>
+			  <small>{newsItem.date}</small>
+              <p className="news-part__text" dangerouslySetInnerHTML={{__html: newsItem.ingress}}/>              
               {newsItem.body && <a href={`/news/?id=${newsItem.id}`}>Läs mer</a>}
             </div>
           </div>
@@ -33,7 +33,7 @@ class News extends React.Component {
       <div className={`news-part${ this.props.fullsize ? ' news-part--fullsize' : ''}`}>
         <div className="news-part__content news-part__content--headline">
           <h2 className="news-part__headline">
-            <span className="news-part__headline--highlighted">Nytt</span> hos oss
+            Senaste <span className="news-part__headline--highlighted">nytt</span>
           </h2>
         </div>
         <div className={`news-part__content${ this.props.fullsize ? ' news-part__content--fullsize' : ''}`}>
