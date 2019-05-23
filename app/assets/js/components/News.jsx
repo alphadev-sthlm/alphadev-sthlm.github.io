@@ -16,11 +16,11 @@ class News extends React.Component {
         return (
           <div key={newsItem.title + newsItem.date}
             className={`news-part__column${ this.props.fullsize ? ' news-part__column--fullsize' : ''}`}>
-            <a href={`/news/?id=${newsItem.id}`}><img src={newsItem.image}></img></a>
+            <a href={`/news/?id=${newsItem.id}`}><img src={newsItem.image}/></a>
             <div className="news-part__bottom">
               <h3 className="news-part__headline">{newsItem.title}</h3>
-			  <small>{newsItem.date}</small>
-              <p className="news-part__text" dangerouslySetInnerHTML={{__html: newsItem.ingress}}/>              
+              <small>{newsItem.date}</small>
+              <p className="news-part__text" dangerouslySetInnerHTML={{__html: newsItem.ingress}}/>
               {newsItem.body && <a href={`/news/?id=${newsItem.id}`}>Läs mer</a>}
             </div>
           </div>
