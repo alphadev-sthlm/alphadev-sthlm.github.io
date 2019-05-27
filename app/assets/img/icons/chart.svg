@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="97px" viewBox="0 0 86 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22.6840181,5.09785354 L11.6077685,5.09785354 C10.509433,5.09785354 9.21212522,5.8989093 8.7136393,6.88706166 L3.56016252,17.1028373 C3.06177841,18.0907879 3.55378265,18.8920455 4.65931213,18.8920455 L49.775746,18.8920455 C50.8829853,18.8920455 51.3522939,18.1035942 50.8277951,17.1309904 L45.2883412,6.85890863 C44.7599098,5.87901226 43.447009,5.09785354 42.3471116,5.09785354 L31.1876964,5.09785354 C31.0649434,2.25625329 29.2082677,0 26.9358573,0 C24.6634469,0 22.8067711,2.25625329 22.6840181,5.09785354 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="47.6840383" height="18.8920455" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-363.000000, -109.000000)">
+            <g id="Group-4" transform="translate(365.000000, 109.000000)">
+                <path d="M66.4631579,11.8883509 C67.7104801,11.8883509 75.0870019,11.67001 78.8980489,12.9992747 C80.3213627,13.4957159 82,16.260904 82,16.8448281 L82,91.1166632 C82,93.2613709 80.6111424,95 78.8980489,95 L3.10195109,95 C1.38879081,95 0,93.2640951 0,91.1166632 L0,16.8448281 C0,16.2270856 1.84106478,13.5066231 3.10195109,12.9992747 C6.2186693,11.7451868 13.8216872,11.9727703 15.5368421,11.8883509" id="Rectangle-5" stroke="#DA9926" stroke-width="3"></path>
+                <g id="Group-2" transform="translate(19.000000, 33.645833)">
+                    <path d="M24.9615385,33.208622 L38.0769231,17.0530988" id="Line" stroke="#DA9926" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M11.4230769,22.4382732 L24.9615385,33.208622" id="Line" stroke="#DA9926" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M0,35.2301762 L10.9319266,22.024029" id="Line" stroke="#DA9926" stroke-width="8" stroke-linecap="square"></path>
+                    <polygon id="Triangle-3" fill="#DA9926" transform="translate(43.171288, 10.770349) rotate(39.000000) translate(-43.171288, -10.770349) " points="43.1712875 4.97093023 52.5516725 16.5697674 33.7909026 16.5697674"></polygon>
+                </g>
+                <g id="Group-3" transform="translate(14.000000, 0.000000)">
+                    <use id="Combined-Shape" stroke="#DA9926" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                    <path d="M22.6470588,6.47727685 L30.5996266,6.47727685" id="Line" stroke="#DA9926" stroke-width="3" stroke-linecap="square"></path>
+                    <rect id="Rectangle-7" fill="#DA9926" x="0" y="17.092803" width="54.2220528" height="2.69886364" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

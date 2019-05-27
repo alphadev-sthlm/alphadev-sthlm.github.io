@@ -1,0 +1,125 @@
+$dark = $dark-gray;
+.pre-footer {
+  display: block;
+  background-color: $dark;
+  text-decoration: none;
+
+  &__content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width $tablet-width) {
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    @media (min-width $desktop-width) {
+      justify-content: space-between;
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__content div {
+    display: inline-block;
+    padding: 10px 0;
+
+    @media (min-width $tablet-width) {
+      padding: 0 20px;
+    }
+
+    @media (min-width $desktop-width) {
+      padding: 0;
+
+      &:nth-child(2) {
+        width: 50%;
+      }
+
+      &:last-child {
+        width: 25%;
+      }
+    }
+  }
+
+  &__content div:first-of-type {
+    padding-bottom: 0;
+
+    @media (min-width $tablet-width) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width $desktop-width) {
+      margin-bottom: 0;
+      width: 25%;
+    }
+  }
+
+  &__headline {
+    margin-bottom: 0;
+    padding: 0;
+    color: $secondary-color-on-dark-bg;
+  }
+
+  &__headline--highlighted {
+    color: $main-color;
+  }
+
+  &__paragraph {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    color: white;
+
+    @media (min-width: $tablet-width) {
+      font-size: 16px;
+    }
+  }
+
+  &__paragraph + p {
+    margin-top: .5em;
+  }
+
+  &__paragraph--with-img {
+    position: relative;
+    // padding-left: 75px;
+  }
+
+  &__img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  &__name {
+    display: block;
+    font-weight: bold;
+  }
+
+  &__title {
+    display: block;
+
+    font-size: 12px;
+
+    @media (min-width: $tablet-width) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  &__mail {
+    display: inline-block;
+    color: $main-color;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

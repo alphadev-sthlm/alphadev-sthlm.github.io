@@ -1,0 +1,35 @@
+{
+  "news": [
+    {
+      "id": "3",
+      "date": "2019-05-19",
+      "title": "Säljansvarig",
+      "image": "/public/assets/img/news/saljansvarig.jpg",
+      "ingress": "Vi söker en säljansvarig!",
+      "body": [
+        "Sedan starten för drygt 4 år sedan har Alphadev vuxit långsamt men stadigt. Fokus har alltid varit att skapa en fantastisk arbetsplats för våra anställda och kvittot på det syns bland annat i den nästan obefintliga personalomsättningen.",
+        "Nu när vi passerat 25 anställda börjar det bli dags att stärka upp oss på säljsidan; vill du ta kaptenshatten och hitta dom roligaste uppdragen åt våra grymma konsulter? Har du någon i ditt nätverk som du tror är rätt för oss?"
+      ]
+    },
+    {
+      "id": "2",
+      "date": "2019-04-25",
+      "title": "Newcomers",
+      "image": "/public/assets/img/news/newcomers.jpg",
+      "ingress": "Säg hej till våra nya Alphadevare!",
+      "body": [
+        "Vårsäsongen på Alphadev har redan börjat på bästa sätt, med ett gäng fantastiska nya medarbetare: Joacim Gunnarsson, Andrea Filling och Johan Steen som nyss börjat, och Jesper Lehtinen och Jesper Augustsson som kommer till oss i maj.",
+        "Andrea är vår blivande stjärna på HQ och Joacim och Johan är igång på sina nya uppdrag på MRG respektive Novamedia.",
+        "Teknikmässigt fortsätter vi således förstärka oss inom React, Node, Angular, .NET och Java. Den bästa mixen :)",
+        "Varmt välkomna till Alphadev!"
+      ]
+    },
+    {
+      "id": "1",
+      "date": "2019-03-21",
+      "title": "Inside Alphadev",
+      "image": "/public/assets/img/news/inside.jpg",
+      "ingress": "Ny sida för lite personligare innehåll finns nu uppe på <a href=\"http://inside.alphadev.se\">inside.alphadev.se</a>"
+    }
+  ]
+}

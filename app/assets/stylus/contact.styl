@@ -1,0 +1,84 @@
+.contact-part {
+  position: relative;
+  display: block;
+  width: 100%;
+  color: white;
+  background-image: url('../img/bg/black_map.jpg');
+  background-position: 70% 45%;
+  background-size: cover;
+  padding: 40px 0;
+  justify-content: space-between;
+
+  &:before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    max-width: $desktop-width;
+    flex-direction: column;
+
+    @media (min-width $tablet-width) {
+      flex-direction: row;
+    }
+  }
+
+  &__column {
+    width: 100%;
+
+    &:first-child {
+      margin-bottom: 25px;
+    }
+
+    &:last-child {
+      width: 75%;
+    }
+
+    @media (min-width $tablet-width) {
+      padding: 0 20px;
+      width: 25%;
+
+      &:first-child {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (min-width $desktop-width) {
+      padding: 0;
+    }
+  }
+
+  &__headline {
+    margin-bottom: 10px;
+    color: $white;
+  }
+
+  &__text {
+    line-height: 22px;
+    font-size: 16px;
+
+    & a {
+      color: $main-color;
+    }
+  }
+
+  .social-icon {
+
+    .fa {
+      font-size: 30px;
+      margin-right: 10px;
+      color: white;
+    }
+  }
+}

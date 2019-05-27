@@ -1,0 +1,71 @@
+.intro-part {
+  background: url('../img/bg/intro-small.jpg') center top;
+  margin: 0 auto;
+  width: 100%;
+  line-height: 20px;
+  position: relative;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  z-index: 1;
+  height: 55vh;
+
+  @media (min-width $content-width) {
+    background: url('../img/bg/intro.jpg') center top;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    height: 70vh;
+  }
+
+
+  &__image {
+    opacity: 0;
+    transition: all 1.2s;
+    position: absolute;
+    padding: 0 15px;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -100px);
+
+    &--animate {
+      opacity: 1;
+      transform: translate(-50%, -60px);
+    }
+
+    @media (min-width $desktop-width) {
+      transform: translate(-50%, -90px);
+
+      &--animate {
+        opacity: 1;
+        transform: translate(-50%, -50px);
+      }
+    }
+  }
+
+  &__banner {
+    margin: 0 auto 15px;
+    max-width: 100px;
+
+    @media (min-width $desktop-width) {
+      max-width: 140px;
+      padding: 0;
+      margin: 0 auto 20px;
+    }
+  }
+
+  &__subtitle {
+    display: block;
+    text-align: center;
+    color: white;
+    line-height: 1.5em;
+    font-size: 22px;
+
+    @media (min-width $content-width) {
+      font-size: 32px;
+    }
+  }
+}

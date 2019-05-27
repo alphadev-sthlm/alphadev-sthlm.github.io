@@ -1,0 +1,86 @@
+$light = #9d9e9e;
+$hoverblue = #0077b5;
+.consultants-part {
+  margin: 0 auto 50px;
+  max-width: 900px;
+  text-align: center;
+
+  &__info {
+    font-size: 1.8em;
+    i.fa {
+      color: $light;
+      &:hover {
+        color: $hoverblue;
+      }
+    }
+  }
+  &__headline {
+    color: $secondary-color;
+    padding: 0 0 15px 0;
+  }
+  &__intro-text {
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__consultants {
+    padding: 20px 10px;
+    display: flex-flow;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__name {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: $secondary-color;
+  }
+  &__title {
+    margin-bottom: 10px;
+    color: $main-color;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &__image-container {
+    width: 70%;
+    margin: 0 auto 15px;
+  }
+  &__image-wrapper {
+    padding-bottom: 100%;
+    height: 0;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__consultant {
+    display: inline-flex;
+    padding: 10px 0;
+    width: 50%;
+
+    // Tablet
+    @media (min-width $tablet-width) {
+      width: 33%;
+    } // Desktop
+    @media (min-width $desktop-width) {
+      width: 25%;
+    }
+  }
+  &__toggle-button {
+    display: block;
+    width: 100%;
+  }
+  &__consultant-wrapper {
+    background-color: $white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .fa {
+    color: black;
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "consultants": [
+    {
+      "name": "Leon Hennings",
+      "linkedin": "https://se.linkedin.com/in/leon-hennings-40218257",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Leon_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Sammi Kliv Haj Hassine",
+      "linkedin": "https://www.linkedin.com/in/sammi-haj-hassine-88a60648",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Sammi_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Olle Kallström",
+      "linkedin": "https://se.linkedin.com/in/olle-kallstroem",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Olle_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Jon Neergaard",
+      "linkedin": "https://se.linkedin.com/in/jonneergaard",
+      "title": "VD",
+      "image": "public/assets/img/consultants2/Jon_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Jens Ohlsson",
+      "linkedin": "https://www.linkedin.com/in/jens-ohlsson-9670073/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Jens_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Jonas Montonen",
+      "linkedin": "https://se.linkedin.com/in/montonen",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Jonas_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Peter Österdahl",
+      "linkedin": "https://se.linkedin.com/in/peterosterdahl",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Peter_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Daniel Lundström",
+      "linkedin": "https://se.linkedin.com/in/daniellundstrom",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Lundström_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Daniel Hamner",
+      "linkedin": "https://se.linkedin.com/in/daniel-hamner-6a6a9949",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Hamner_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Fredrik Bergström",
+      "linkedin": "https://se.linkedin.com/pub/fredrik-bergstr%C3%B6m/0/674/992",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Fredrik_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Eduardo Castaneda",
+      "linkedin": "https://se.linkedin.com/in/eduardo-castaneda-4775aa58",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Eddo_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Johan Windahl",
+      "linkedin": "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Windahl_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Johan Lindgren",
+      "linkedin": "https://se.linkedin.com/pub/johan-lindgren/1/603/9b4",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Lindgren_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Tommy Lindberg",
+      "linkedin": "https://se.linkedin.com/pub/tommy-lindberg/56/472/985/en",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Tommy_prt_pale.jpg"
+    },
+    {
+      "name": "Erik Scherman",
+      "linkedin": "https://www.linkedin.com/in/erik-scherman-02b23515/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Erik_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Helena Tehler",
+      "linkedin": "https://www.linkedin.com/in/helenaoqvist/",
+      "title": "Projektledare",
+      "image": "public/assets/img/consultants2/Helena_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Anders Ulfheden",
+      "linkedin": "https://www.linkedin.com/in/anders-ulfheden-91791649/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Ulfheden_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Johan Forsman",
+      "linkedin": "https://www.linkedin.com/in/johanforsman/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Forsman_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Robert Wideberg",
+      "linkedin": "https://www.linkedin.com/in/robert-wideberg-57a55ab8/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Robert_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Johan Andersson",
+      "linkedin": "https://www.linkedin.com/in/johan-andersson-40861474/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Andersson_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Markus Rantanikunen",
+      "linkedin": "https://www.linkedin.com/in/markus-rantanikunen-3727901b/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Markus_prt_pale_sml.jpg"
+    },
+	{
+      "name": "Mikael Porttila",
+      "linkedin": "https://www.linkedin.com/in/mikaelporttila/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Mikael_disguisedv3.jpg"
+    },
+	{
+      "name": "Andrea Filling",
+      "linkedin": "https://www.linkedin.com/in/andrea-filling-8262b583/",
+      "title": "Office Manager",
+      "image": "public/assets/img/consultants2/Andrea_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Marcus Höjvall",
+      "linkedin": "https://www.linkedin.com/in/hojvall/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Höjvall_prt_pale_sml.jpg"
+   },
+    {
+      "name": "Johan Steen",
+      "linkedin": "https://www.linkedin.com/in/johan-steen-9984632a/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Steen_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Jesper Lehtinen",
+      "linkedin": "https://www.linkedin.com/in/jesperlehtinen/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Lehtinen_prt_pale_sml.jpg"
+    },
+{
+      "name": "Jesper Augustsson",
+      "linkedin": "https://www.linkedin.com/in/jesperaugustsson/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Augustsson_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Joacim Gunnarsson",
+      "linkedin": "https://www.linkedin.com/in/joacimgunnarsson/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Gunnarsson_prt_pale_sml.jpg"
+    }
+  ],
+  "professions": [
+    {
+      "headline": "Frontend",
+      "text": "HTML, CSS, Javascript och tillhörande moderna ramverk såsom React/Redux, Angular, Vue, Aurelia mfl. Devops, e2e-testautomatisering, CI/CD, mm. Web och appar.",
+      "imageSrc": "public/assets/img/icons/frontend_icon.svg"
+    },
+    {
+      "headline": "Backend",
+      "text": "API’er och affärslogik i Java, .NET, Node, Go, mm. Integrationer mellan bla skräddarsydda system, standardsystem, legacy, web och backend. SQL och NoSQL databaser. Devops, containrar, automatisering, CI/CD, mm.",
+      "imageSrc": "public/assets/img/icons/backend_icon.svg"
+    },
+    {
+      "headline": "Utbildning",
+      "text": "Vi arrangerar skräddarsydd utbildning inom alla våra kompetensområden på önskad nivå; från flerdagars-workshops till kortare dragningar. Antingen hos oss, eller på plats i era lokaler.",
+      "imageSrc": "public/assets/img/icons/training_icon.svg"
+    },
+    {
+      "headline": "Agilt metodstöd och ledning",
+      "text": "Coachning eller ledning vid införande eller förbättring av agil utveckling / agilt arbetssätt. Scrum Masters, Produktägare, mm. Även roller som tekniskt ansvarig eller teknisk projektledning.",
+      "imageSrc": "public/assets/img/icons/agile_icon.svg"
+    },
+    {
+      "headline": "Arkitektur",
+      "text": "Enterprise-, lösnings- och systemarkitektur. Granskningar, åtgärdsförslag, systemkartläggningar, prestandaoptimering",
+      "imageSrc": "public/assets/img/icons/architect_icon.svg"
+    }
+  ]
+}
