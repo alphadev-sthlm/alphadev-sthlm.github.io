@@ -72,7 +72,9 @@ class Consultants extends React.Component {
 
     return (
       <div className="consultants-part" id="consultants">
-        <h1 className="consultants-part__headline "><span className="main-color">Alphadevare</span></h1>
+        <h1 className="consultants-part__headline ">
+          <span className="main-color">ALPHA</span>DEV<span className="main-color">ARE</span>
+        </h1>
         <p className="consultants-part__intro-text">
           Vi är {HQ.length + CONSULTANTS.length} stycken glada Alphadevare ombord, varav {CONSULTANTS.length} konsulter
           redo att hoppa på roliga, utmanande och stimulerande uppdrag.
