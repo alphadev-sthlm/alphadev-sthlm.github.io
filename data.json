@@ -1,4 +1,28 @@
 {
+  "hq": [
+    {
+      "name": "Jon Neergaard",
+      "linkedin": "https://se.linkedin.com/in/jonneergaard",
+      "title": "CEO",
+      "image": "public/assets/img/consultants2/Jon_prt_pale_sml.jpg",
+      "email": "jon.neergaard@alphadev.se",
+      "phone": "+46702960005"
+    },
+    {
+      "name": "Andrea Filling",
+      "linkedin": "https://www.linkedin.com/in/andrea-filling-8262b583/",
+      "title": "Talent & Culture",
+      "image": "public/assets/img/consultants2/Andrea_prt_pale_sml.jpg",
+      "email": "andrea.filling@alphadev.se"
+    },
+    {
+      "name": "Jakob Aronsson",
+      "linkedin": "https://www.linkedin.com/in/jakob-aronsson-52904b7b/",
+      "title": "Head of Sales",
+      "image": "public/assets/img/consultants2/aronsson_prt_pale_sml.jpg",
+      "email": "jakob.aronsson@alphadev.se"
+    }
+  ],
   "consultants": [
     {
       "name": "Leon Hennings",
@@ -17,12 +41,6 @@
       "linkedin": "https://se.linkedin.com/in/olle-kallstroem",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Olle_prt_pale_sml.jpg"
-    },
-    {
-      "name": "Jon Neergaard",
-      "linkedin": "https://se.linkedin.com/in/jonneergaard",
-      "title": "VD",
-      "image": "public/assets/img/consultants2/Jon_prt_pale_sml.jpg"
     },
     {
       "name": "Jens Ohlsson",
@@ -126,35 +144,23 @@
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Markus_prt_pale_sml.jpg"
     },
-	{
+    {
       "name": "Mikael Porttila",
       "linkedin": "https://www.linkedin.com/in/mikaelporttila/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Mikael_disguisedv3.jpg"
-    },
-	{
-      "name": "Andrea Filling",
-      "linkedin": "https://www.linkedin.com/in/andrea-filling-8262b583/",
-      "title": "Talent & Culture",
-      "image": "public/assets/img/consultants2/Andrea_prt_pale_sml.jpg"
     },
     {
       "name": "Marcus Höjvall",
       "linkedin": "https://www.linkedin.com/in/hojvall/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Höjvall_prt_pale_sml.jpg"
-   },
+    },
     {
       "name": "Johan Steen",
       "linkedin": "https://www.linkedin.com/in/johan-steen-9984632a/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Steen_prt_pale_sml.jpg"
-  },
-    {
-      "name": "Jakob Aronsson",
-      "linkedin": "https://www.linkedin.com/in/jakob-aronsson-52904b7b/",
-      "title": "Head of Sales",
-      "image": "public/assets/img/consultants2/aronsson_prt_pale_sml.jpg"
     },
     {
       "name": "Jesper Lehtinen",
@@ -162,7 +168,7 @@
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Lehtinen_prt_pale_sml.jpg"
     },
-{
+    {
       "name": "Jesper Augustsson",
       "linkedin": "https://www.linkedin.com/in/jesperaugustsson/",
       "title": "Utvecklare",

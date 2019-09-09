@@ -7,22 +7,28 @@ $hoverblue = #0077b5;
 
   &__info {
     font-size: 1.8em;
+
     i.fa {
       color: $light;
+
       &:hover {
         color: $hoverblue;
       }
     }
   }
+
   &__headline {
     color: $secondary-color;
     padding: 0 0 15px 0;
   }
+
   &__intro-text {
     max-width: 660px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
   }
+
   &__consultants {
     padding: 20px 10px;
     display: flex-flow;
@@ -36,6 +42,7 @@ $hoverblue = #0077b5;
     font-size: 18px;
     color: $secondary-color;
   }
+
   &__title {
     margin-bottom: 10px;
     color: $main-color;
@@ -43,10 +50,21 @@ $hoverblue = #0077b5;
     text-transform: uppercase;
     font-weight: bold;
   }
+
+  &__email, &__phone {
+    display: inline-block;
+    color: $main-color;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: none;
+    overflow-x: hidden;
+  }
+
   &__image-container {
     width: 70%;
     margin: 0 auto 15px;
   }
+
   &__image-wrapper {
     padding-bottom: 100%;
     height: 0;
@@ -62,15 +80,18 @@ $hoverblue = #0077b5;
     // Tablet
     @media (min-width $tablet-width) {
       width: 33%;
-    } // Desktop
+    }
+    // Desktop
     @media (min-width $desktop-width) {
       width: 25%;
     }
   }
+
   &__toggle-button {
     display: block;
     width: 100%;
   }
+
   &__consultant-wrapper {
     background-color: $white;
     padding: 15px;
