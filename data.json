@@ -6,21 +6,23 @@
       "title": "CEO",
       "image": "public/assets/img/consultants2/Jon_prt_pale_sml.jpg",
       "email": "jon.neergaard@alphadev.se",
-      "phone": "+46702960005"
+      "phone": "+46 70 2960005"
     },
     {
       "name": "Andrea Filling",
       "linkedin": "https://www.linkedin.com/in/andrea-filling-8262b583/",
       "title": "Talent & Culture",
       "image": "public/assets/img/consultants2/Andrea_prt_pale_sml.jpg",
-      "email": "andrea.filling@alphadev.se"
+      "email": "andrea.filling@alphadev.se",
+      "phone": "+46 70 4483060"
     },
     {
       "name": "Jakob Aronsson",
       "linkedin": "https://www.linkedin.com/in/jakob-aronsson-52904b7b/",
       "title": "Head of Sales",
       "image": "public/assets/img/consultants2/aronsson_prt_pale_sml.jpg",
-      "email": "jakob.aronsson@alphadev.se"
+      "email": "jakob.aronsson@alphadev.se",
+      "phone": "+46 70 7199491"
     }
   ],
   "consultants": [
