@@ -183,6 +183,18 @@
       "image": "public/assets/img/consultants2/Jasmin_prt_pale_sml.jpg"
     },
     {
+      "name": "Johan Nilsson",
+      "linkedin": "https://www.linkedin.com/in/johannilsson/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Nilsson_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Anders Olsson",
+      "linkedin": "https://www.linkedin.com/in/anders-olsson-21641358/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Olsson_prt_pale_sml.jpg"
+    },
+    {
       "name": "Joacim Gunnarsson",
       "linkedin": "https://www.linkedin.com/in/joacimgunnarsson/",
       "title": "Utvecklare",
