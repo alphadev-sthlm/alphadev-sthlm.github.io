@@ -72,14 +72,13 @@ class Consultants extends React.Component {
 
     return (
       <div className="consultants-part" id="consultants">
-        <h1 className="consultants-part__headline ">
-          <span className="main-color">ALPHA</span>DEV<span className="main-color">ARE</span>
-        </h1>
+        <h2 className="consultants-part__headline ">
+          Våra <span className="main-color">Konsulter</span>
+        </h2>
         <p className="consultants-part__intro-text">
           Vi är {HQ.length + CONSULTANTS.length} stycken glada Alphadevare ombord, varav {CONSULTANTS.length} konsulter
-          redo att hoppa på roliga, utmanande och stimulerande uppdrag.
+          redo att hoppa på roliga, utmanande och stimulerande uppdrag:
         </p>
-        <h2 className="consultants-part__headline">Våra <span className="main-color">Konsulter</span></h2>
         <div className="consultants-part__consultants">
           {shuffledConsultants.map((consultant) => this.renderConsultant(consultant))}
         </div>

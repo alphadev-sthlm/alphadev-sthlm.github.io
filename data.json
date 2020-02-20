@@ -16,6 +16,14 @@
       "email": "andrea.filling@alphadev.se",
       "phone": "+46 70 4483060"
     },
+	{
+      "name": "Martina Amrén",
+      "linkedin": "https://www.linkedin.com/in/martina-amr%C3%A9n-3906775a/",
+      "title": "Office Manager",
+      "image": "public/assets/img/consultants2/Martina_prt_pale_sml2.jpg",
+      "email": "martina.amren@alphadev.se",
+      "phone": "+46 70 3703098"
+    },
     {
       "name": "Jakob Aronsson",
       "linkedin": "https://www.linkedin.com/in/jakob-aronsson-52904b7b/",
@@ -193,6 +201,12 @@
       "linkedin": "https://www.linkedin.com/in/anders-olsson-21641358/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Olsson_prt_pale_sml.jpg"
+    },
+	{
+      "name": "Helene Westrin",
+      "linkedin": "https://www.linkedin.com/in/helenewestrin/",
+      "title": "UX / UI Designer",
+      "image": "public/assets/img/consultants2/Helene_prt_pale_sml.jpg"
     },
     {
       "name": "Joacim Gunnarsson",
