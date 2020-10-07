@@ -1,5 +1,54 @@
 {
-  "news": [
+  "news": [	
+	{
+      "id": "7",
+      "date": "2020-06-11",
+      "title": "Sommarfest på distans",
+      "image": "/public/assets/img/news/kockar2.jpg",
+      "ingress": "På Alphadev har vi alltid haft stort fokus på social samvaro för våra konsulter, men hur gör man en bra sommarfest när man inte får umgås fysiskt?",
+      "body": [
+	  "Vi kliade oss i huvudet och landade till slut in i något som kanske kan vara ett tips till er som är i samma läge just nu och undrar vad man kan hitta på för skoj för bolaget/avdelningen:",
+		"Vi började med en 'code-breaker'-challenge, under ledning av 360Aktiviteter. Det var som ett escape room, fast på distans, där vi delades in i små zoom-grupper och mha av en dedikerad app fick utforska ett kontor och lösa diverse problem. Lika intensivt som ett traditionellt Escape Room, men från soffan.",
+		"Sen var det dags för huvudaktiviteten, där Johan Lindgren och Jon Neergaard ledde en 3-rätters cook-a-long. Alla Alphadevare var hemma i sina egna kök, förberedda med matkassar och kastruller och fick en interaktiv tv-kock upplevelse med en lätt touch av Werner och Werner.",
+		"Avslutningsvis var det middagssittning där vi körde olika virtuella matrum med 3-4 sällskap i varje, som vi växlade mellan varje rätt, för att ge en chans att umgås lite närmare med lite olika medarbetare.",
+		"All in all en väldigt udda, men ändå väldigt lyckad sommarfest.",
+		"Glad sommar på er därute!"
+      ]
+    },
+	{
+      "id": "6",
+      "date": "2020-02-10",
+      "title": "Alphadev goes UX",
+      "image": "/public/assets/img/news/Helene2.jpg",
+      "ingress": "Nu är hon äntligen på plats! Och med Helenes ankomst så fortsätter Alphadev att bredda sitt erbjudande med UX/UI-expertis till sina befintliga och framtida kunder.",
+      "body": [
+		"Inte nog med att hon är en glädjespridare av rang - Helene är också en mångsidig designer som har hjälpt över 50 bolag med allt från design, branding, research, kommunikation, strategi och frontendutveckling. Hon har den där förmågan att både kunna ta ett helikopterperspektiv och dyka ner i detaljer vid behov. Med andra ord så finns det många strängar på den berömda lyran.",
+		"Är du eller någon som du känner i behov utav UX-expertis? Då tycker jag att du ska kika in på hennes portfolio https://helenewestrin.se/ och sedan höra av dig till Jakob eller Jon!"
+	  ]
+    },
+	{
+      "id": "5",
+      "date": "2019-12-10",
+      "title": "Kompetensluncher ftw",
+      "image": "/public/assets/img/news/kompetensluncher.jpg",
+      "ingress": "Varannan vecka kör vi kompetensluncher; idag stod nya React-features med Jesper Lehtinen på menyn",
+      "body": [
+	  "Våra kompetensluncher kan handla om allt från nya ramverk, kodknep och devopstooling, via agila best practices och knep och till allmänna tips för hur man blir en bättre konsult och lyckligare människa. Oftast delar vi egna erfarenheter eller kunskaper, och ibland tar vi in externa talare från kontaktnätet"
+      ]
+    },
+	{
+      "id": "4",
+      "date": "2019-10-01",
+      "title": "Nya stjärnor",
+      "image": "/public/assets/img/news/newstars.jpg",
+      "ingress": "Hösten har kommit, men vi parerar mörkret med tre nya lysande stjärnor på Alphadev-himlen",
+      "body": [
+	  "En stycken fantastisk Java och Node-stjärna i form av Johan Nilsson",
+		"En stycken fantastisk Angular och .NET-stjärna i form av Anders Olsson",
+		"En stycken fantastisk Java och Kotlin-stjärna i form av Jasmin Kiviniemi",
+		"Varmt välkomna!"
+      ]
+    },
     {
       "id": "3",
       "date": "2019-05-19",
