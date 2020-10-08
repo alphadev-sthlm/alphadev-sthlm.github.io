@@ -63,12 +63,6 @@
       "image": "public/assets/img/consultants2/Peter_prt_pale_sml.jpg"
     },
     {
-      "name": "Daniel Lundström",
-      "linkedin": "https://se.linkedin.com/in/daniellundstrom",
-      "title": "Utvecklare",
-      "image": "public/assets/img/consultants2/Lundström_prt_pale_sml.jpg"
-    },
-    {
       "name": "Daniel Hamner",
       "linkedin": "https://se.linkedin.com/in/daniel-hamner-6a6a9949",
       "title": "Utvecklare",
@@ -147,7 +141,7 @@
       "image": "public/assets/img/consultants2/Steen_prt_pale_sml.jpg"
     },
     {
-      "name": "Jesper Lehtinen",
+      "name": "Jesper Nord (fd Lehtinen)",
       "linkedin": "https://www.linkedin.com/in/jesperlehtinen/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Lehtinen_prt_pale_sml.jpg"
