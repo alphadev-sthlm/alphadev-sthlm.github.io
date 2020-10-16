@@ -1,6 +1,17 @@
 {
   "news": [	
 	{
+      "id": "8",
+      "date": "2020-10-16",
+      "title": "Galopperande gasell",
+      "image": "/public/assets/img/news/gasell_2020.jpg",
+      "ingress": "Alphadev har blivit utnämnda till Gasell-företag i år igen i gott sällskap med många andra framgångsrika företag i Sverige - och fått tillhörande glitter och ballonger.",
+      "body": [
+		"Grymt jobbat alla Alphadevare - och tack alla kunder som gör det möjligt.",
+		"Vi niger och bockar!"
+      ]
+    },
+	{
       "id": "7",
       "date": "2020-06-11",
       "title": "Sommarfest på distans",
