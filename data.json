@@ -193,6 +193,12 @@
       "linkedin": "https://www.linkedin.com/in/joacimgunnarsson/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Gunnarsson_prt_pale_sml.jpg"
+    },
+	{
+      "name": "Niklas von Tell",
+      "linkedin": "https://www.linkedin.com/in/nvontell/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/niklas_prt_pale_sml.jpg"
     }
   ],
   "professions": [
