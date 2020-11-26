@@ -199,6 +199,12 @@
       "linkedin": "https://www.linkedin.com/in/nvontell/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/niklas_prt_pale_sml.jpg"
+    },
+	{
+      "name": "Zakaria Sabra",
+      "linkedin": "https://www.linkedin.com/in/zakaria-sabra-74b397a9/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/zak_prt_pale_sml.jpg"
     }
   ],
   "professions": [
