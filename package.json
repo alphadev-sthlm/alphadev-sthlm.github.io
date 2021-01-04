@@ -44,7 +44,7 @@
   "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.1",
     "cheerio": "^0.22.0",
     "handlebars": "^4.3.0",
