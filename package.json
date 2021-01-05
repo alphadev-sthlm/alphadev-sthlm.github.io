@@ -44,12 +44,12 @@
   "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.1",
     "cheerio": "^0.22.0",
-    "handlebars": "^4.3.0",
+    "handlebars": "^4.7.6",
     "instafeed.js": "^1.4.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.20",
     "log": "^1.4.0",
     "morgan": "^1.9.1",
     "prop-types": "^15.7.2",
@@ -76,7 +76,7 @@
     "json-loader": "^0.5.4",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.6.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "mkdirp": "^0.5.1",
     "nodemon": "^1.18.10",
     "npm-run-all": "^3.1.0",
@@ -97,7 +97,7 @@
     "webpack": "^4.31.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.4.1"
+    "webpack-dev-server": "^3.11.1"
   },
   "files": [
     "app",
