@@ -1,6 +1,18 @@
 {
   "news": [	
     {
+      "id": "10",
+      "date": "2020-12-15",
+      "title": "Julfest",
+      "image": "/public/assets/img/news/julfest.jpg",
+      "ingress": "I fredags blev det remote julfest för alla Alphadevare och respektiven, med fria tolkningar av julikoner såsom Kalle Anka, Arne Weisse och Ernst, mm.",
+      "body": [
+		"Kvällens värd, Jon Weisse, bjöd oss på diverse julhälsningar inspirerade av Kalle Ankas traditionella jul-TV, vi hoppade in i våra respektive kök och bakade och dekorerade pepparkakshus där kreativiteten flödade i bästa Ernst-stil och vi åt ett riktigt bra klassiskt julbord.",
+		"För den senare delen av kvällen passade vi på att testa gather.town, en virtuell mötesvärld för att enkelt låta alla gå runt själva och mingla. Funkade riktigt bra!",
+		"Tack alla som var med och förgyllde kvällen!"
+      ]
+    },
+	{
       "id": "9",
       "date": "2020-11-09",
       "title": "Nya Alphadevare",
