@@ -2,7 +2,7 @@
 
 ## Description
 
-Alphadevs awesome website
+Aplhadevs awesome website
 
 ## Setup
 

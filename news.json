@@ -1,18 +1,6 @@
 {
   "news": [	
     {
-      "id": "11",
-      "date": "2021-02-03",
-      "title": "Mobbprogrammering",
-      "image": "/public/assets/img/news/mob_programming_jasmin.png",
-      "ingress": "Kompetenslunch om mobbprogrammeringens do's and dont's",
-      "body": [
-    "På Alphadev har vi regelbundna kompetensluncher med blandat innehåll. Den här gången var det Jasmin som berättade om för och nackdelar med mobbprogrammering.",
-    "Jasmin har flera års erfarenhet av mobbprogrammering, ifrån ett flertal företag och projekt. Idag lärde hon oss om: Hur funkar det i praktiken?, varför funkar det inte alls ibland?, hur kan vi bli bättre? Dessutom blev det en hel del instick och frågor ifrån våra konsulter.",
-    "Tack för en grym presentation!"
-      ]
-    },
-    {
       "id": "10",
       "date": "2020-12-15",
       "title": "Julfest",
