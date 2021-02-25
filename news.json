@@ -1,6 +1,17 @@
 {
   "news": [	
     {
+      "id": "12",
+      "date": "2021-02-25",
+      "title": "Bubbel-provning",
+      "image": "/public/assets/img/news/bubbel.jpg",
+      "ingress": "Hur förgyller man work-from-home livet på bästa sätt i vintermörkret? Med lite bubbelprovning förstås!",
+      "body": [
+    "En viktig del av Alphadevs kultur är våra sociala events för att stärka vår interna sammanhållning. Den biten har förstås tagit lite stryk i pandemi-tider, men vi gör vårt bästa för att hålla igång även när allt sker remote.",
+	"Igår fick vi ställa några klassiska bubbelalternativ mot varandra under guidning från vinproffset Daniella Lundh Egenäs. Kul tillställning som varmt kan rekommenderas till er som undrar vad man kan hitta på i dessa tider."
+      ]
+    },
+	{
       "id": "11",
       "date": "2021-02-03",
       "title": "Mobbprogrammering",
