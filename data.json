@@ -199,6 +199,12 @@
       "linkedin": "https://www.linkedin.com/in/zakaria-sabra-74b397a9/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/zak_prt_pale_sml.jpg"
+    },
+	{
+      "name": "Alexander Lindfors",
+      "linkedin": "https://www.linkedin.com/in/alexander-lindfors/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/alex_prt_pale_sml.jpg"
     }
   ],
   "professions": [
