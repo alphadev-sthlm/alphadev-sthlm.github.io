@@ -1,6 +1,16 @@
 {
   "news": [	
     {
+      "id": "13",
+      "date": "2021-05-05",
+      "title": "Välkommen, Alex",
+      "image": "/public/assets/img/news/alex_octo_cropped_horizontal_sml.jpg",
+      "ingress": "Vår nya stjärna på Alphadevhimlen har anlänt i form av fullstackutvecklaren Alexander 'Alex' Lindfors!",
+      "body": [
+    "Alex är en bred utvecklare med spetsen inom React på frontend och Java i backend, och hoppar rakt in i nytt uppdrag på Tele2. Varmt välkommen, Alex!"
+      ]
+    },
+	{
       "id": "12",
       "date": "2021-02-25",
       "title": "Bubbel-provning",
