@@ -1,6 +1,16 @@
 {
   "news": [	
     {
+      "id": "14",
+      "date": "2021-06-16",
+      "title": "Sommar-picnic",
+      "image": "/public/assets/img/news/Campsite.jpg",
+      "ingress": "Det har varit ett långt år av remote-aktiviteter, men när nu sommaren äntligen är här passar vi på att njuta ett tag i det fria.",
+      "body": [
+    "Det skulle egentligen varit sommarfest-dags, men i hopp om mindre smittsamma tider framöver fick det istället bli en picnic deluxe på Gärdet för våra fantastiska Alphadevare. Massagebänkar, live-grillning, iskyld dryck och snacks en masse, skönt häng, ett tufft musikquiz och en lekfull nordisk landskamp i sann EM-anda, där Danmark till slut stod som segrare!"
+      ]
+    },
+	{
       "id": "13",
       "date": "2021-05-05",
       "title": "Välkommen, Alex",
