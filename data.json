@@ -201,6 +201,12 @@
       "image": "public/assets/img/consultants2/zak_prt_pale_sml.jpg"
     },
 	{
+      "name": "Johan Saldes",
+      "linkedin": "https://www.linkedin.com/in/johan-saldes-codehead/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/saldes_prt_pale_sml.jpg"
+    },
+	{
       "name": "Alexander Lindfors",
       "linkedin": "https://www.linkedin.com/in/alexander-lindfors/",
       "title": "Utvecklare",
