@@ -207,6 +207,12 @@
       "image": "public/assets/img/consultants2/Saldes_prt_pale_sml.jpg"
     },
 	{
+      "name": "Peter Rosberg",
+      "linkedin": "https://www.linkedin.com/in/rosberg/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Rosberg_prt_pale_sml.jpg"
+    },
+	{
       "name": "Alexander Lindfors",
       "linkedin": "https://www.linkedin.com/in/alexander-lindfors/",
       "title": "Utvecklare",
