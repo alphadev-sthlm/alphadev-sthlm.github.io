@@ -1,5 +1,15 @@
 {
   "news": [	
+	{
+      "id": "15",
+      "date": "2021-08-16",
+      "title": "Höstkickoff på Soludden",
+      "image": "/public/assets/img/news/sommarfest.jpg",
+      "ingress": "Med en pandemi på återtåg och med covidtester och utomhus-fokus vågade vi oss på vår första riktiga festlighet på länge - och jösses vad trevligt det var att ses med både anställda och respektiven igen; en gammal tradition både till sommaren och julen på Alphadev.",
+      "body": [
+    "Vädret välsignade oss i slutändan, så det blev fullt ös i vattnet med sup och kanotpaddling, jetski-åkning, vattenskidor och vanligt havsbadande, varvat med badtunne-häng och bastu. Middagen serverades som grillbuffé vid borden och Villa Soludden levererade en fantastisk miljö att umgås i med bra fart på dansgolvet tills grannarna fick nåd - och vi switchade till late night soft-häng på trädäcket in på småtimmarna, tills nattbussen plockade upp hemvändarna och de som ville övernattade onsite."
+      ]
+    },
     {
       "id": "14",
       "date": "2021-06-16",
