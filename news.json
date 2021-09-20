@@ -1,6 +1,16 @@
 {
   "news": [	
 	{
+      "id": "16",
+      "date": "2021-09-20",
+      "title": "Nya stjärnor",
+      "image": "/public/assets/img/news/pj_news.png",
+      "ingress": "Två nya stjärnor har tänts på Alphadev-himlen, när Peter Rosberg och Johan Saldes anslutit till gänget efter sommaren.",
+      "body": [
+    "Peter trivs bäst i backend med Java och Kotlin, och jobbar lika gärna med utveckling av system som utveckling och coachning av människor. Johan kompletterar med skills inom Javascript, och trivs bäst i en React/Node-stack. Vi ser fram emot en lång och spännande resa med er ombord; varmt välkomna! :)"
+      ]
+    },
+	{
       "id": "15",
       "date": "2021-08-16",
       "title": "Höstkickoff på Soludden",
