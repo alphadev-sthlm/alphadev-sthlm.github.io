@@ -1,6 +1,17 @@
 {
   "news": [	
 	{
+      "id": "17",
+      "date": "2021-11-18",
+      "title": "Code Camp 2021",
+      "image": "/public/assets/img/news/workplace_sml.jpg",
+      "ingress": "Att få tid och hitta fokus för egen kompetensutveckling utanför sitt dagliga värv är inte alltid lätt för eftertraktade konsulter med full fart i kunduppdragen. Vårt första code camp med en veckas dedikerad kompetensutveckling har nu gått av stapeln.",
+      "body": [
+    "För fokus och inspiration hyrde vi ett stort hus i Spanien och körde individuellt anpassade utvecklingsspår inom intressanta och relevanta områden i Javascript, .NET, Java, DevOps, cloud, säkerhet, mm. Kvällarna kantades av trevliga restaurangbesök, gemensamma matlagningsprojekt, diverse brädspel, musik, vin, skitsnack och var utöver givande kompetensboost ett trevligt avbrott från vardagliga konsultlivet i mörka Svea.",
+	"Förhoppningsvis fick våra kunder hem ett gäng inspirerade, nybildade och gladare konsulter till sina team!"
+	  ]
+    },
+	{
       "id": "16",
       "date": "2021-09-20",
       "title": "Nya stjärnor",
