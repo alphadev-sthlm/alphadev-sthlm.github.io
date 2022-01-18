@@ -1,5 +1,17 @@
 {
   "news": [	
+    {
+      "id": "18",
+      "date": "2021-12-31",
+      "title": "Gott nytt år",
+      "image": "/public/assets/img/news/gottnytt2021.jpg",
+      "ingress": "Ännu ett år går mot sitt slut, men resan för Alphadev fortsätter. Sedan starten för nu 7 år sedan har vi vuxit långsamt men stadigt med världens bästa och trevligaste IT-konsulter (helt objektivt, givetvis 😜).",
+      "body": [ 
+	"Att vi nu är över 30 grymma utvecklare, agila ledare och UX'are ombord känns fantastiskt och det bästa kvittot på att vi gör något bra tycker vi är vår låga personalomsättning i vår annars så flyktiga bransch - Individuals and interactions over processes and tools!",
+	"Stort tack alla Alphadevare för att ni gör oss fantastiska, och stort tack till alla nya och gamla kunder som vi får äran att hjälpa; utan er är vi inget! ❤️",
+	"2022 kommer bli awesome 🌟🍾🤘"
+	  ]
+    },
 	{
       "id": "17",
       "date": "2021-11-18",
