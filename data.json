@@ -211,6 +211,18 @@
       "linkedin": "https://www.linkedin.com/in/alexander-lindfors/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Lindfors_prt_pale_sml.jpg"
+    },
+	{
+      "name": "Anna Wrang",
+      "linkedin": "https://www.linkedin.com/in/annawrang/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Anna_prt_pale_sml.png"
+    },
+	{
+      "name": "Per Sonberg",
+      "linkedin": "https://www.linkedin.com/in/per-sonberg-8606a862/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/Per_prt_pale_sml.png"
     }
   ],
   "professions": [
