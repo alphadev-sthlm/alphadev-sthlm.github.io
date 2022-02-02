@@ -1,6 +1,17 @@
 {
   "news": [	
     {
+      "id": "19",
+      "date": "2022-02-02",
+      "title": "Uppdragsbonanza",
+      "image": "/public/assets/img/news/homework6.jpg",
+      "ingress": "Vissa veckor är det mer action än andra; första veckan i februari var det inte mindre än sex stycken Alphadevare som började på nya uppdrag - på sex olika kunder.",
+      "body": [ 
+	"Kivra, Expressen, UC, Plugsurfing, Nobia och H&M fick bästa tänkbara förstärkning i sina team, med en bred palett av efterfrågade kompetenser: Devops, Node, Java, React, .NET, mm.",
+	"Vi tackar, niger och bockar för förtroendet!"
+	  ]
+    },
+	{
       "id": "18",
       "date": "2021-12-31",
       "title": "Gott nytt år",
