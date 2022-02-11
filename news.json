@@ -1,57 +1,69 @@
 {
-  "news": [	
+  "news": [
+    {
+      "id": "20",
+      "date": "2022-02-10",
+      "title": "Välkommen Per",
+      "image": "/public/assets/img/news/per_welcome_photo.jpg",
+      "ingress": "Vi kan äntligen officiellt välkomna Per Sonberg till Alphadev!",
+      "body": [
+        "Per är en ytterst skicklig fullstackutveckare med React-skills i frontend och .NET-kompetens i backend. Utöver hans tekniska färdigheter är Per alltid positiv och lösningsorienterad och har nästan alltid ett leende på läpparna. När Per inte skriver kod hittar man honom oftast på ett gym där han lyfter orimligt tunga vikter.",
+        "Superkul att ha dig ombord, Per. Vi ser fram emot att lära känna dig ännu bättre och du har redan blivit ett fantastiskt tillskott till gänget!",
+        "Per gjorde sin första dag hos H&M förra veckan. :)"
+      ]
+    },
     {
       "id": "19",
       "date": "2022-02-02",
       "title": "Uppdragsbonanza",
       "image": "/public/assets/img/news/homework6.jpg",
       "ingress": "Vissa veckor är det mer action än andra; första veckan i februari var det inte mindre än sex stycken Alphadevare som började på nya uppdrag - på sex olika kunder.",
-      "body": [ 
-	"Kivra, Expressen, UC, Plugsurfing, Nobia och H&M fick bästa tänkbara förstärkning i sina team, med en bred palett av efterfrågade kompetenser: Devops, Node, Java, React, .NET, mm.",
-	"Vi tackar, niger och bockar för förtroendet!"
-	  ]
+      "body": [
+        "Kivra, Expressen, UC, Plugsurfing, Nobia och H&M fick bästa tänkbara förstärkning i sina team, med en bred palett av efterfrågade kompetenser: Devops, Node, Java, React, .NET, mm.",
+        "Vi tackar, niger och bockar för förtroendet!"
+      ]
     },
-	{
+    {
       "id": "18",
       "date": "2021-12-31",
       "title": "Gott nytt år",
       "image": "/public/assets/img/news/gottnytt2021.jpg",
       "ingress": "Ännu ett år går mot sitt slut, men resan för Alphadev fortsätter. Sedan starten för nu 7 år sedan har vi vuxit långsamt men stadigt med världens bästa och trevligaste IT-konsulter (helt objektivt, givetvis 😜).",
-      "body": [ 
-	"Att vi nu är över 30 grymma utvecklare, agila ledare och UX'are ombord känns fantastiskt och det bästa kvittot på att vi gör något bra tycker vi är vår låga personalomsättning i vår annars så flyktiga bransch - Individuals and interactions over processes and tools!",
-	"Stort tack alla Alphadevare för att ni gör oss fantastiska, och stort tack till alla nya och gamla kunder som vi får äran att hjälpa; utan er är vi inget! ❤️",
-	"2022 kommer bli awesome 🌟🍾🤘"
-	  ]
+      "body": [
+        "Att vi nu är över 30 grymma utvecklare, agila ledare och UX'are ombord känns fantastiskt och det bästa kvittot på att vi gör något bra tycker vi är vår låga personalomsättning i vår annars så flyktiga bransch - Individuals and interactions over processes and tools!",
+        "Stort tack alla Alphadevare för att ni gör oss fantastiska, och stort tack till alla nya och gamla kunder som vi får äran att hjälpa; utan er är vi inget! ❤️",
+        "2022 kommer bli awesome 🌟🍾🤘"
+      ]
     },
-	{
+    {
       "id": "17",
       "date": "2021-11-18",
       "title": "Code Camp 2021",
       "image": "/public/assets/img/news/workplace_sml.jpg",
       "ingress": "Att få tid och hitta fokus för egen kompetensutveckling utanför sitt dagliga värv är inte alltid lätt för eftertraktade konsulter med full fart i kunduppdragen. Vårt första code camp med en veckas dedikerad kompetensutveckling har nu gått av stapeln.",
       "body": [
-    "För fokus och inspiration hyrde vi ett stort hus i Spanien och körde individuellt anpassade utvecklingsspår inom intressanta och relevanta områden i Javascript, .NET, Java, DevOps, cloud, säkerhet, mm. Kvällarna kantades av trevliga restaurangbesök, gemensamma matlagningsprojekt, diverse brädspel, musik, vin, skitsnack och var utöver givande kompetensboost ett trevligt avbrott från vardagliga konsultlivet i mörka Svea.",
-	"Förhoppningsvis fick våra kunder hem ett gäng inspirerade, nybildade och gladare konsulter till sina team!"
-	  ]
+        "För fokus och inspiration hyrde vi ett stort hus i Spanien och körde individuellt anpassade utvecklingsspår inom intressanta och relevanta områden i Javascript, .NET, Java, DevOps, cloud, säkerhet, mm. Kvällarna kantades av trevliga restaurangbesök, gemensamma matlagningsprojekt, diverse brädspel, musik, vin, skitsnack och var utöver givande kompetensboost ett trevligt avbrott från vardagliga konsultlivet i mörka Svea.",
+        "Förhoppningsvis fick våra kunder hem ett gäng inspirerade, nybildade och gladare konsulter till sina team!"
+      ]
     },
-	{
+    {
       "id": "16",
       "date": "2021-09-20",
       "title": "Nya stjärnor",
       "image": "/public/assets/img/news/pj_news.png",
       "ingress": "Två nya stjärnor har tänts på Alphadev-himlen, när Peter Rosberg och Johan Saldes anslutit till gänget efter sommaren.",
       "body": [
-    "Peter trivs bäst i backend med Java och Kotlin, och jobbar lika gärna med utveckling av system som utveckling och coachning av människor. Johan kompletterar med skills inom Javascript, och trivs bäst i en React/Node-stack. Vi ser fram emot en lång och spännande resa med er ombord; varmt välkomna! :)"
+        "Peter trivs bäst i backend med Java och Kotlin, och jobbar lika gärna med utveckling av system som utveckling och coachning av människor. Johan kompletterar med skills inom Javascript, och trivs bäst i en React/Node-stack. Vi ser fram emot en lång och spännande resa med er ombord; varmt välkomna! :)"
       ]
     },
-	{
+    {
       "id": "15",
       "date": "2021-08-16",
       "title": "Höstkickoff på Soludden",
       "image": "/public/assets/img/news/sommarfest.jpg",
       "ingress": "Med en pandemi på återtåg och med covidtester och utomhus-fokus vågade vi oss på vår första riktiga festlighet på länge - och jösses vad trevligt det var att ses med både anställda och respektiven igen; en gammal tradition både till sommaren och julen på Alphadev.",
       "body": [
-    "Vädret välsignade oss i slutändan, så det blev fullt ös i vattnet med sup och kanotpaddling, jetski-åkning, vattenskidor och vanligt havsbadande, varvat med badtunne-häng och bastu. Middagen serverades som grillbuffé vid borden och Villa Soludden levererade en fantastisk miljö att umgås i med bra fart på dansgolvet tills grannarna fick nåd - och vi switchade till late night soft-häng på trädäcket in på småtimmarna, tills nattbussen plockade upp hemvändarna och de som ville övernattade onsite."
+        "Vädret välsignade oss i slutändan, så det blev fullt ös i vattnet med sup och kanotpaddling, jetski-åkning, vattenskidor och vanligt havsbadande, varvat med badtunne-häng och bastu. Middagen serverades som grillbuffé vid borden och Villa Soludden levererade en fantastisk miljö att umgås i med bra fart på dansgolvet tills grannarna fick nåd - och vi switchade till late night soft-häng på trädäcket in på småtimmarna, tills nattbussen plockade upp hemvändarna och de som ville övernattade onsite."
       ]
     },
     {
@@ -61,40 +73,40 @@
       "image": "/public/assets/img/news/Campsite.jpg",
       "ingress": "Det har varit ett långt år av remote-aktiviteter, men när nu sommaren äntligen är här passar vi på att njuta ett tag i det fria.",
       "body": [
-    "Det skulle egentligen varit sommarfest-dags, men i hopp om mindre smittsamma tider framöver fick det istället bli en picnic deluxe på Gärdet för våra fantastiska Alphadevare. Massagebänkar, live-grillning, iskyld dryck och snacks en masse, skönt häng, ett tufft musikquiz och en lekfull nordisk landskamp i sann EM-anda, där Danmark till slut stod som segrare!"
+        "Det skulle egentligen varit sommarfest-dags, men i hopp om mindre smittsamma tider framöver fick det istället bli en picnic deluxe på Gärdet för våra fantastiska Alphadevare. Massagebänkar, live-grillning, iskyld dryck och snacks en masse, skönt häng, ett tufft musikquiz och en lekfull nordisk landskamp i sann EM-anda, där Danmark till slut stod som segrare!"
       ]
     },
-	{
+    {
       "id": "13",
       "date": "2021-05-05",
       "title": "Välkommen, Alex",
       "image": "/public/assets/img/news/alex_octo_cropped_horizontal_sml.jpg",
       "ingress": "Vår nya stjärna på Alphadevhimlen har anlänt i form av fullstackutvecklaren Alexander 'Alex' Lindfors!",
       "body": [
-    "Alex är en bred utvecklare med spetsen inom React på frontend och Java i backend, och hoppar rakt in i nytt uppdrag på Tele2. Varmt välkommen, Alex!"
+        "Alex är en bred utvecklare med spetsen inom React på frontend och Java i backend, och hoppar rakt in i nytt uppdrag på Tele2. Varmt välkommen, Alex!"
       ]
     },
-	{
+    {
       "id": "12",
       "date": "2021-02-25",
       "title": "Bubbel-provning",
       "image": "/public/assets/img/news/bubbel.jpg",
       "ingress": "Hur förgyller man work-from-home livet på bästa sätt i vintermörkret? Med lite bubbelprovning förstås!",
       "body": [
-    "En viktig del av Alphadevs kultur är våra sociala events för att stärka vår interna sammanhållning. Den biten har förstås tagit lite stryk i pandemi-tider, men vi gör vårt bästa för att hålla igång även när allt sker remote.",
-	"Igår fick vi ställa några klassiska bubbelalternativ mot varandra under guidning från vinproffset Daniella Lundh Egenäs. Kul tillställning som varmt kan rekommenderas till er som undrar vad man kan hitta på i dessa tider."
+        "En viktig del av Alphadevs kultur är våra sociala events för att stärka vår interna sammanhållning. Den biten har förstås tagit lite stryk i pandemi-tider, men vi gör vårt bästa för att hålla igång även när allt sker remote.",
+        "Igår fick vi ställa några klassiska bubbelalternativ mot varandra under guidning från vinproffset Daniella Lundh Egenäs. Kul tillställning som varmt kan rekommenderas till er som undrar vad man kan hitta på i dessa tider."
       ]
     },
-	{
+    {
       "id": "11",
       "date": "2021-02-03",
       "title": "Mobbprogrammering",
       "image": "/public/assets/img/news/mob_programming_jasmin2.png",
       "ingress": "Kompetenslunch om mobbprogrammeringens do's and dont's",
       "body": [
-    "På Alphadev har vi regelbundna kompetensluncher med blandat innehåll. Den här gången var det Jasmin som berättade om för och nackdelar med mobbprogrammering.",
-    "Jasmin har flera års erfarenhet av mobbprogrammering, ifrån ett flertal företag och projekt. Idag lärde hon oss om: Hur funkar det i praktiken?, varför funkar det inte alls ibland?, hur kan vi bli bättre? Dessutom blev det en hel del instick och frågor ifrån våra konsulter.",
-    "Tack för en grym presentation!"
+        "På Alphadev har vi regelbundna kompetensluncher med blandat innehåll. Den här gången var det Jasmin som berättade om för och nackdelar med mobbprogrammering.",
+        "Jasmin har flera års erfarenhet av mobbprogrammering, ifrån ett flertal företag och projekt. Idag lärde hon oss om: Hur funkar det i praktiken?, varför funkar det inte alls ibland?, hur kan vi bli bättre? Dessutom blev det en hel del instick och frågor ifrån våra konsulter.",
+        "Tack för en grym presentation!"
       ]
     },
     {
@@ -104,80 +116,80 @@
       "image": "/public/assets/img/news/julfest.jpg",
       "ingress": "I fredags blev det remote julfest för alla Alphadevare och respektiven, med fria tolkningar av julikoner såsom Kalle Anka, Arne Weisse och Ernst, mm.",
       "body": [
-		"Kvällens värd, Jon Weisse, bjöd oss på diverse julhälsningar inspirerade av Kalle Ankas traditionella jul-TV, vi hoppade in i våra respektive kök och bakade och dekorerade pepparkakshus där kreativiteten flödade i bästa Ernst-stil och vi åt ett riktigt bra klassiskt julbord.",
-		"För den senare delen av kvällen passade vi på att testa gather.town, en virtuell mötesvärld för att enkelt låta alla gå runt själva och mingla. Funkade riktigt bra!",
-		"Tack alla som var med och förgyllde kvällen!"
+        "Kvällens värd, Jon Weisse, bjöd oss på diverse julhälsningar inspirerade av Kalle Ankas traditionella jul-TV, vi hoppade in i våra respektive kök och bakade och dekorerade pepparkakshus där kreativiteten flödade i bästa Ernst-stil och vi åt ett riktigt bra klassiskt julbord.",
+        "För den senare delen av kvällen passade vi på att testa gather.town, en virtuell mötesvärld för att enkelt låta alla gå runt själva och mingla. Funkade riktigt bra!",
+        "Tack alla som var med och förgyllde kvällen!"
       ]
     },
-	{
+    {
       "id": "9",
       "date": "2020-11-09",
       "title": "Nya Alphadevare",
       "image": "/public/assets/img/news/Zakaria_Niklas.jpg",
       "ingress": "Idag välkomnar vi Zakaria Sabra och Niklas Von Tell som båda gör sin första dag på Alphadev.",
       "body": [
-		"Två erfarna fullstackutvecklare, Zakaria inom JS/React/Node och Niklas inom .NET/Node/React. Båda börjar redan idag på nya spännande uppdrag. Varmt välkomna till Alphadev. ",
-		"Varmt välkomna!"
+        "Två erfarna fullstackutvecklare, Zakaria inom JS/React/Node och Niklas inom .NET/Node/React. Båda börjar redan idag på nya spännande uppdrag. Varmt välkomna till Alphadev. ",
+        "Varmt välkomna!"
       ]
     },
-	{
+    {
       "id": "8",
       "date": "2020-10-16",
       "title": "Galopperande gasell",
       "image": "/public/assets/img/news/gasell_2020.jpg",
       "ingress": "Alphadev har blivit utnämnda till Gasell-företag i år igen i gott sällskap med många andra framgångsrika företag i Sverige - och fått tillhörande glitter och ballonger.",
       "body": [
-		"Grymt jobbat alla Alphadevare - och tack alla kunder som gör det möjligt.",
-		"Vi niger och bockar!"
+        "Grymt jobbat alla Alphadevare - och tack alla kunder som gör det möjligt.",
+        "Vi niger och bockar!"
       ]
     },
-	{
+    {
       "id": "7",
       "date": "2020-06-11",
       "title": "Sommarfest på distans",
       "image": "/public/assets/img/news/kockar2.jpg",
       "ingress": "På Alphadev har vi alltid haft stort fokus på social samvaro för våra konsulter, men hur gör man en bra sommarfest när man inte får umgås fysiskt?",
       "body": [
-	  "Vi kliade oss i huvudet och landade till slut in i något som kanske kan vara ett tips till er som är i samma läge just nu och undrar vad man kan hitta på för skoj för bolaget/avdelningen:",
-		"Vi började med en 'code-breaker'-challenge, under ledning av 360Aktiviteter. Det var som ett escape room, fast på distans, där vi delades in i små zoom-grupper och mha av en dedikerad app fick utforska ett kontor och lösa diverse problem. Lika intensivt som ett traditionellt Escape Room, men från soffan.",
-		"Sen var det dags för huvudaktiviteten, där Johan Lindgren och Jon Neergaard ledde en 3-rätters cook-a-long. Alla Alphadevare var hemma i sina egna kök, förberedda med matkassar och kastruller och fick en interaktiv tv-kock upplevelse med en lätt touch av Werner och Werner.",
-		"Avslutningsvis var det middagssittning där vi körde olika virtuella matrum med 3-4 sällskap i varje, som vi växlade mellan varje rätt, för att ge en chans att umgås lite närmare med lite olika medarbetare.",
-		"All in all en väldigt udda, men ändå väldigt lyckad sommarfest.",
-		"Glad sommar på er därute!"
+        "Vi kliade oss i huvudet och landade till slut in i något som kanske kan vara ett tips till er som är i samma läge just nu och undrar vad man kan hitta på för skoj för bolaget/avdelningen:",
+        "Vi började med en 'code-breaker'-challenge, under ledning av 360Aktiviteter. Det var som ett escape room, fast på distans, där vi delades in i små zoom-grupper och mha av en dedikerad app fick utforska ett kontor och lösa diverse problem. Lika intensivt som ett traditionellt Escape Room, men från soffan.",
+        "Sen var det dags för huvudaktiviteten, där Johan Lindgren och Jon Neergaard ledde en 3-rätters cook-a-long. Alla Alphadevare var hemma i sina egna kök, förberedda med matkassar och kastruller och fick en interaktiv tv-kock upplevelse med en lätt touch av Werner och Werner.",
+        "Avslutningsvis var det middagssittning där vi körde olika virtuella matrum med 3-4 sällskap i varje, som vi växlade mellan varje rätt, för att ge en chans att umgås lite närmare med lite olika medarbetare.",
+        "All in all en väldigt udda, men ändå väldigt lyckad sommarfest.",
+        "Glad sommar på er därute!"
       ]
     },
-	{
+    {
       "id": "6",
       "date": "2020-02-10",
       "title": "Alphadev goes UX",
       "image": "/public/assets/img/news/Helene2.jpg",
       "ingress": "Nu är hon äntligen på plats! Och med Helenes ankomst så fortsätter Alphadev att bredda sitt erbjudande med UX/UI-expertis till sina befintliga och framtida kunder.",
       "body": [
-		"Inte nog med att hon är en glädjespridare av rang - Helene är också en mångsidig designer som har hjälpt över 50 bolag med allt från design, branding, research, kommunikation, strategi och frontendutveckling. Hon har den där förmågan att både kunna ta ett helikopterperspektiv och dyka ner i detaljer vid behov. Med andra ord så finns det många strängar på den berömda lyran.",
-		"Är du eller någon som du känner i behov utav UX-expertis? Då tycker jag att du ska kika in på hennes portfolio https://helenewestrin.se/ och sedan höra av dig till Jakob eller Jon!"
-	  ]
+        "Inte nog med att hon är en glädjespridare av rang - Helene är också en mångsidig designer som har hjälpt över 50 bolag med allt från design, branding, research, kommunikation, strategi och frontendutveckling. Hon har den där förmågan att både kunna ta ett helikopterperspektiv och dyka ner i detaljer vid behov. Med andra ord så finns det många strängar på den berömda lyran.",
+        "Är du eller någon som du känner i behov utav UX-expertis? Då tycker jag att du ska kika in på hennes portfolio https://helenewestrin.se/ och sedan höra av dig till Jakob eller Jon!"
+      ]
     },
-	{
+    {
       "id": "5",
       "date": "2019-12-10",
       "title": "Kompetensluncher ftw",
       "image": "/public/assets/img/news/kompetensluncher.jpg",
       "ingress": "Varannan vecka kör vi kompetensluncher; idag stod nya React-features med Jesper Lehtinen på menyn",
       "body": [
-	  "Våra kompetensluncher kan handla om allt från nya ramverk, kodknep och devopstooling, via agila best practices och knep och till allmänna tips för hur man blir en bättre konsult och lyckligare människa. Oftast delar vi egna erfarenheter eller kunskaper, och ibland tar vi in externa talare från kontaktnätet"
+        "Våra kompetensluncher kan handla om allt från nya ramverk, kodknep och devopstooling, via agila best practices och knep och till allmänna tips för hur man blir en bättre konsult och lyckligare människa. Oftast delar vi egna erfarenheter eller kunskaper, och ibland tar vi in externa talare från kontaktnätet"
       ]
     },
-	{
+    {
       "id": "4",
       "date": "2019-10-01",
       "title": "Nya stjärnor",
       "image": "/public/assets/img/news/newstars.jpg",
       "ingress": "Hösten har kommit, men vi parerar mörkret med tre nya lysande stjärnor på Alphadev-himlen",
       "body": [
-	  "En stycken fantastisk Java och Node-stjärna i form av Johan Nilsson",
-		"En stycken fantastisk Angular och .NET-stjärna i form av Anders Olsson",
-		"En stycken fantastisk Java och Kotlin-stjärna i form av Jasmin Kiviniemi",
-		"Varmt välkomna!"
+        "En stycken fantastisk Java och Node-stjärna i form av Johan Nilsson",
+        "En stycken fantastisk Angular och .NET-stjärna i form av Anders Olsson",
+        "En stycken fantastisk Java och Kotlin-stjärna i form av Jasmin Kiviniemi",
+        "Varmt välkomna!"
       ]
     },
     {
