@@ -1,8 +1,18 @@
 {
   "news": [
     {
+      "id": "23",
+      "date": "2022-05-01",
+      "title": "Alphadev gästar Island",
+      "image": "/public/assets/img/news/island.jpg",
+      "ingress": "Vårkonferensen på Alphadev bar denna gång iväg till vulkanernas ö, Island. Fullspäckat schema med fokus på teambuilding efter en lång tid av remote-arbete.",
+      "body": [
+        "Med en bra mix av kultur, utbildning, action och fantastiska middagar blev Islandskonferensen en succé och gav en avsevärd moralboost efter två år i pandemi-isolering"
+      ]
+    },
+	{
       "id": "22",
-      "date": "2022-05-12",
+      "date": "2022-04-12",
       "title": "Lorina stärker HQ",
       "image": "/public/assets/img/news/lorina_sign.jpg",
       "ingress": "HQ får bästa möjliga förstärkning med Lorina, med fokus på att ta hand om alla våra stjärnor på Alphadev",
