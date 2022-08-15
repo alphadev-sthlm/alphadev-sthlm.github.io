@@ -1,6 +1,18 @@
 {
   "news": [
     {
+      "id": "22",
+      "date": "2022-05-12",
+      "title": "Lorina stärker HQ",
+      "image": "/public/assets/img/news/lorina_sign.jpg",
+      "ingress": "HQ får bästa möjliga förstärkning med Lorina, med fokus på att ta hand om alla våra stjärnor på Alphadev",
+      "body": [
+        "Lorina är ett energiknippe med stort varmt hjärta, som kommer hjälpa till att serva våra konsulter och förstärka HQ",
+		"Med rötterna i norrlands huvudstad, Umeå, har Lorina just flyttat till Stockholm efter fyra år i Australien och två år i USA, där det arbetades och pluggades.",
+		"Välkommen, Lorina!"
+      ]
+    },
+    {
       "id": "21",
       "date": "2022-02-17",
       "title": "Välkommen Anna",
