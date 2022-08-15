@@ -9,12 +9,12 @@
       "phone": "+46 70 2960005"
     },
     {
-      "name": "Andrea Filling",
-      "linkedin": "https://www.linkedin.com/in/andrea-filling-8262b583/",
-      "title": "Business Manager",
-      "image": "public/assets/img/consultants2/Andrea_prt_pale_sml.jpg",
-      "email": "andrea.filling@alphadev.se",
-      "phone": "+46 70 4483060"
+      "name": "Lorina Kosari",
+      "linkedin": "",
+      "title": "Talent & Culture",
+      "image": "public/assets/img/consultants2/lorina_prt_pale2_sml.png",
+      "email": "lorina.kosari@alphadev.se",
+      "phone": "+46 76 7825263"
     },
     {
       "name": "Jakob Aronsson",
@@ -193,12 +193,6 @@
       "linkedin": "https://www.linkedin.com/in/zakaria-sabra-74b397a9/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/zak_prt_pale_sml.jpg"
-    },
-	{
-      "name": "Johan Saldes",
-      "linkedin": "https://www.linkedin.com/in/johan-saldes-codehead/",
-      "title": "Utvecklare",
-      "image": "public/assets/img/consultants2/Saldes_prt_pale_sml.jpg"
     },
 	{
       "name": "Peter Rosberg",

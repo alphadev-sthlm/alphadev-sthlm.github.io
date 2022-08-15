@@ -1,6 +1,24 @@
 {
   "news": [
     {
+      "id": "21",
+      "date": "2022-02-17",
+      "title": "Välkommen Anna",
+      "image": "/public/assets/img/news/anna_welcome_photo.jfif",
+      "ingress": "Vi säger varmt välkommen till Alphadevs nya stjärna, Anna Wrang!",
+      "body": [
+        "Anna har varit på Alphadevs radar länge så det känns fantastiskt att äntligen ha henne hos oss.",
+        "Annas styrka ligger i backend java och utöver sina tekniska färdigheter kommer hon sprida en grym energi både ute hos kund och hos oss på interna event.",
+        "Tre roliga fakta om Anna:",
+		"- är utbildad skådespelerska",
+		"- är en kattälskare av rang som trots allergi, volontärarbetet på katthem.",
+		"- hade enligt sig själv överlevt dom flesta vid en eventuell zombie-apokalyps",
+		"",
+		"Anna hoppade rakt in i ett uppdrag hos UC, och vi är övertygade om att det kommer bli kanon!",
+		"Superkul att ha dig ombord!"
+      ]
+    },
+	{
       "id": "20",
       "date": "2022-02-10",
       "title": "Välkommen Per",
