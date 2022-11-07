@@ -9,6 +9,14 @@
       "phone": "+46 70 2960005"
     },
     {
+      "name": "Johan Windahl",
+      "linkedin": "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
+      "title": "Business Manager",
+      "image": "public/assets/img/consultants2/Windahl_prt_pale_sml.jpg",
+      "email": "johan.windahl@alphadev.se",
+      "phone": "+46 70 7686685"
+    },
+    {
       "name": "Jakob Aronsson",
       "linkedin": "https://www.linkedin.com/in/jakob-aronsson-52904b7b/",
       "title": "Head of Sales",
@@ -67,12 +75,6 @@
       "image": "public/assets/img/consultants2/Eddo_prt_pale_sml.jpg"
     },
     {
-      "name": "Johan Windahl",
-      "linkedin": "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
-      "title": "Utvecklare",
-      "image": "public/assets/img/consultants2/Windahl_prt_pale_sml.jpg"
-    },
-    {
       "name": "Johan Lindgren",
       "linkedin": "https://se.linkedin.com/pub/johan-lindgren/1/603/9b4",
       "title": "Utvecklare",
@@ -113,7 +115,7 @@
       "linkedin": "https://www.linkedin.com/in/markus-rantanikunen-3727901b/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Markus_prt_pale_sml.jpg"
-    },   
+    },
     {
       "name": "Johan Hector",
       "linkedin": "https://www.linkedin.com/in/johan-steen-9984632a/",
@@ -150,7 +152,7 @@
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Olsson_prt_pale_sml.jpg"
     },
-	{
+    {
       "name": "Helene Westrin",
       "linkedin": "https://www.linkedin.com/in/helenewestrin/",
       "title": "UX / UI Designer",
@@ -174,37 +176,37 @@
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Gunnarsson_prt_pale_sml.jpg"
     },
-	{
+    {
       "name": "Niklas von Tell",
       "linkedin": "https://www.linkedin.com/in/nvontell/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/niklas_prt_pale_sml.jpg"
     },
-	{
+    {
       "name": "Zakaria Sabra",
       "linkedin": "https://www.linkedin.com/in/zakaria-sabra-74b397a9/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/zak_prt_pale_sml.jpg"
     },
-	{
+    {
       "name": "Peter Rosberg",
       "linkedin": "https://www.linkedin.com/in/rosberg/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Rosberg_prt_pale_sml.jpg"
     },
-	{
+    {
       "name": "Alexander Lindfors",
       "linkedin": "https://www.linkedin.com/in/alexander-lindfors/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Lindfors_prt_pale_sml.jpg"
     },
-	{
+    {
       "name": "Anna Wrang",
       "linkedin": "https://www.linkedin.com/in/annawrang/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Anna_prt_pale_sml.png"
     },
-	{
+    {
       "name": "Per Sonberg",
       "linkedin": "https://www.linkedin.com/in/per-sonberg-8606a862/",
       "title": "Utvecklare",

@@ -1,6 +1,48 @@
 {
   "news": [
     {
+      "id": "26",
+      "date": "2022-10-01",
+      "title": "Välkommen Haroon",
+      "image": "/public/assets/img/news/haroon.jpg",
+      "ingress": "Med öppna armar välkomna vi Haroon Ahmed till Alphadev-familjen!",
+      "body": [
+        "Haroon är en erfaren, driven och mycket kompetent utvecklare på .NET-plattformen med styrkan i backend och särskilt i Azure-miljö. Stabil, pålitlig och ansvarstagande är tre synonymer som beskriver Hässelbybon som enligt ganska säkra källor är en orimligt skillad pingisspelare.",
+        "Tre roliga fakta om Haroon",
+        "- Kan göra + 1000 kick-ups med en fotboll",
+        "- Har jobbat som DJ",
+        "- Tycker om att äta färsk habanero som snacks.",
+        "Vi är superglada att ha dig ombord! Haroon hoppar rakt in i uppdrag ute hos Wasa Kredit AB"
+      ]
+    },
+    {
+      "id": "25",
+      "date": "2022-08-26",
+      "title": "Idag välkomnar vi Daniel",
+      "image": "/public/assets/img/news/daniel-aros.jpg",
+      "ingress": "Vi säger varmt välkommen till vår nyaste stjärna, Daniel Aros",
+      "body": [
+        "Det är med stor glädje vi välkomnar honom in i gänget. Daniel är en skicklig javautvecklare som brinner för att hjälpa kunder med tekniskt komplexa lösningar, som han gör med bravur. Ödmjuk, skarp och analytisk är tre träffande synonymer för stockholmaren som utöver svenska behärskar ytterligare fyra språk.",
+        "",
+        "Tre roliga fakta om Daniel:",
+        "- Daniel har sett den japanska filmen ”Go” +50 gånger",
+        "- Han har seglat över Atlanten",
+        "- Intensivstuderar neapolitanska för att förstå serien Gomorra bättre",
+        "",
+        "Daniel hoppas rakt in i uppdrag hos Telia Finance!"
+      ]
+    },
+    {
+      "id": "24",
+      "date": "2022-06-15",
+      "title": "Varmt välkommen David",
+      "image": "/public/assets/img/news/david-johansson.jpg",
+      "ingress": "Vi kan äntligen säga varmt välkommen till Alphadevs nya stjärna, David Johansson.",
+      "body": [
+        "Den göteborgsfödde västeråsbon är en oerhört kompetent och erfaren utvecklare med fokus på java i backend och react i frontend. Han har jobbat med ett flertal Alphadevare sedan tidigare, och det känns som han har varit en del av gänget betydligt längre än bara några dagar. David hoppar rakt in i uppdrag hos 3 Sverige! Ödmjuk och snäll är adjektiven som beskriver honom bäst, och när David inte kodar spenderar han helst tid med familjen eller spelar gitarr."
+      ]
+    },
+    {
       "id": "23",
       "date": "2022-05-01",
       "title": "Alphadev gästar Island",
@@ -10,7 +52,7 @@
         "Med en bra mix av kultur, utbildning, action och fantastiska middagar blev Islandskonferensen en succé och gav en avsevärd moralboost efter två år i pandemi-isolering"
       ]
     },
-	{
+    {
       "id": "22",
       "date": "2022-04-12",
       "title": "Lorina stärker HQ",
@@ -18,8 +60,8 @@
       "ingress": "HQ får bästa möjliga förstärkning med Lorina, med fokus på att ta hand om alla våra stjärnor på Alphadev",
       "body": [
         "Lorina är ett energiknippe med stort varmt hjärta, som kommer hjälpa till att serva våra konsulter och förstärka HQ",
-		"Med rötterna i norrlands huvudstad, Umeå, har Lorina just flyttat till Stockholm efter fyra år i Australien och två år i USA, där det arbetades och pluggades.",
-		"Välkommen, Lorina!"
+        "Med rötterna i norrlands huvudstad, Umeå, har Lorina just flyttat till Stockholm efter fyra år i Australien och två år i USA, där det arbetades och pluggades.",
+        "Välkommen, Lorina!"
       ]
     },
     {
@@ -32,15 +74,15 @@
         "Anna har varit på Alphadevs radar länge så det känns fantastiskt att äntligen ha henne hos oss.",
         "Annas styrka ligger i backend java och utöver sina tekniska färdigheter kommer hon sprida en grym energi både ute hos kund och hos oss på interna event.",
         "Tre roliga fakta om Anna:",
-		"- är utbildad skådespelerska",
-		"- är en kattälskare av rang som trots allergi, volontärarbetet på katthem.",
-		"- hade enligt sig själv överlevt dom flesta vid en eventuell zombie-apokalyps",
-		"",
-		"Anna hoppade rakt in i ett uppdrag hos UC, och vi är övertygade om att det kommer bli kanon!",
-		"Superkul att ha dig ombord!"
+        "- är utbildad skådespelerska",
+        "- är en kattälskare av rang som trots allergi, volontärarbetet på katthem.",
+        "- hade enligt sig själv överlevt dom flesta vid en eventuell zombie-apokalyps",
+        "",
+        "Anna hoppade rakt in i ett uppdrag hos UC, och vi är övertygade om att det kommer bli kanon!",
+        "Superkul att ha dig ombord!"
       ]
     },
-	{
+    {
       "id": "20",
       "date": "2022-02-10",
       "title": "Välkommen Per",
