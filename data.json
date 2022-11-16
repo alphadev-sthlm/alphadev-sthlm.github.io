@@ -4,7 +4,7 @@
       "name": "Jon Neergaard",
       "linkedin": "https://se.linkedin.com/in/jonneergaard",
       "title": "CEO",
-      "image": "public/assets/img/consultants2/Jon_prt_pale_sml.jpg",
+      "image": "public/assets/img/consultants2/jon_prt_sqr_pale_sml.png",
       "email": "jon.neergaard@alphadev.se",
       "phone": "+46 70 2960005"
     },
@@ -67,13 +67,7 @@
       "linkedin": "https://se.linkedin.com/pub/fredrik-bergstr%C3%B6m/0/674/992",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Fredrik_prt_pale_sml.jpg"
-    },
-    {
-      "name": "Eduardo Castaneda",
-      "linkedin": "https://se.linkedin.com/in/eduardo-castaneda-4775aa58",
-      "title": "Utvecklare",
-      "image": "public/assets/img/consultants2/Eddo_prt_pale_sml.jpg"
-    },
+    },    
     {
       "name": "Johan Lindgren",
       "linkedin": "https://se.linkedin.com/pub/johan-lindgren/1/603/9b4",
@@ -211,6 +205,24 @@
       "linkedin": "https://www.linkedin.com/in/per-sonberg-8606a862/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/Per_prt_pale_sml.png"
+    },
+    {
+      "name": "David Johansson",
+      "linkedin": "https://www.linkedin.com/in/david-johansson-96791a1/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/david_prt_sqr_pale_sml.png"
+    },
+    {
+      "name": "Daniel Aros",
+      "linkedin": "https://www.linkedin.com/in/daniel-aros/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/aros_prt_sqr_pale_sml.png"
+    },
+    {
+      "name": "Haroon Ahmed",
+      "linkedin": "https://www.linkedin.com/in/haroon-a-93459577/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/haroon_prt_sqr_pale_sml.png"
     }
   ],
   "professions": [
