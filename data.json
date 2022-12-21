@@ -9,20 +9,28 @@
       "phone": "+46 70 2960005"
     },
     {
-      "name": "Johan Windahl",
-      "linkedin": "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
-      "title": "Business Manager",
-      "image": "public/assets/img/consultants2/Windahl_prt_pale_sml.jpg",
-      "email": "johan.windahl@alphadev.se",
-      "phone": "+46 70 7686685"
-    },
-    {
       "name": "Jakob Aronsson",
       "linkedin": "https://www.linkedin.com/in/jakob-aronsson-52904b7b/",
       "title": "Head of Sales",
       "image": "public/assets/img/consultants2/aronsson_prt_pale_sml.jpg",
       "email": "jakob.aronsson@alphadev.se",
       "phone": "+46 70 7199491"
+    },
+	{
+      "name": "Louise Nyholm",
+      "linkedin": "https://www.linkedin.com/in/louise-nyholm-jedraszko-96a704175/",
+      "title": "Talent & Culture",
+      "image": "public/assets/img/consultants2/Louise_v3_prt_pale_sml.png",
+      "email": "louise.nyholm@alphadev.se",
+      "phone": "+46 76 5682936"
+    },
+	{
+      "name": "Johan Windahl",
+      "linkedin": "https://se.linkedin.com/pub/johan-windahl/2/63b/541",
+      "title": "Business Manager",
+      "image": "public/assets/img/consultants2/Windahl_prt_pale_sml.jpg",
+      "email": "johan.windahl@alphadev.se",
+      "phone": "+46 70 7686685"
     }
   ],
   "consultants": [
