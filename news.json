@@ -1,6 +1,40 @@
 {
   "news": [
     {
+      "id": "29",
+      "date": "2022-12-01",
+      "title": "Julmingel & Julbord",
+      "image": "/public/assets/img/news/christmas_party_2022.png",
+      "ingress": "Vi kickade igång december på bästa sätt, alla vi samlades igen och hade jul-feeling!",
+      "body": [
+        "Årets sista stora event blev väldigt lyckat och trevligt. Vi möttes alla konsulter med respektive på kontoret för ett trevligt mingel där även årets julklapp presenterades samt våra nya stjärnor på Alphadev! Efter roliga samtal på kontoret vandrade vi till Gamla Riksarkivet där ett stort och trevligt Julbord väntade på oss. Vi har vart på ett antal nu genom åren och detta var verkligen en favorit för många!",
+        "Stort tack alla som kom och skålade in december med oss!"
+      ]
+    },
+    {
+      "id": "28",
+      "date": "2022-12-01",
+      "title": "Välkommen Louise",
+      "image": "/public/assets/img/news/welcome_louise_2022.png",
+      "ingress": "Vi har fått tillökning på HQ i form av Louise som kommer att ta hand om alla oss på Alphadev.",
+      "body": [
+        "Louise blev vår nästa stjärna på Alphadev och hon joinar teamet på HQ! Hon kommer främst att ta hand om alla oss men även vårt kontor. Utöver det kommer hon stötta administrativt och där hon behövs.",
+        "När Louise inte jobbar lägger hon tid på sin hund, träning och bjuder sina vänner på 3-rätters middagar!",
+        "Varmt välkommen till Alphadev!"
+      ]
+    },
+    {
+      "id": "27",
+      "date": "2022-10-21",
+      "title": "Årets Halloweenfest",
+      "image": "/public/assets/img/news/halloween_2022.png",
+      "ingress": "Vi firade i riktig Halloween-anda med våra konsulter och vänner.",
+      "body": [
+        "Att bjuda in till fest och träffa våra konsulter är en självklarhet på Halloween, och detta år var inget undantag. Efter att kontoret förvandlats och utsmyckats i diverse läskiga spindelväv och dekorationer var vi redo för en rolig kväll. Självklart spelades det pingis och sjöngs karaoke, det är stående punkter när vi ses på kontoret! Det bjöds även på pizza från Fat Frank’s, trevligt umgänge och väldigt bra Halloween-outfits!",
+        "Tack till alla som kom, vi ser fram emot nästa års Halloween-fest!"
+      ]
+    },
+    { 
       "id": "26",
       "date": "2022-10-01",
       "title": "Välkommen Haroon",
