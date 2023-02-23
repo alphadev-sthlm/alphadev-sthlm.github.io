@@ -1,6 +1,42 @@
 {
   "news": [
     {
+      "id": "32",
+      "date": "2023-02-20",
+      "title": "Välkommen Dennis!",
+      "image": "/public/assets/img/news/welcome_dennis.jpg",
+      "ingress": "Dennis är officiellt en Alphadevare, varmt välkommen!",
+      "body": [
+        "Denna dag har vi väntat på ett tag, Dennis första dag på Alphadev har kommit och vi är taggade på att vara med på hans resa. Dennis sitter på Cancerfonden idag och det är vi glada för, han sitter nämligen bara ett stenkast från oss!",
+        "Dennis älskar vatten, han simmar gärna så ofta han kan och har tävlat på hög nivå när han var yngre! Han är även en riktig rockstar, han ägde på karaoken en AW och nu vill vi alla höra det. Hans go to låt är ’You give love a bad name’ med Bon Jovi. När han själv inte karaokar går han gärna på rockkonsert och later någon annan stå I rampljuset!",
+        "Vi är glada över att du är en del av Alphadev, välkommen Dennis!"
+      ]
+    },
+    {
+      "id": "31",
+      "date": "2023-02-01",
+      "title": "Marcus har börjat!",
+      "image": "/public/assets/img/news/welcome_mz.jpg",
+      "ingress": "Vi presenterar Marcus, vårt nyaste tillskott på Alphadev-himlen!",
+      "body": [
+        "Vi fortsätter att välkomna duktiga konsulter till oss och Marcus är inget undantag. Vi är väldigt glada över att Marcus valde att bli en Alphadevare och han fortsätter sitt uppdrag hos Axfood. ",
+        "För att lära känna Marcus lite bättre har vi tagit reda på detta, Han älskar F1,  han kan knappt bärga sig till att säsongen drar igång igen! Han gillar att laga mat men är tyvärr inte så bra på det, han kompenserar med dyr utrustning istället. Han har fått 13 rätt på stryktipset!!",
+        "Det är många saker vi kan skryta om när det kommer till Marcus, vi är peppade på att hans resa hos oss äntligen drar i gång. Varmt välkommen Marcus!"
+      ]
+    },
+    {
+      "id": "30",
+      "date": "2023-01-01",
+      "title": "Välkommen Simon!",
+      "image": "/public/assets/img/news/welcome_simon.jpg",
+      "ingress": "Simon är vår senaste stjärna på Alphadev, varmt välkommen!",
+      "body": [
+        "Det nya året startade med att Simon officiellt blev en del av Alphadev, och det är vi otroligt glada över! Han charmade några av våra konsulter först och sen charmade han resten av företaget. Simon sitter på 3 som backendutvecklare med fokus på Java.",
+        "Det finns många saker Simon tycker om men om han får bestämma så är det italiensk skräckfilm, italiensk opera och italiensk mat som gäller! Man kan nästan tro att han är italienare.",
+        "Ännu en gång önskar vi dig varmt välkommen till Alphadev, Simon!"
+      ]
+    },
+    {
       "id": "29",
       "date": "2022-12-01",
       "title": "Julmingel & Julbord",
