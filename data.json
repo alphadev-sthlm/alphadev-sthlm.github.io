@@ -119,12 +119,6 @@
       "image": "public/assets/img/consultants2/Markus_prt_pale_sml.jpg"
     },
     {
-      "name": "Johan Hector",
-      "linkedin": "https://www.linkedin.com/in/johan-steen-9984632a/",
-      "title": "Utvecklare",
-      "image": "public/assets/img/consultants2/Steen_prt_pale_sml.jpg"
-    },
-    {
       "name": "Jesper Nord",
       "linkedin": "https://www.linkedin.com/in/jesperlehtinen/",
       "title": "Utvecklare",
@@ -203,12 +197,6 @@
       "image": "public/assets/img/consultants2/Lindfors_prt_pale_sml.jpg"
     },
     {
-      "name": "Anna Wrang",
-      "linkedin": "https://www.linkedin.com/in/annawrang/",
-      "title": "Utvecklare",
-      "image": "public/assets/img/consultants2/Anna_prt_pale_sml.png"
-    },
-    {
       "name": "Per Sonberg",
       "linkedin": "https://www.linkedin.com/in/per-sonberg-8606a862/",
       "title": "Utvecklare",
@@ -231,6 +219,24 @@
       "linkedin": "https://www.linkedin.com/in/haroon-a-93459577/",
       "title": "Utvecklare",
       "image": "public/assets/img/consultants2/haroon_prt_sqr_pale_sml.png"
+    },
+    {
+      "name": "Simon Pellijeff",
+      "linkedin": "https://www.linkedin.com/in/simon-pellijeff-ba25b418/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/simon_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Marcus Zoltan",
+      "linkedin": "https://www.linkedin.com/in/marcus-zoltan-a47758aa/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/marcus_prt_pale_sml.jpg"
+    },
+    {
+      "name": "Dennis Ljung",
+      "linkedin": "https://www.linkedin.com/in/dennis-ljung-071817141/",
+      "title": "Utvecklare",
+      "image": "public/assets/img/consultants2/dennis_prt_pale_sml.jpg"
     }
   ],
   "professions": [
